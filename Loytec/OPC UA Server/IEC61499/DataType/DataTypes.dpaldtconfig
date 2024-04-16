@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pointCfg>
+ <resources baseVersion="1">
+  <capabilities>
+   <readOnlyStateMaps/>
+  </capabilities>
+  <historicFilters/>
+  <scope name="Main" defaultDataAlignment="logicad">
+   <types/>
+  </scope>
+  <scope name="Main/BACnet" defaultDataAlignment="asn1" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <scope name="Main/Bluetooth">
+   <types/>
+  </scope>
+  <scope name="Main/CEA-709">
+   <types/>
+  </scope>
+  <scope name="Main/DALI" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <scope name="Main/EnOcean" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <scope name="Main/KNX">
+   <types/>
+  </scope>
+  <scope name="Main/L-STAT" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <scope name="Main/LDALI">
+   <types/>
+  </scope>
+  <scope name="Main/LIOB">
+   <types/>
+  </scope>
+  <scope name="Main/LogiCAD" defaultDataAlignment="logicad">
+   <types/>
+  </scope>
+  <scope name="Main/Loytec">
+   <types/>
+  </scope>
+  <scope name="Main/MPBus" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <scope name="Main/Modbus">
+   <types/>
+  </scope>
+  <scope name="Main/SMI" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <scope name="Main/System">
+   <types/>
+  </scope>
+  <scope name="Main/User">
+   <multistates>
+    <multistateMap name="TestStateMap">
+     <stateText stateVal="1" name="Start"/>
+     <stateText stateVal="2" name="Stop"/>
+     <stateText stateVal="3" name="Auto"/>
+    </multistateMap>
+   </multistates>
+   <types/>
+  </scope>
+  <scope name="Main/ekey" minimalLogicTypes="true">
+   <types/>
+  </scope>
+  <adaptors/>
+  <rules>
+   <userPrefs/>
+  </rules>
+ </resources>
+ <fileRes>
+  <scriptResources/>
+ </fileRes>
+</pointCfg>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ConfiguratorData="TwinPump01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.TPplantSwitch" UPath="1.4" Path="TP01.TPplantSwitch">
+      <IOInstance Name="inActuatAuto" UName="Il0x00001192" UID="l0x000010fb" />
+      <IOInstance Name="inFault" UName="Il0x00001193" UID="l0x000010fc" />
+      <IOInstance Name="outRequestB" UName="Ol0x00001195" UID="l0x000010fe" />
+      <IOInstance Name="inRelease" UName="Il0x0000107c" UID="l0x00001107" />
+      <IOInstance Name="inEmergOFF" UName="Il0x0000107d" UID="l0x00001108" />
+      <IOInstance Name="inOutsTemp" UName="Il0x0000107e" UID="l0x00001109" />
+      <IOInstance Name="inSchedulerRequest" UName="Il0x0000118f" UID="l0x000010f3" />
+      <IOInstance Name="inReset" UName="Il0x00001190" UID="l0x000010fa" />
+      <IOInstance Name="outPreHeatPump" UName="Ol0x00001194" UID="l0x000010fd" />
+      <IOInstance Name="outStartUp" UName="Ol0x00001196" UID="l0x000010ff" />
+      <IOInstance Name="outAuto" UName="Ol0x00001197" UID="l0x00001100" />
+      <IOInstance Name="outReqLevel1" UName="Ol0x00001198" UID="l0x00001101" />
+      <IOInstance Name="outReqLevel2" UName="Ol0x00001199" UID="l0x00001102" />
+      <IOInstance Name="outReqLevel3" UName="Ol0x0000119a" UID="l0x00001103" />
+      <IOInstance Name="inTargetState" UName="Il0x00001200" UID="l0x00001104" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.TPstallProtection" UPath="1.5" Path="TP01.TPstallProtection">
+      <IOInstance Name="outPumpSP" UName="Ol0x00001127" UID="l0x0000111e" />
+      <IOInstance Name="inWeekday" UName="Il0x00001125" UID="l0x00001119" />
+      <IOInstance Name="inDayOfMonth" UName="Il0x00001126" UID="l0x0000111a" />
+      <IOInstance Name="inDuration" UName="Il0x00001128" UID="l0x0000111b" />
+      <IOInstance Name="inHour" UName="Il0x00001129" UID="l0x0000111c" />
+      <IOInstance Name="inMinute" UName="Il0x0000112a" UID="l0x0000111d" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.TwinPump" UPath="1.6.1" Path="TP01.TPtwinPump.TwinPump" />
+    <POUInstance Type="Loytec.BuildingAutomation.TPtwinPump" UPath="1.6" Path="TP01.TPtwinPump">
+      <IOInstance Name="outAuto" UName="Ol0x000011a4" UID="l0x00001131" />
+      <IOInstance Name="outCommonFault1" UName="Ol0x000011a5" UID="l0x00001132" />
+      <IOInstance Name="outCommonFault2" UName="Ol0x000011a6" UID="l0x00001136" />
+      <IOInstance Name="outReqDamper" UName="Ol0x000011b5" UID="l0x00001142" />
+      <IOInstance Name="inFault1" UName="Il0x0000107b" UID="l0x00001145" />
+      <IOInstance Name="inFault2" UName="Il0x00001081" UID="l0x00001146" />
+      <IOInstance Name="inReady1" UName="Il0x0000107d" UID="l0x00001147" />
+      <IOInstance Name="inReady2" UName="Il0x0000107c" UID="l0x00001148" />
+      <IOInstance Name="inMaintSwitch1" UName="Il0x0000107e" UID="l0x00001149" />
+      <IOInstance Name="inMaintSwitch2" UName="Il0x00001079" UID="l0x0000114a" />
+      <IOInstance Name="inFbOnOff1" UName="Il0x0000107f" UID="l0x0000114b" />
+      <IOInstance Name="inFbOnOff2" UName="Il0x00001082" UID="l0x0000114c" />
+      <IOInstance Name="outPumpCommand1" UName="Ol0x0000107a" UID="l0x0000114d" />
+      <IOInstance Name="outPumpCommand2" UName="Ol0x00001080" UID="l0x0000114e" />
+      <IOInstance Name="inFbTimeDelay" UName="Il0x0000119f" UID="l0x00001125" />
+      <IOInstance Name="inTrailTime" UName="Il0x000011a0" UID="l0x00001126" />
+      <IOInstance Name="inRelRtChangeOver" UName="Il0x000011a2" UID="l0x00001127" />
+      <IOInstance Name="inRTmanualValue1" UName="Il0x000011af" UID="l0x00001128" />
+      <IOInstance Name="inSetRTmanualValue1" UName="Il0x000011b0" UID="l0x00001129" />
+      <IOInstance Name="inRTmaxLimit1" UName="Il0x000011b1" UID="l0x0000112a" />
+      <IOInstance Name="inSetRTmanualValue2" UName="Il0x000011b2" UID="l0x0000112b" />
+      <IOInstance Name="inRTmaxLimit2" UName="Il0x000011b3" UID="l0x0000112c" />
+      <IOInstance Name="inRTmanualValue2" UName="Il0x000011b4" UID="l0x0000112d" />
+      <IOInstance Name="outRtMaxAct2" UName="Ol0x0000119d" UID="l0x0000112e" />
+      <IOInstance Name="outRtMaxAct1" UName="Ol0x000011a1" UID="l0x0000112f" />
+      <IOInstance Name="outActivePump" UName="Ol0x000011a3" UID="l0x00001130" />
+      <IOInstance Name="outMaintSwFault1" UName="Ol0x000011a7" UID="l0x0000113a" />
+      <IOInstance Name="outMaintSwFault2" UName="Ol0x000011a8" UID="l0x0000113b" />
+      <IOInstance Name="outFbFault1" UName="Ol0x000011a9" UID="l0x0000113c" />
+      <IOInstance Name="outFbFault2" UName="Ol0x000011aa" UID="l0x0000113d" />
+      <IOInstance Name="outNotReadyFault1" UName="Ol0x000011ab" UID="l0x0000113e" />
+      <IOInstance Name="outNotReadyFault2" UName="Ol0x000011ac" UID="l0x0000113f" />
+      <IOInstance Name="outStallProtAct1" UName="Ol0x000011ad" UID="l0x00001140" />
+      <IOInstance Name="outStallProtAct2" UName="Ol0x000011ae" UID="l0x00001141" />
+      <IOInstance Name="outRuntime1" UName="Ol0x000011b6" UID="l0x00001123" />
+      <IOInstance Name="outRuntime2" UName="Ol0x000011b7" UID="l0x00001124" />
+      <IOInstance Name="inTargetState" UName="Il0x0000120c" UID="l0x00001143" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.TPruntimeCount" UPath="1.7" Path="TP01.TPruntimeCount1">
+      <IOInstance Name="inRTmanValue" UName="Il0x00001125" UID="l0x0000110b" />
+      <IOInstance Name="inSetRTmanValue" UName="Il0x00001126" UID="l0x0000110c" />
+      <IOInstance Name="inRTmaxLimit" UName="Il0x00001127" UID="l0x0000110d" />
+      <IOInstance Name="inReset" UName="Il0x00001129" UID="l0x0000110e" />
+      <IOInstance Name="outRTmaxAlarm" UName="Ol0x00001128" UID="l0x0000110f" />
+      <IOInstance Name="outRuntimeCount" UName="Ol0x0000112a" UID="l0x00001110" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.TPruntimeCount" UPath="1.8" Path="TP01.TPruntimeCount2">
+      <IOInstance Name="inRTmanValue" UName="Il0x00001125" UID="l0x00001112" />
+      <IOInstance Name="inSetRTmanValue" UName="Il0x00001126" UID="l0x00001113" />
+      <IOInstance Name="inRTmaxLimit" UName="Il0x00001127" UID="l0x00001114" />
+      <IOInstance Name="inReset" UName="Il0x00001129" UID="l0x00001115" />
+      <IOInstance Name="outRTmaxAlarm" UName="Ol0x00001128" UID="l0x00001116" />
+      <IOInstance Name="outRuntimeCount" UName="Ol0x0000112a" UID="l0x00001117" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.PlantSwitch3" UPath="1.4.10" Path="TP01.TPplantSwitch.PlantSwitch3" />
+    <POUInstance Type="Loytec.BuildingAutomation.SystemTime" UPath="1.5.4.1" Path="TP01.TPstallProtection.StallProtect.SystemTime" />
+    <POUInstance Type="Loytec.BuildingAutomation.StallProtect" UPath="1.5.4" Path="TP01.TPstallProtection.StallProtect" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.7.1" Path="TP01.TPruntimeCount1.RuntimeCount" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.8.1" Path="TP01.TPruntimeCount2.RuntimeCount" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.6.1.6" Path="TP01.TPtwinPump.TwinPump.TimeMeasureSP" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.6.1.8" Path="TP01.TPtwinPump.TwinPump.Pump1_internalRuntime" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.6.1.10" Path="TP01.TPtwinPump.TwinPump.Pump2_internalRuntime" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pump" UPath="1.6.1.7" Path="TP01.TPtwinPump.TwinPump.Pump1" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pump" UPath="1.6.1.9" Path="TP01.TPtwinPump.TwinPump.Pump2" />
+  </POUInstances>
+</InstanceTable>

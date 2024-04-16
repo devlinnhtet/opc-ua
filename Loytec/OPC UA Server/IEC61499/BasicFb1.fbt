@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="765D9F082FA66C2C" Name="BasicFb1" Comment="Basic Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FB.IDCounter" Value="0" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="LOYTEC electronics GmbH" Version="0.0" Author="linkwise-linn" Date="3/17/2024" Remarks="Template" />
+  <InterfaceList>
+    <EventInputs>
+      <Event Name="evInput" Comment="Initialization Request">
+        <With Var="rVar1" />
+        <With Var="rVar2" />
+      </Event>
+    </EventInputs>
+    <EventOutputs>
+      <Event Name="evOutput" Comment="Execution Confirmation">
+        <With Var="rResult" />
+      </Event>
+    </EventOutputs>
+    <InputVars>
+      <VarDeclaration Name="rVar1" Type="REAL" Comment="Input event qualifier" />
+      <VarDeclaration Name="rVar2" Type="REAL" />
+    </InputVars>
+    <OutputVars>
+      <VarDeclaration Name="rResult" Type="REAL" Comment="Output event qualifier" />
+    </OutputVars>
+  </InterfaceList>
+  <BasicFB>
+    <Attribute Name="FBType.Basic.Algorithm.Order" Value="Calculate" />
+    <ECC>
+      <ECState Name="START" Comment="Initial State" x="628.9413" y="977.4117" />
+      <ECState Name="STATE1" x="1676" y="631.9999">
+        <ECAction Algorithm="Calculate" Output="evOutput" />
+      </ECState>
+      <ECTransition Source="START" Destination="STATE1" Condition="evInput" x="1179.242" y="725.4095">
+        <Attribute Name="Configuration.Transaction.BezierPoints" Value="269.5497,185.6098,328.1164,167.0436" />
+      </ECTransition>
+      <ECTransition Source="STATE1" Destination="START" Condition="1" x="1176.522" y="882.8345">
+        <Attribute Name="Configuration.Transaction.BezierPoints" Value="326.5665,214.8179,261.993,236.1199" />
+      </ECTransition>
+    </ECC>
+    <Algorithm Name="Calculate">
+      <ST Text="rResult := rVar1 + rVar2;&#xD;&#xA;" />
+    </Algorithm>
+  </BasicFB>
+</FBType>

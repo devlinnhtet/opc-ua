@@ -1,0 +1,23 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:CacheFile id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/TagSourceLibrary/TagSourceLibrary%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_tags href="#ref-3"/>
+<_hashTable href="#ref-4"/>
+</a1:CacheFile>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="a2:Tag[0]" xmlns:a2="http://schemas.microsoft.com/clr/nsassem/TagSourceLibrary.Data/TagSourceLibrary%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+</SOAP-ENC:Array>
+<a3:Hashtable id="ref-4" xmlns:a3="http://schemas.microsoft.com/clr/ns/System.Collections">
+<LoadFactor>0.72</LoadFactor>
+<Version>0</Version>
+<Comparer xsi:null="1"/>
+<HashCodeProvider xsi:null="1"/>
+<HashSize>3</HashSize>
+<Keys href="#ref-5"/>
+<Values href="#ref-6"/>
+</a3:Hashtable>
+<SOAP-ENC:Array id="ref-5" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-6" SOAP-ENC:arrayType="xsd:anyType[0]">
+</SOAP-ENC:Array>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

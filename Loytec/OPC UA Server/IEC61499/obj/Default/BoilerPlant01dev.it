@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.PlantSwitchBoil" UPath="1.5.7" Path="BP01.BPplantSwitch.PlantSwitchBoil" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPplantSwitch" UPath="1.5" Path="BP01.BPplantSwitch">
+      <IOInstance Name="inActuatAuto" UName="Il0x00001170" UID="l0x00001154" />
+      <IOInstance Name="inFault" UName="Il0x00001171" UID="l0x00001155" />
+      <IOInstance Name="outReqOn" UName="Ol0x00001173" UID="l0x00001157" />
+      <IOInstance Name="inRelease" UName="Il0x0000107c" UID="l0x0000115b" />
+      <IOInstance Name="inEmergOFF" UName="Il0x0000107d" UID="l0x0000115c" />
+      <IOInstance Name="inReset" UName="Il0x0000116e" UID="l0x00001153" />
+      <IOInstance Name="outAuto" UName="Ol0x00001172" UID="l0x00001156" />
+      <IOInstance Name="outManOff" UName="Ol0x00001174" UID="l0x00001158" />
+      <IOInstance Name="inTargetState" UName="Il0x000011b0" UID="l0x00001159" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.SystemTime" UPath="1.6.1.1" Path="BP01.BPstallProtection.StallProtect.SystemTime" />
+    <POUInstance Type="Loytec.BuildingAutomation.StallProtect" UPath="1.6.1" Path="BP01.BPstallProtection.StallProtect" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPstallProtection" UPath="1.6" Path="BP01.BPstallProtection">
+      <IOInstance Name="outPumpSP" UName="Ol0x0000113e" UID="l0x00001188" />
+      <IOInstance Name="inWeekday" UName="Il0x0000113c" UID="l0x00001183" />
+      <IOInstance Name="inDayOfMonth" UName="Il0x0000113d" UID="l0x00001184" />
+      <IOInstance Name="inDuration" UName="Il0x0000113f" UID="l0x00001185" />
+      <IOInstance Name="inHour" UName="Il0x00001140" UID="l0x00001186" />
+      <IOInstance Name="inMinute" UName="Il0x00001141" UID="l0x00001187" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Pump" UPath="1.7.1" Path="BP01.BPboilerPump.Pump" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPboilerPump" UPath="1.7" Path="BP01.BPboilerPump">
+      <IOInstance Name="outPumpCommand" UName="Ol0x0000107a" UID="l0x00001122" />
+      <IOInstance Name="outCommonFault" UName="Ol0x00001210" UID="l0x00001112" />
+      <IOInstance Name="outAuto" UName="Ol0x00001211" UID="l0x00001116" />
+      <IOInstance Name="inFbOnOff" UName="Il0x00001079" UID="l0x0000111e" />
+      <IOInstance Name="inFault" UName="Il0x0000107b" UID="l0x0000111f" />
+      <IOInstance Name="inReady" UName="Il0x0000107c" UID="l0x00001120" />
+      <IOInstance Name="inMaintSwitch" UName="Il0x0000107d" UID="l0x00001121" />
+      <IOInstance Name="inFbTimeDelay" UName="Il0x0000120e" UID="l0x00001111" />
+      <IOInstance Name="outFbOnOff" UName="Ol0x00001212" UID="l0x00001117" />
+      <IOInstance Name="outMaintSwFault" UName="Ol0x00001213" UID="l0x00001118" />
+      <IOInstance Name="outStallProtAct" UName="Ol0x00001214" UID="l0x00001119" />
+      <IOInstance Name="outFbFault" UName="Ol0x00001215" UID="l0x0000111a" />
+      <IOInstance Name="outNotReadyFault" UName="Ol0x00001216" UID="l0x0000111b" />
+      <IOInstance Name="inTargetState" UName="Il0x00001261" UID="l0x0000111c" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.8.1" Path="BP01.BPboilerReturnTempController.Pi1Controller" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPboilerReturnTempController" UPath="1.8" Path="BP01.BPboilerReturnTempController">
+      <IOInstance Name="inActive" UName="Il0x00001157" UID="l0x00001133" />
+      <IOInstance Name="outY" UName="Ol0x00001158" UID="l0x0000112a" />
+      <IOInstance Name="inBoilerReturnTemp" UName="Il0x00001079" UID="l0x00001127" />
+      <IOInstance Name="inYmax" UName="Il0x0000114e" UID="l0x0000112b" />
+      <IOInstance Name="inKp" UName="Il0x0000114f" UID="l0x0000112c" />
+      <IOInstance Name="inSetpoint" UName="Il0x00001150" UID="l0x00001129" />
+      <IOInstance Name="inTi" UName="Il0x00001151" UID="l0x0000112d" />
+      <IOInstance Name="inAuto" UName="Il0x00001152" UID="l0x0000112e" />
+      <IOInstance Name="inDeadZn" UName="Il0x00001153" UID="l0x0000112f" />
+      <IOInstance Name="inYman" UName="Il0x00001154" UID="l0x00001130" />
+      <IOInstance Name="inYmin" UName="Il0x00001155" UID="l0x00001131" />
+      <IOInstance Name="inExtReset" UName="Il0x00001156" UID="l0x00001132" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.9.1" Path="BP01.BPruntimeCountBoiler.RuntimeCount" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.10.1" Path="BP01.BPruntimeCountBoilerPump.RuntimeCount" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPruntimeCount" UPath="1.9" Path="BP01.BPruntimeCountBoiler">
+      <IOInstance Name="inRTmanValue" UName="Il0x0000116f" UID="l0x0000115e" />
+      <IOInstance Name="inSetRTmanValue" UName="Il0x00001170" UID="l0x0000115f" />
+      <IOInstance Name="inRTmaxLimit" UName="Il0x00001171" UID="l0x00001160" />
+      <IOInstance Name="inReset" UName="Il0x00001174" UID="l0x00001161" />
+      <IOInstance Name="outRuntimeCount" UName="Ol0x00001172" UID="l0x00001162" />
+      <IOInstance Name="outRTmaxAlarm" UName="Ol0x00001173" UID="l0x00001163" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.BPruntimeCount" UPath="1.10" Path="BP01.BPruntimeCountBoilerPump">
+      <IOInstance Name="inRTmanValue" UName="Il0x0000116f" UID="l0x00001165" />
+      <IOInstance Name="inSetRTmanValue" UName="Il0x00001170" UID="l0x00001166" />
+      <IOInstance Name="inRTmaxLimit" UName="Il0x00001171" UID="l0x00001167" />
+      <IOInstance Name="inReset" UName="Il0x00001174" UID="l0x00001168" />
+      <IOInstance Name="outRuntimeCount" UName="Ol0x00001172" UID="l0x00001169" />
+      <IOInstance Name="outRTmaxAlarm" UName="Ol0x00001173" UID="l0x0000116a" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Plimiter" UPath="1.11.13.6" Path="BP01.BPboilerMod.Boiler2M.ModulationLimiter" />
+    <POUInstance Type="Loytec.BuildingAutomation.ValveA" UPath="1.11.13.7" Path="BP01.BPboilerMod.Boiler2M.ModulationOutput" />
+    <POUInstance Type="Loytec.BuildingAutomation.ConvAna3Level" UPath="1.11.13.8" Path="BP01.BPboilerMod.Boiler2M.Modulation3Level" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.11.13.9" Path="BP01.BPboilerMod.Boiler2M.ModulationController" />
+    <POUInstance Type="Loytec.BuildingAutomation.Boiler2M" UPath="1.11.13" Path="BP01.BPboilerMod.Boiler2M" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPboilerMod" UPath="1.11" Path="BP01.BPboilerMod">
+      <IOInstance Name="inReqStage1" UName="Il0x0000116d" UID="l0x000010ee" />
+      <IOInstance Name="inReqMod" UName="Il0x0000116e" UID="l0x000010ef" />
+      <IOInstance Name="inReqBoilBasic" UName="Il0x0000116f" UID="l0x000010f0" />
+      <IOInstance Name="inReqBoilMax" UName="Il0x00001170" UID="l0x000010f1" />
+      <IOInstance Name="inControlSetp" UName="Il0x00001171" UID="l0x000010f2" />
+      <IOInstance Name="inControlTemp" UName="Il0x00001172" UID="l0x000010f3" />
+      <IOInstance Name="outBurnerSt1" UName="Ol0x0000107d" UID="l0x00001103" />
+      <IOInstance Name="outPumpCmd" UName="Ol0x00001167" UID="l0x000010f4" />
+      <IOInstance Name="outCommonFault" UName="Ol0x0000116a" UID="l0x000010f7" />
+      <IOInstance Name="outAuto" UName="Ol0x0000116c" UID="l0x000010f9" />
+      <IOInstance Name="inBoilerTemp" UName="Il0x0000107c" UID="l0x000010fd" />
+      <IOInstance Name="inFault" UName="Il0x0000107e" UID="l0x000010fe" />
+      <IOInstance Name="inMaxPressure" UName="Il0x00001080" UID="l0x000010ff" />
+      <IOInstance Name="inMinPressure" UName="Il0x00001082" UID="l0x00001100" />
+      <IOInstance Name="inSafetyTempLim" UName="Il0x00001083" UID="l0x00001101" />
+      <IOInstance Name="inWaterPoorSec" UName="Il0x00001084" UID="l0x00001102" />
+      <IOInstance Name="outBurnerModDown" UName="Ol0x0000107f" UID="l0x00001104" />
+      <IOInstance Name="outBurnerModUp" UName="Ol0x00001081" UID="l0x00001105" />
+      <IOInstance Name="outBurnerModDownR" UName="Ol0x00001085" UID="l0x00001106" />
+      <IOInstance Name="outBurnerModUpR" UName="Ol0x00001086" UID="l0x00001107" />
+      <IOInstance Name="outBurnerY" UName="Ol0x00001087" UID="l0x00001108" />
+      <IOInstance Name="outBurnerMod" UName="Ol0x00001088" UID="l0x00001109" />
+      <IOInstance Name="inKpLim" UName="Il0x0000115b" UID="l0x000010d7" />
+      <IOInstance Name="inMaxBoilerTemp" UName="Il0x0000115d" UID="l0x000010d8" />
+      <IOInstance Name="inContrSetpOffset" UName="Il0x0000115e" UID="l0x000010e5" />
+      <IOInstance Name="inManReqAna" UName="Il0x0000115f" UID="l0x000010e6" />
+      <IOInstance Name="inMaxBoilerHys" UName="Il0x00001160" UID="l0x000010e7" />
+      <IOInstance Name="inKpMod" UName="Il0x00001161" UID="l0x000010e8" />
+      <IOInstance Name="inMaxBoilerDelay" UName="Il0x00001162" UID="l0x000010e9" />
+      <IOInstance Name="inTiMod" UName="Il0x00001163" UID="l0x000010ea" />
+      <IOInstance Name="inPumpOffTempDiff" UName="Il0x00001164" UID="l0x000010eb" />
+      <IOInstance Name="inPumpOffTimeDelay" UName="Il0x00001165" UID="l0x000010ec" />
+      <IOInstance Name="inModRtime" UName="Il0x00001166" UID="l0x000010ed" />
+      <IOInstance Name="outMaxLimSt1" UName="Ol0x00001168" UID="l0x000010f5" />
+      <IOInstance Name="outMaxLimMod" UName="Ol0x00001169" UID="l0x000010f6" />
+      <IOInstance Name="outBurnModY" UName="Ol0x0000116b" UID="l0x000010f8" />
+      <IOInstance Name="inTargetState" UName="Il0x000011b6" UID="l0x000010fa" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.12.8.1" Path="BP01.BPstaging.BoilStag1B2S.Controller" />
+    <POUInstance Type="Loytec.BuildingAutomation.BoilStag1B2S" UPath="1.12.8" Path="BP01.BPstaging.BoilStag1B2S" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPstaging1B2S" UPath="1.12" Path="BP01.BPstaging">
+      <IOInstance Name="inReqBoilerOn" UName="Il0x0000115d" UID="l0x00001179" />
+      <IOInstance Name="outHeatDemand" UName="Ol0x00001159" UID="l0x0000117b" />
+      <IOInstance Name="outControlSetp" UName="Ol0x0000115e" UID="l0x0000117f" />
+      <IOInstance Name="inControlVal" UName="Il0x0000107c" UID="l0x00001181" />
+      <IOInstance Name="inControlSetp1" UName="Il0x0000114b" UID="l0x0000116c" />
+      <IOInstance Name="inKp" UName="Il0x0000114c" UID="l0x0000116d" />
+      <IOInstance Name="inControlSetp2" UName="Il0x0000114d" UID="l0x0000116e" />
+      <IOInstance Name="inTi" UName="Il0x0000114e" UID="l0x0000116f" />
+      <IOInstance Name="inControlSetp3" UName="Il0x0000114f" UID="l0x00001170" />
+      <IOInstance Name="inLimStage1" UName="Il0x00001150" UID="l0x00001171" />
+      <IOInstance Name="inExternalSetAct" UName="Il0x00001151" UID="l0x00001172" />
+      <IOInstance Name="inHysStage1" UName="Il0x00001152" UID="l0x00001173" />
+      <IOInstance Name="inExternalSetStage" UName="Il0x00001153" UID="l0x00001174" />
+      <IOInstance Name="inOffDelStage1" UName="Il0x00001154" UID="l0x00001175" />
+      <IOInstance Name="inLimStage2" UName="Il0x00001155" UID="l0x00001176" />
+      <IOInstance Name="inHysStage2" UName="Il0x00001156" UID="l0x00001177" />
+      <IOInstance Name="inOnDelStage2" UName="Il0x00001157" UID="l0x00001178" />
+      <IOInstance Name="outControlY" UName="Ol0x00001158" UID="l0x0000117a" />
+      <IOInstance Name="outIntStage" UName="Ol0x0000115a" UID="l0x0000117c" />
+      <IOInstance Name="outParamFault" UName="Ol0x0000115b" UID="l0x0000117d" />
+      <IOInstance Name="outReqStage" UName="Ol0x0000115c" UID="l0x0000117e" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.ValveA" UPath="1.13.1" Path="BP01.BPboilerValve.ValveA" />
+    <POUInstance Type="Loytec.BuildingAutomation.BPboilerValve" UPath="1.13" Path="BP01.BPboilerValve">
+      <IOInstance Name="outAuto" UName="Ol0x000011a2" UID="l0x00001138" />
+      <IOInstance Name="ouFbFault" UName="Ol0x000011a3" UID="l0x00001139" />
+      <IOInstance Name="inPosFb" UName="Il0x0000107a" UID="l0x00001140" />
+      <IOInstance Name="outY" UName="Ol0x00001079" UID="l0x00001141" />
+      <IOInstance Name="inMaxDev" UName="Il0x0000119e" UID="l0x00001135" />
+      <IOInstance Name="inFbTimeDelay" UName="Il0x0000119f" UID="l0x00001136" />
+      <IOInstance Name="inManPosSetp" UName="Il0x000011a0" UID="l0x00001137" />
+      <IOInstance Name="outPosFb" UName="Ol0x000011a4" UID="l0x0000113d" />
+      <IOInstance Name="inTargetState" UName="Il0x000011ec" UID="l0x0000113e" />
+    </POUInstance>
+  </POUInstances>
+</InstanceTable>

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lvisConfig xmlns="http://www.loytec.com/lvis_xml_cfg" xmlns:lvis="http://www.loytec.com/lvis_xml_cfg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loytec.com/lvis_xml_cfg lvisCfg.xsd" targetModel="LWEB-800" targetFirmware="8.0.8" zoomLevel="5" docPath="C:\Users\linkwise-linn\Documents\LStudioProjects\OPC-UA_Server_V1.0.0_2403141259\IEC61499\LINX215\Project1.lwebprj" docTitle="Main|LINX215|Project1|A56BF03EEC960797" timeStamp="2024-03-16T22:53:55+08:00" lastModified="2024-03-16T22:53:55+08:00" toolVersion="8.0.8">
+ <LocaleMgr activeLanguage="0">
+  <language number="0" locale="en_US@calendar=gregorian" xmlName="en-US"/>
+  <resources>
+   <item id="0x00000041">
+    <string>CLEARED</string>
+   </item>
+   <item id="0x00000001">
+    <string>Public</string>
+   </item>
+   <item id="0x00000042">
+    <string>CLR ACKD</string>
+   </item>
+   <item id="0x00000002">
+    <string>Level 1</string>
+   </item>
+   <item id="0x00000043">
+    <string>CLR APND</string>
+   </item>
+   <item id="0x00000003">
+    <string>Level 2</string>
+   </item>
+   <item id="0x00000004">
+    <string>Level 3</string>
+   </item>
+   <item id="0x00000005">
+    <string>Level 4</string>
+   </item>
+   <item id="0x00000006">
+    <string>Level 5</string>
+   </item>
+   <item id="0x00000007">
+    <string>Level 6</string>
+   </item>
+   <item id="0x00000008">
+    <string>Level 7</string>
+   </item>
+   <item id="0x00000009">
+    <string>Level 8</string>
+   </item>
+   <item id="0x0000000a">
+    <string>Level 9</string>
+   </item>
+   <item id="0x0000000b">
+    <string>Level 10</string>
+   </item>
+   <item id="0x0000000c">
+    <string>Level 11</string>
+   </item>
+   <item id="0x0000000d">
+    <string>Level 12</string>
+   </item>
+   <item id="0x0000000e">
+    <string>Level 13</string>
+   </item>
+   <item id="0x0000000f">
+    <string>Level 14</string>
+   </item>
+   <item id="0x00000010">
+    <string>Level 15</string>
+   </item>
+   <item id="0x00000014">
+    <string>Mon</string>
+   </item>
+   <item id="0x00000015">
+    <string>Tue</string>
+   </item>
+   <item id="0x00000016">
+    <string>Wed</string>
+   </item>
+   <item id="0x00000017">
+    <string>Thu</string>
+   </item>
+   <item id="0x00000018">
+    <string>Fri</string>
+   </item>
+   <item id="0x00000019">
+    <string>Sat</string>
+   </item>
+   <item id="0x0000001a">
+    <string>Sun</string>
+   </item>
+   <item id="0x0000001b">
+    <string>January</string>
+   </item>
+   <item id="0x0000001c">
+    <string>February</string>
+   </item>
+   <item id="0x0000001d">
+    <string>March</string>
+   </item>
+   <item id="0x0000001e">
+    <string>April</string>
+   </item>
+   <item id="0x0000001f">
+    <string>May</string>
+   </item>
+   <item id="0x00000020">
+    <string>June</string>
+   </item>
+   <item id="0x00000021">
+    <string>July</string>
+   </item>
+   <item id="0x00000022">
+    <string>August</string>
+   </item>
+   <item id="0x00000023">
+    <string>September</string>
+   </item>
+   <item id="0x00000024">
+    <string>October</string>
+   </item>
+   <item id="0x00000025">
+    <string>November</string>
+   </item>
+   <item id="0x00000026">
+    <string>December</string>
+   </item>
+   <item id="0x00000027">
+    <string>&lt;clear&gt;</string>
+   </item>
+   <item id="0x00000028">
+    <string>&lt;edit&gt;</string>
+   </item>
+   <item id="0x00000029">
+    <string>&lt;value&gt;</string>
+   </item>
+   <item id="0x0000002a">
+    <string>&lt;insert&gt;</string>
+   </item>
+   <item id="0x0000002b">
+    <string>&lt;remove&gt;</string>
+   </item>
+   <item id="0x0000002c">
+    <string>&lt;copy to %s&gt;</string>
+   </item>
+   <item id="0x0000002d">
+    <string>Date</string>
+   </item>
+   <item id="0x0000002e">
+    <string>Range</string>
+   </item>
+   <item id="0x0000002f">
+    <string>Week/Day</string>
+   </item>
+   <item id="0x00000030">
+    <string>odd</string>
+   </item>
+   <item id="0x00000031">
+    <string>even</string>
+   </item>
+   <item id="0x00000032">
+    <string>last</string>
+   </item>
+   <item id="0x00000033">
+    <string>any</string>
+   </item>
+   <item id="0x00000034">
+    <string>week %d</string>
+   </item>
+   <item id="0x00000035">
+    <string>YES</string>
+   </item>
+   <item id="0x00000036">
+    <string>NO</string>
+   </item>
+   <item id="0x00000037">
+    <string>&lt;activate&gt;</string>
+   </item>
+   <item id="0x00000038">
+    <string>&lt;deactivate&gt;</string>
+   </item>
+   <item id="0x00000039">
+    <string>NORM</string>
+   </item>
+   <item id="0x0000003a">
+    <string>OFFNORM</string>
+   </item>
+   <item id="0x0000003b">
+    <string>LOLIM</string>
+   </item>
+   <item id="0x0000003c">
+    <string>HILIM</string>
+   </item>
+   <item id="0x0000003d">
+    <string>FAULT</string>
+   </item>
+   <item id="0x0000003e">
+    <string>BUFFER</string>
+   </item>
+   <item id="0x0000003f">
+    <string>ACTIVE</string>
+   </item>
+   <item id="0x00000040">
+    <string>ACT ACKD</string>
+   </item>
+   <item id="0x00000044">
+    <string>NULL</string>
+   </item>
+   <item id="0x00000045">
+    <string>Withdraw</string>
+   </item>
+   <item id="0x00000046">
+    <string>Disable</string>
+   </item>
+   <item id="0x00000047">
+    <string>Invalid</string>
+   </item>
+   <item id="0x00000048">
+    <string>Default</string>
+   </item>
+   <item id="0x00000049">
+    <string>Event Type</string>
+   </item>
+   <item id="0x0000004a">
+    <string>Once</string>
+   </item>
+   <item id="0x0000004b">
+    <string>Daily</string>
+   </item>
+   <item id="0x0000004c">
+    <string>Weekly</string>
+   </item>
+   <item id="0x0000004d">
+    <string>Monthly</string>
+   </item>
+   <item id="0x0000004e">
+    <string>Yearly</string>
+   </item>
+   <item id="0x0000004f">
+    <string>Calendar</string>
+   </item>
+   <item id="0x00000050">
+    <string>Special</string>
+   </item>
+   <item id="0x00000051">
+    <string>Event Details</string>
+   </item>
+   <item id="0x00000052">
+    <string>Name</string>
+   </item>
+   <item id="0x00000053">
+    <string>Value</string>
+   </item>
+   <item id="0x00000054">
+    <string>Priority</string>
+   </item>
+   <item id="0x00000055">
+    <string>Start</string>
+   </item>
+   <item id="0x00000056">
+    <string>End</string>
+   </item>
+   <item id="0x00000057">
+    <string>Duration</string>
+   </item>
+   <item id="0x00000058">
+    <string>every day</string>
+   </item>
+   <item id="0x00000059">
+    <string>every week</string>
+   </item>
+   <item id="0x0000005a">
+    <string>every month</string>
+   </item>
+   <item id="0x0000005b">
+    <string>every year</string>
+   </item>
+   <item id="0x0000005c">
+    <string>last 7 days</string>
+   </item>
+   <item id="0x0000005d">
+    <string>last day</string>
+   </item>
+   <item id="0x0000005e">
+    <string>even months</string>
+   </item>
+   <item id="0x0000005f">
+    <string>odd months</string>
+   </item>
+   <item id="0x00000060">
+    <string>day</string>
+   </item>
+   <item id="0x00000061">
+    <string>Year</string>
+   </item>
+   <item id="0x00000062">
+    <string>Month</string>
+   </item>
+   <item id="0x00000063">
+    <string>Day</string>
+   </item>
+   <item id="0x00000064">
+    <string>Week</string>
+   </item>
+   <item id="0x00000065">
+    <string>Weekday</string>
+   </item>
+   <item id="0x00000066">
+    <string>OK</string>
+   </item>
+   <item id="0x00000067">
+    <string>Cancel</string>
+   </item>
+   <item id="0x00000068">
+    <string>Delete</string>
+   </item>
+   <item id="0x00000069">
+    <string>ACK</string>
+   </item>
+   <item id="0x0000006a">
+    <string>am</string>
+   </item>
+   <item id="0x0000006b">
+    <string>pm</string>
+   </item>
+   <item id="0x0000006c">
+    <string>Monthly Overview</string>
+   </item>
+   <item id="0x0000006d">
+    <string>Weekly Overview</string>
+   </item>
+   <item id="0x0000006e">
+    <string>Time Table</string>
+   </item>
+   <item id="0x0000006f">
+    <string>Daily Event List</string>
+   </item>
+   <item id="0x00000070">
+    <string>Global Event List</string>
+   </item>
+   <item id="0x00000071">
+    <string>Low</string>
+   </item>
+   <item id="0x00000072">
+    <string>Normal</string>
+   </item>
+   <item id="0x00000073">
+    <string>High</string>
+   </item>
+   <item id="0x00000074">
+    <string>Hour</string>
+   </item>
+   <item id="0x00000075">
+    <string>Minute</string>
+   </item>
+   <item id="0x00000076">
+    <string>Second</string>
+   </item>
+   <item id="0x00000077">
+    <string>Every</string>
+   </item>
+   <item id="0x00000078">
+    <string>days</string>
+   </item>
+   <item id="0x00000079">
+    <string>weeks</string>
+   </item>
+   <item id="0x0000007a">
+    <string>months</string>
+   </item>
+   <item id="0x0000007b">
+    <string>years</string>
+   </item>
+   <item id="0x0000007c">
+    <string>No end date</string>
+   </item>
+   <item id="0x0000007d">
+    <string>End after</string>
+   </item>
+   <item id="0x0000007e">
+    <string>times</string>
+   </item>
+   <item id="0x0000007f">
+    <string>End by</string>
+   </item>
+   <item id="0x00000080">
+    <string>DOY</string>
+   </item>
+   <item id="0x00000081">
+    <string>SetPos</string>
+   </item>
+   <item id="0x00000082">
+    <string>All Day</string>
+   </item>
+  </resources>
+ </LocaleMgr>
+ <FontSet/>
+ <LvPrefs unitSystem="0">
+  <timeZone name="" standardBias="0"/>
+  <pageLinks/>
+  <vncServer port="5900" clients="1" passwd=""/>
+  <accLevel level="0"/>
+  <accLevel level="1" code="0"/>
+  <accLevel level="2" code="0"/>
+  <accLevel level="3" code="0"/>
+  <accLevel level="4" code="0"/>
+  <accLevel level="5" code="0"/>
+  <accLevel level="6" code="0"/>
+  <accLevel level="7" code="0"/>
+  <accLevel level="8" code="0"/>
+  <accLevel level="9" code="0"/>
+  <accLevel level="10" code="0"/>
+  <accLevel level="11" code="0"/>
+  <accLevel level="12" code="0"/>
+  <accLevel level="13" code="0"/>
+  <accLevel level="14" code="0"/>
+  <accLevel level="15" code="0"/>
+  <sysColor code="0" argb="0xff7f9fff"/>
+  <sysColor code="1" argb="0xffd4dfff"/>
+  <sysColor code="2" argb="0xff2a3faa"/>
+  <sysColor code="3" argb="0xff2a1faa"/>
+  <sysColor code="4" argb="0xffaabfff"/>
+  <sysColor code="5" argb="0xff000000"/>
+  <sysColor code="6" argb="0xffffffff"/>
+  <sysColor code="7" argb="0x00000000"/>
+  <customColors>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</customColors>
+  <keyPad btnWidth="8" btnHeight="8"/>
+  <backLight level="60" dimTimeout="120" offTimeout="600"/>
+  <screen xResolution="1024" yResolution="768" colorMode="argb32"/>
+  <editor xGrid="10" yGrid="10" xGridOffset="0" yGridOffset="0"/>
+  <sound lowPitch="2093" highPitch="3136" touchSound="1" inputSound="1"/>
+  <timing autoLogoff="240" autoHome="0" menuPopup="1000" menuTimeout="10" editTimeout="30" frameTimeout="5" longPress="1000"/>
+  <options enableMail="false" mailSSL="false" enableVNC="false" autoTimeZone="false" valueState="true" touchGestures="true" setPinCodes="false" lockSetup="false" hideSetup="false" enableDeploy="true" autosaveLWEB="false" downloadLWEB="false" useLWEB3="true" dynamicPoll="false" wantValueDP="true" useHarfbuzz="true" setUnitSystem="false" portraitMode="false" autoDim="false" enableAll="false" syncSchedCfg="ask" timeSource="NTP" pasteCreatesPoints="ask"/>
+  <autoConvert opcHost="localhost" opcPort="80"/>
+ </LvPrefs>
+ <DataPoints favdp="l0x00001003" sysdp="l0x00001004" regdp="l0x000010ab">
+  <lvis:pointCfg xmlns="http://www.loytec.com/point_cfg" version="19" maxUID="4268" notExposedDefault="false">
+   <multistateMapList/>
+   <resources baseVersion="19">
+    <capabilities>
+     <readOnlyStateMaps/>
+    </capabilities>
+    <units name="Acceleration"/>
+    <units name="Angular"/>
+    <units name="Area"/>
+    <units name="Density"/>
+    <units name="Electrical"/>
+    <units name="Energy"/>
+    <units name="Enthalpy"/>
+    <units name="Entropy"/>
+    <units name="Force"/>
+    <units name="Frequency"/>
+    <units name="Length"/>
+    <units name="Light"/>
+    <units name="Logarithmic"/>
+    <units name="Mass"/>
+    <units name="Mass Flow"/>
+    <units name="Other"/>
+    <units name="Percentage">
+     <unit id="res0x00200000" unitText="%" unitID="98" groupID="98" factor="0.01" altTexts="perc, percent"/>
+    </units>
+    <units name="Power"/>
+    <units name="Pressure"/>
+    <units name="Radiation"/>
+    <units name="Temperature"/>
+    <units name="Time">
+     <unit id="res0x00200001" unitText="yr" unitID="67" usageID="67" s="1" factor="31449600" altTexts="Year, Years, year, years"/>
+     <unit id="res0x00200002" unitText="months" unitID="68" usageID="68" s="1" factor="2620800" altTexts="Month, Months, month"/>
+     <unit id="res0x00200003" unitText="d" unitID="70" groupID="73" s="1" factor="86400" altTexts="D, Day of month, day, days"/>
+     <unit id="res0x00200004" unitText="h" unitID="71" groupID="73" s="1" factor="3600" altTexts="hour, hours, hr"/>
+     <unit id="res0x00200005" unitText="min" unitID="72" groupID="73" s="1" factor="60" altTexts="minute, minutes"/>
+     <unit id="res0x00200006" unitText="s" unitID="73" groupID="73" s="1" altTexts="second, seconds"/>
+    </units>
+    <units name="Torque"/>
+    <units name="User"/>
+    <units name="Velocity"/>
+    <units name="Volume"/>
+    <units name="Volumetric Flow"/>
+    <historicFilters/>
+    <scope name="System">
+     <multistates>
+      <multistateMap id="gen0x00400000" name="Unit" readonly="true">
+       <stateText stateVal="1" name="SI unit"/>
+       <stateText stateVal="2" name="US unit"/>
+      </multistateMap>
+     </multistates>
+     <types>
+      <simpleType id="res0x00600000" name="TimeStamp_day" description="Zero (0) means day not specified." rawType="UINT" bitLen="8" unit="res0x00200003">
+       <limit highLimit="31"/>
+      </simpleType>
+      <simpleType id="res0x00600001" name="TimeStamp_hour" description="This field uses a 24-hour value." rawType="UINT" bitLen="8" unit="res0x00200004">
+       <limit highLimit="23"/>
+      </simpleType>
+      <simpleType id="res0x00600002" name="TimeStamp_minute" description="" rawType="UINT" bitLen="8" unit="res0x00200005">
+       <limit highLimit="59"/>
+      </simpleType>
+      <simpleType id="res0x00600003" name="TimeStamp_month" description="Zero (0) means month not specified." rawType="UINT" bitLen="8" unit="res0x00200002">
+       <limit highLimit="12"/>
+      </simpleType>
+      <simpleType id="res0x00600004" name="TimeStamp_second" description="" rawType="UINT" bitLen="8" unit="res0x00200006">
+       <limit highLimit="59"/>
+      </simpleType>
+      <simpleType id="res0x00600005" name="TimeStamp_year" description="Zero (0) means year not specified. Minus one (-1) represents NULL date." rawType="INT" bitLen="16" invalidValue="FFFF" unit="res0x00200001">
+       <limit highLimit="3000" lowLimit="-1"/>
+      </simpleType>
+      <structType id="res0x00600006" name="TimeStamp" description="" byteLen="7" instanceable="true">
+       <field id="res0x00800000" name="year" typeRef="res0x00600005" startBit="0"/>
+       <field id="res0x00800001" name="month" typeRef="res0x00600003" startBit="16"/>
+       <field id="res0x00800002" name="day" typeRef="res0x00600000" startBit="24"/>
+       <field id="res0x00800003" name="hour" typeRef="res0x00600001" startBit="32"/>
+       <field id="res0x00800004" name="minute" typeRef="res0x00600002" startBit="40"/>
+       <field id="res0x00800005" name="second" typeRef="res0x00600004" startBit="48"/>
+      </structType>
+     </types>
+    </scope>
+    <scope name="User">
+     <multistates>
+      <multistateMap id="gen0x00400001" name="ClientProgramID" readonly="true">
+       <stateText stateVal="0" name="LVIS-100-RE"/>
+       <stateText stateVal="1" name="LVIS-3E100"/>
+       <stateText stateVal="2" name="LVIS-ME200"/>
+       <stateText stateVal="3" name="LVIS-3E112"/>
+       <stateText stateVal="4" name="LVIS-ME212"/>
+       <stateText stateVal="5" name="LVIS-3E115"/>
+       <stateText stateVal="6" name="LVIS-ME215"/>
+       <stateText stateVal="7" name="LWEB-800"/>
+       <stateText stateVal="8" name="LWEB-802"/>
+       <stateText stateVal="9" name="LVIS-3ME7"/>
+       <stateText stateVal="10" name="LVIS-3ME12"/>
+       <stateText stateVal="11" name="LVIS-3ME15"/>
+       <stateText stateVal="12" name="LPAD-7"/>
+       <stateText stateVal="13" name="LVIS-12"/>
+       <stateText stateVal="14" name="LVIS-15"/>
+      </multistateMap>
+     </multistates>
+     <types/>
+    </scope>
+    <adaptors/>
+   </resources>
+   <fileRes>
+    <scriptResources/>
+   </fileRes>
+   <treeElement id="l0x00001001" qualifiedId="0x00001001" name="Datapoint Configuration" flags="0x000800030000008f" itfId="0x0000ff06">
+    <treeElement id="l0x00001002" qualifiedId="0x00001002" name="L-Web" flags="0x000800020000108f" itfId="0x0000ff00">
+     <treeElement id="l0x00001003" qualifiedId="0x00001003" name="Favorites" flags="0x0028002020081409" itfId="0x0000ff00"/>
+     <treeElement id="l0x00001004" qualifiedId="0x00001004" name="System" flags="0x000800000004104f" itfId="0x0000ff03">
+      <treeElement id="l0x00001005" qualifiedId="0x00001005" name="Time" flags="0x00080040200c944f" itfId="0x0000ff03">
+       <point id="l0x00000000" qualifiedId="0x00000000" name="System Time" flags="0x0000000045001a00" pointType="analog" direction="in" description="System time (UTC) in seconds since January 1, 1970 00:00:00" notExposed="true" printType="Double" printUID="0000">
+        <analogProps unitRef="res0x00200006" tgtUnit1Ref="res0x00200006" tgtUnit2Ref="res0x00200006" precision="0"/>
+        <regMapping regPointRef="gen0x00a00000"/>
+       </point>
+       <point id="l0x00000001" qualifiedId="0x00000001" name="Time Zone" flags="0x0000000045001a00" pointType="analog" direction="in" description="Timezone offset in hours" notExposed="true" printType="Double" printUID="0001">
+        <analogProps unitRef="res0x00200004" tgtUnit1Ref="res0x00200004" tgtUnit2Ref="res0x00200004" precision="0"/>
+        <regMapping regPointRef="gen0x00a00001"/>
+       </point>
+       <point id="l0x00000083" qualifiedId="0x00000083" name="Time UTC" flags="0x0000000045001a00" pointType="user" direction="in" description="UTC time" notExposed="true" isStruct="true" printType="System/TimeStamp" printUID="0083">
+        <userProps length="7"/>
+        <structMapping resRef="res0x00600006"/>
+        <regMapping regPointRef="gen0x00a00002"/>
+        <point id="l0x00001083" qualifiedId="0x00001083" name="year" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_year" printUID="1083">
+         <analogProps unitRef="res0x00200001" tgtUnit1Ref="res0x00200001" tgtUnit2Ref="res0x00200001" highLimit="3000" lowLimit="-1" precision="0"/>
+         <structMapping resRef="res0x00800000"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x00001084" qualifiedId="0x00001084" name="month" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_month" printUID="1084">
+         <analogProps unitRef="res0x00200002" tgtUnit1Ref="res0x00200002" tgtUnit2Ref="res0x00200002" highLimit="12" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800001"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x00001085" qualifiedId="0x00001085" name="day" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_day" printUID="1085">
+         <analogProps unitRef="res0x00200003" tgtUnit1Ref="res0x00200003" tgtUnit2Ref="res0x00200003" highLimit="31" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800002"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x00001086" qualifiedId="0x00001086" name="hour" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_hour" printUID="1086">
+         <analogProps unitRef="res0x00200004" tgtUnit1Ref="res0x00200004" tgtUnit2Ref="res0x00200004" highLimit="23" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800003"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x00001087" qualifiedId="0x00001087" name="minute" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_minute" printUID="1087">
+         <analogProps unitRef="res0x00200005" tgtUnit1Ref="res0x00200005" tgtUnit2Ref="res0x00200005" highLimit="59" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800004"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x00001088" qualifiedId="0x00001088" name="second" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_second" printUID="1088">
+         <analogProps unitRef="res0x00200006" tgtUnit1Ref="res0x00200006" tgtUnit2Ref="res0x00200006" highLimit="59" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800005"/>
+         <inheritTechMapping/>
+        </point>
+       </point>
+       <point id="l0x00000084" qualifiedId="0x00000084" name="Time Local" flags="0x0000000045001a00" pointType="user" direction="in" description="Local time" notExposed="true" isStruct="true" printType="System/TimeStamp" printUID="0084">
+        <userProps length="7"/>
+        <structMapping resRef="res0x00600006"/>
+        <regMapping regPointRef="gen0x00a00003"/>
+        <point id="l0x00001089" qualifiedId="0x00001089" name="year" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_year" printUID="1089">
+         <analogProps unitRef="res0x00200001" tgtUnit1Ref="res0x00200001" tgtUnit2Ref="res0x00200001" highLimit="3000" lowLimit="-1" precision="0"/>
+         <structMapping resRef="res0x00800000"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x0000108a" qualifiedId="0x0000108a" name="month" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_month" printUID="108A">
+         <analogProps unitRef="res0x00200002" tgtUnit1Ref="res0x00200002" tgtUnit2Ref="res0x00200002" highLimit="12" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800001"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x0000108b" qualifiedId="0x0000108b" name="day" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_day" printUID="108B">
+         <analogProps unitRef="res0x00200003" tgtUnit1Ref="res0x00200003" tgtUnit2Ref="res0x00200003" highLimit="31" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800002"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x0000108c" qualifiedId="0x0000108c" name="hour" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_hour" printUID="108C">
+         <analogProps unitRef="res0x00200004" tgtUnit1Ref="res0x00200004" tgtUnit2Ref="res0x00200004" highLimit="23" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800003"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x0000108d" qualifiedId="0x0000108d" name="minute" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_minute" printUID="108D">
+         <analogProps unitRef="res0x00200005" tgtUnit1Ref="res0x00200005" tgtUnit2Ref="res0x00200005" highLimit="59" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800004"/>
+         <inheritTechMapping/>
+        </point>
+        <point id="l0x0000108e" qualifiedId="0x0000108e" name="second" flags="0x0000000045001a01" pointType="analog" direction="in" inactive="true" notExposed="true" printType="System/TimeStamp_second" printUID="108E">
+         <analogProps unitRef="res0x00200006" tgtUnit1Ref="res0x00200006" tgtUnit2Ref="res0x00200006" highLimit="59" lowLimit="0" precision="0"/>
+         <structMapping resRef="res0x00800005"/>
+         <inheritTechMapping/>
+        </point>
+       </point>
+      </treeElement>
+      <treeElement id="l0x0000108f" qualifiedId="0x0000108f" name="System" flags="0x00080040200c944f" itfId="0x0000ff03">
+       <point id="l0x00000085" qualifiedId="0x00000085" name="Unit System" flags="0x0000000045001a00" pointType="multistate" direction="in" notExposed="true" printType="Signed Integer" printUID="0085">
+        <multistateProps multistateRef="gen0x00400000"/>
+        <regMapping regPointRef="gen0x00a00004"/>
+       </point>
+       <point id="l0x0000001f" qualifiedId="0x0000001f" name="Command" flags="0x0000000045001a00" pointType="analog" direction="out" description="Command Register" notExposed="true" printType="Double" printUID="001F">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00005"/>
+       </point>
+       <point id="l0x00000086" qualifiedId="0x00000086" name="Unit System Set" flags="0x0000000045001a00" pointType="multistate" direction="out" notExposed="true" printType="Signed Integer" printUID="0086">
+        <multistateProps multistateRef="gen0x00400000"/>
+        <regMapping regPointRef="gen0x00a00006"/>
+       </point>
+       <point id="l0x0000006c" qualifiedId="0x0000006c" name="Client ID" flags="0x0000000045001a00" pointType="analog" direction="in" notExposed="true" printType="Double" printUID="006C">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00007"/>
+       </point>
+       <point id="l0x0000006d" qualifiedId="0x0000006d" name="L-Web Active" flags="0x0000000045001a00" pointType="analog" direction="in" notExposed="true" printType="Double" printUID="006D">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00008"/>
+       </point>
+       <point id="l0x0000006e" qualifiedId="0x0000006e" name="PC Active" flags="0x0000000045001a00" pointType="analog" direction="in" notExposed="true" printType="Double" printUID="006E">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00009"/>
+       </point>
+      </treeElement>
+      <treeElement id="l0x00001096" qualifiedId="0x00001096" name="Info" flags="0x00080040200c944f" itfId="0x0000ff03">
+       <point id="l0x00000065" qualifiedId="0x00000065" name="Firmware Version" flags="0x0000000045001a00" pointType="string" direction="in" notExposed="true" printType="String" printUID="0065">
+        <stringProps byteLength="0"/>
+        <regMapping regPointRef="gen0x00a0000a"/>
+       </point>
+       <point id="l0x00000082" qualifiedId="0x00000082" name="Client Program ID" flags="0x0000000045001a80" pointType="multistate" direction="in" notExposed="true" printType="Signed Integer" printUID="0082">
+        <defaultValue type="xs:double">11</defaultValue>
+        <multistateProps multistateRef="gen0x00400001"/>
+        <regMapping regPointRef="gen0x00a0000b"/>
+       </point>
+      </treeElement>
+      <treeElement id="l0x00001099" qualifiedId="0x00001099" name="Access" flags="0x00080040200c944f" itfId="0x0000ff03">
+       <point id="l0x00000067" qualifiedId="0x00000067" name="Current ACL Name" flags="0x0000000045001a00" pointType="string" direction="in" notExposed="true" printType="String" printUID="0067">
+        <stringProps byteLength="0"/>
+        <regMapping regPointRef="gen0x00a0000c"/>
+       </point>
+       <point id="l0x00000068" qualifiedId="0x00000068" name="Required ACL Name" flags="0x0000000045001a00" pointType="string" direction="in" notExposed="true" printType="String" printUID="0068">
+        <stringProps byteLength="0"/>
+        <regMapping regPointRef="gen0x00a0000d"/>
+       </point>
+       <point id="l0x00000069" qualifiedId="0x00000069" name="Required Access Level" flags="0x0000000045001a00" pointType="analog" direction="in" notExposed="true" printType="Double" printUID="0069">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a0000e"/>
+       </point>
+       <point id="l0x00000042" qualifiedId="0x00000042" name="PIN Code Enter" flags="0x0000000045001a00" pointType="analog" direction="out" notExposed="true" printType="Double" printUID="0042">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a0000f"/>
+       </point>
+       <point id="l0x00000041" qualifiedId="0x00000041" name="Access Level" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="0041">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00010"/>
+       </point>
+       <point id="l0x00000092" qualifiedId="0x00000092" name="User Name" flags="0x0000000045001a00" pointType="string" direction="in" notExposed="true" printType="String" printUID="0092">
+        <stringProps byteLength="0"/>
+        <regMapping regPointRef="gen0x00a00011"/>
+       </point>
+      </treeElement>
+      <treeElement id="l0x000010a0" qualifiedId="0x000010a0" name="Project" flags="0x00080040200c944f" itfId="0x0000ff03">
+       <point id="l0x00000066" qualifiedId="0x00000066" name="Project Name" flags="0x0000000045001a00" pointType="string" direction="in" notExposed="true" printType="String" printUID="0066">
+        <stringProps byteLength="0"/>
+        <regMapping regPointRef="gen0x00a00012"/>
+       </point>
+       <point id="l0x00000081" qualifiedId="0x00000081" name="Project Timestamp" flags="0x0000000045001a00" pointType="analog" direction="in" notExposed="true" printType="Double" printUID="0081">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00013"/>
+       </point>
+       <point id="l0x0000007b" qualifiedId="0x0000007b" name="Default Page ID" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="007B">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00014"/>
+       </point>
+       <point id="l0x0000006f" qualifiedId="0x0000006f" name="Current Page ID" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="006F">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00015"/>
+       </point>
+       <point id="l0x00000087" qualifiedId="0x00000087" name="Locale ID" flags="0x0000000045001a00" pointType="string" direction="value" notExposed="true" printType="String" printUID="0087">
+        <stringProps byteLength="0"/>
+        <regMapping regPointRef="gen0x00a00016"/>
+       </point>
+       <point id="l0x0000008a" qualifiedId="0x0000008a" name="Language" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="008A">
+        <analogProps precision="0"/>
+        <regMapping regPointRef="gen0x00a00017"/>
+       </point>
+      </treeElement>
+      <treeElement id="l0x000010a7" qualifiedId="0x000010a7" name="Audio" flags="0x00080040200c944f" itfId="0x0000ff03">
+       <point id="l0x00000078" qualifiedId="0x00000078" name="Speaker Volume" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="0078">
+        <analogProps unitRef="res0x00200000" tgtUnit1Ref="res0x00200000" tgtUnit2Ref="res0x00200000" precision="0"/>
+        <regMapping regPointRef="gen0x00a00018"/>
+       </point>
+       <point id="l0x00000079" qualifiedId="0x00000079" name="Line Out Volume" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="0079">
+        <analogProps unitRef="res0x00200000" tgtUnit1Ref="res0x00200000" tgtUnit2Ref="res0x00200000" precision="0"/>
+        <regMapping regPointRef="gen0x00a00019"/>
+       </point>
+       <point id="l0x0000007a" qualifiedId="0x0000007a" name="Microphone Volume" flags="0x0000000045001a00" pointType="analog" direction="value" notExposed="true" printType="Double" printUID="007A">
+        <analogProps unitRef="res0x00200000" tgtUnit1Ref="res0x00200000" tgtUnit2Ref="res0x00200000" precision="0"/>
+        <regMapping regPointRef="gen0x00a0001a"/>
+       </point>
+      </treeElement>
+     </treeElement>
+     <treeElement id="l0x000010ab" qualifiedId="0x000010ab" name="Register" flags="0x0008002000081449" itfId="0x0000ff03"/>
+    </treeElement>
+   </treeElement>
+   <regCfg>
+    <regPointList>
+     <regPoint id="gen0x00a00000" dataType="DPAL_DT_DOUBLE" regID="0" regName="System Time" regClass="system"/>
+     <regPoint id="gen0x00a00001" dataType="DPAL_DT_DOUBLE" regID="1" regName="Time Zone" regClass="system"/>
+     <regPoint id="gen0x00a00002" dataType="DPAL_DT_VARIANT" regID="131" regName="Time UTC" regClass="system" regInfo="System_TimeStamp"/>
+     <regPoint id="gen0x00a00003" dataType="DPAL_DT_VARIANT" regID="132" regName="Time Local" regClass="system" regInfo="System_TimeStamp"/>
+     <regPoint id="gen0x00a00004" dataType="DPAL_DT_INT" regID="133" regName="Unit System" regClass="system"/>
+     <regPoint id="gen0x00a00005" dataType="DPAL_DT_DOUBLE" regID="31" regName="Command" regClass="system"/>
+     <regPoint id="gen0x00a00006" dataType="DPAL_DT_INT" regID="134" regName="Unit System Set" regClass="system"/>
+     <regPoint id="gen0x00a00007" dataType="DPAL_DT_DOUBLE" regID="108" regName="Client ID" regClass="system"/>
+     <regPoint id="gen0x00a00008" dataType="DPAL_DT_DOUBLE" regID="109" regName="L-Web Active" regClass="system"/>
+     <regPoint id="gen0x00a00009" dataType="DPAL_DT_DOUBLE" regID="110" regName="PC Active" regClass="system"/>
+     <regPoint id="gen0x00a0000a" dataType="DPAL_DT_STRING" regID="101" regName="Firmware Version" regClass="system"/>
+     <regPoint id="gen0x00a0000b" dataType="DPAL_DT_INT" regID="130" regName="Client Program ID" regClass="system"/>
+     <regPoint id="gen0x00a0000c" dataType="DPAL_DT_STRING" regID="103" regName="Current ACL Name" regClass="system"/>
+     <regPoint id="gen0x00a0000d" dataType="DPAL_DT_STRING" regID="104" regName="Required ACL Name" regClass="system"/>
+     <regPoint id="gen0x00a0000e" dataType="DPAL_DT_DOUBLE" regID="105" regName="Required Access Level" regClass="system"/>
+     <regPoint id="gen0x00a0000f" dataType="DPAL_DT_DOUBLE" regID="66" regName="PIN Code Enter" regClass="system"/>
+     <regPoint id="gen0x00a00010" dataType="DPAL_DT_DOUBLE" regID="65" regName="Access Level" regClass="system"/>
+     <regPoint id="gen0x00a00011" dataType="DPAL_DT_STRING" regID="146" regName="User Name" regClass="system"/>
+     <regPoint id="gen0x00a00012" dataType="DPAL_DT_STRING" regID="102" regName="Project Name" regClass="system"/>
+     <regPoint id="gen0x00a00013" dataType="DPAL_DT_DOUBLE" regID="129" regName="Project Timestamp" regClass="system"/>
+     <regPoint id="gen0x00a00014" dataType="DPAL_DT_DOUBLE" regID="123" regName="Default Page ID" regClass="system"/>
+     <regPoint id="gen0x00a00015" dataType="DPAL_DT_DOUBLE" regID="111" regName="Current Page ID" regClass="system"/>
+     <regPoint id="gen0x00a00016" dataType="DPAL_DT_STRING" regID="135" regName="Locale ID" regClass="system"/>
+     <regPoint id="gen0x00a00017" dataType="DPAL_DT_DOUBLE" regID="138" regName="Language" regClass="system"/>
+     <regPoint id="gen0x00a00018" dataType="DPAL_DT_DOUBLE" regID="120" regName="Speaker Volume" regClass="system"/>
+     <regPoint id="gen0x00a00019" dataType="DPAL_DT_DOUBLE" regID="121" regName="Line Out Volume" regClass="system"/>
+     <regPoint id="gen0x00a0001a" dataType="DPAL_DT_DOUBLE" regID="122" regName="Microphone Volume" regClass="system"/>
+    </regPointList>
+    <regResources/>
+    <regDeviceList/>
+   </regCfg>
+   <groupCfg backgroundPollrate="0">
+    <group xsi:type="pollGroup" id="l0x00001000" name="Default Pollgroup" pollCycle="60" pollCycleMS="60000"/>
+   </groupCfg>
+  </lvis:pointCfg>
+  <paramSet xmlns="http://www.loytec.com/xsd/paramSet/1.0/" xmlns:ptp="http://www.loytec.com/xsd/pointParam/1.0/" xmlns:liobp="http://www.loytec.com/xsd/liobParam/1.0/" xmlns:param="http://www.loytec.com/xsd/paramSet/1.0/">
+   <pointCfgParams>
+    <datapointValues/>
+   </pointCfgParams>
+  </paramSet>
+ </DataPoints>
+ <AppObjects>
+  <appCfg version="1">
+   <mathCfg>
+    <mathObjList/>
+    <scriptFolderView>
+     <folderView id="af0x00c00000" uid="l0x000010ac" name="" expanded="true"/>
+    </scriptFolderView>
+   </mathCfg>
+  </appCfg>
+  <gatewayHubConfig>
+   <localHubs name="hubFolder"/>
+   <globalHubs name="hubFolder"/>
+  </gatewayHubConfig>
+ </AppObjects>
+ <LvMenu name="Root Menu" id="a0x3bfba98f" argb32="true" menuWidth="150" iconWidth="16" sbarWidth="4">
+  <color text="0xff000000" frame="0xffffffff" cont="0xff000000" bar="0xffffffff" back="0xff000000"/>
+  <text textSID="0x090f6b24" fontSID="0x08b8bb18">
+   <string font="0">ROOT MENU</string>
+  </text>
+ </LvMenu>
+ <LvCollect name="Global Objects" id="a0x3144cfad" argb32="true" flags="0x00000002">
+  <color/>
+ </LvCollect>
+ <LvCollect name="Templates" id="a0x7c2b1ae7" argb32="true" flags="0x00000004">
+  <color/>
+ </LvCollect>
+</lvisConfig>

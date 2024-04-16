@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sfbCfg xmlns="http://www.loytec.com/linx" xmlns:linx="http://www.loytec.com/linx" xmlns:lxh="http://www.loytec.com/lgtw_xml_hubs" xmlns:lxa="http://www.loytec.com/lgtw_xml_app" xmlns:liob="http://www.loytec.com/xsd/liobCfg/1.0/" xmlns:lpc="http://www.loytec.com/point_cfg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:knx="http://www.loytec.com/xsd/knxCfg/1.0/" xsi:schemaLocation="http://www.loytec.com/linx linxCfg.xsd" name="Unnamed Project" GUID="55866C8C-3855-44D1-8383-7FB4A69D266C" version="10" lastModified="2024-03-14T13:00:20+08:00" paramsManaged="true" unitClass="1" useUnitClass="true" language="0x00000409" qualifiedIdVersion="1" lweb900Compat="1">
+ <param:paramSet xmlns="http://www.loytec.com/xsd/paramSet/1.0/" xmlns:ptp="http://www.loytec.com/xsd/pointParam/1.0/" xmlns:liobp="http://www.loytec.com/xsd/liobParam/1.0/" xmlns:param="http://www.loytec.com/xsd/paramSet/1.0/">
+  <pointCfgParams>
+   <ptp:datapointValues/>
+  </pointCfgParams>
+ </param:paramSet>
+ <prodCode code="-2147483648"/>
+ <prodCode code="31"/>
+ <prodCode code="21"/>
+ <c709if modelNumber="0" modelNumberMin="0" modelNumberMax="255" useLegacyNM="false" numSched="10" enableCalendar="false" enableScheduler="false" enableAlarm="true" astVer="2" ifIdStr="1,55,0xc372c341" nonUniqueNvNames="1">
+  <schedCfg calEntries="5" calDateEntries="100" numDailyScheds="62" numTimeValEntries="128" numPresets="8" presetSize="8" maxDpMaps="16"/>
+  <domainCfg subnet="0" node="0"/>
+  <lmObjMgm>
+   <ohioLMObject type="1" memberIdx="1" name="Node Object" lmType="0"/>
+   <ohioLMObject type="1" memberIdx="1" name="Real Time Keeper" lmType="3300"/>
+   <ohioLMObject type="1" memberIdx="1" name="Channel Monitor [0]" lmType="132"/>
+   <ohioLMObject type="1" memberIdx="1" name="Channel Monitor [1]" lmType="132"/>
+   <ohioLMObject type="2" memberIdx="1" name="SFB" lmType="20012"/>
+  </lmObjMgm>
+ </c709if>
+ <mbusif/>
+ <modbusif type="RS485" ifNo="0" portCount="1"/>
+ <modbusif type="TCP" ifNo="1" portCount="1"/>
+ <knxif iface="0" phyAddr="-1">
+  <serPort port="0"/>
+ </knxif>
+ <knxif iface="1" phyAddr="-1">
+  <udpPort/>
+ </knxif>
+ <folderMap fld="FLD_DEVICE" fldRef="l0x00001016"/>
+ <folderMap fld="FLD_SYS_REGISTERS" fldRef="l0x00001018"/>
+ <folderMap fld="FLD_USR_REGISTERS" fldRef="l0x00001019"/>
+ <folderMap fld="FLD_ALARM" fldRef="l0x0000101b"/>
+ <folderMap fld="FLD_TREND" fldRef="l0x0000101c"/>
+ <folderMap fld="PTE_SCHEDULER" fldRef="l0x0000101a"/>
+ <folderMap fld="FLD_FAVORITES" fldRef="l0x00001017"/>
+ <folderMap fld="FLD_709" fldRef="l0x0000101d"/>
+ <folderMap fld="FLD_709_DATAPOINTS" fldRef="l0x0000101e"/>
+ <folderMap fld="FLD_709_CALENDAR" fldRef="l0x0000101f"/>
+ <folderMap fld="FLD_709_SCHEDULER" fldRef="l0x00001020"/>
+ <folderMap fld="FLD_709_ALARM" fldRef="l0x00001021"/>
+ <folderMap fld="FLD_709_TREND" fldRef="l0x00001022"/>
+ <folderMap fld="FLD_709_REGISTERS" fldRef="l0x00001023"/>
+ <folderMap fld="FLD_709_REMOTE" fldRef="l0x00001024"/>
+ <folderMap fld="FLD_BAC" fldRef="l0x00001025"/>
+ <folderMap fld="FLD_BAC_DATAPOINTS" fldRef="l0x00001026"/>
+ <folderMap fld="FLD_BAC_CALENDAR" fldRef="l0x00001027"/>
+ <folderMap fld="FLD_BAC_SCHEDULER" fldRef="l0x00001028"/>
+ <folderMap fld="FLD_BAC_ALARM" fldRef="l0x00001029"/>
+ <folderMap fld="FLD_BAC_TREND" fldRef="l0x0000102a"/>
+ <folderMap fld="FLD_BAC_REGISTERS" fldRef="l0x0000102b"/>
+ <folderMap fld="FLD_BAC_REMOTE" fldRef="l0x0000102c"/>
+ <folderMap fld="FLD_MBUS" fldRef="l0x0000102d"/>
+ <folderMap fld="FLD_MBUS_DATAPOINTS" fldRef="l0x0000102e"/>
+ <folderMap fld="FLD_MOD" fldRef="l0x0000102f"/>
+ <folderMap fld="FLD_MOD_DATAPOINTS" fldRef="l0x00001030"/>
+ <folderMap fld="FLD_MOD_2" fldRef="l0x00001031"/>
+ <folderMap fld="FLD_MOD_2_DATAPOINTS" fldRef="l0x00001032"/>
+ <folderMap fld="FLD_KNXTP_1" fldRef="l0x0000103a"/>
+ <folderMap fld="FLD_KNXTP_1_DATAPOINTS" fldRef="l0x0000103b"/>
+ <folderMap fld="FLD_KNXIP_1" fldRef="l0x0000103c"/>
+ <folderMap fld="FLD_KNXIP_1_DATAPOINTS" fldRef="l0x0000103d"/>
+ <folderMap fld="mpbus" fldRef="l0x00001034"/>
+ <folderMap fld="ekey" fldRef="l0x00001035"/>
+ <folderMap fld="dali" fldRef="l0x00001036"/>
+ <folderMap fld="smi" fldRef="l0x00001037"/>
+ <folderMap fld="btmesh" fldRef="l0x00001038"/>
+ <prjSettings wantValue="true" ignoreLiobManualAuto="false">
+  <opc doStruct="true" doBridgeDl="false"/>
+  <devCfg mode="2" options="0">
+   <options schedCfg="false" systemSettingsUP="false" lweb="false" daliCfg="false" noDpCfg="false"/>
+  </devCfg>
+  <daliCfgDownloadSettings disableWarningDuplicateSerial="0" disableWarningSyncCounter="0" mode="0"/>
+  <cea709 unvtCutout="false" defPollcycle="60000" snvtSwitchBinary="false" preferFloat="false" defBindTmpl="0"/>
+  <download/>
+  <bacnet defPollcycle="60000" defExpiry="900" supportProprietaryProps="false" createValue="false" cmWritePrio="8"/>
+  <namingRules>
+   <cea709 isDevice="false" isFuncBlock="false" isNvName="true" isNvPrefix="false" separator="_">
+    <subSystemNaming>
+     <translation name=""/>
+    </subSystemNaming>
+   </cea709>
+   <knx usePrefix="false" useGroupRange="false" useSendAddress="false" separator="_"/>
+   <lonNv separator="_">
+    <nameObject name="nvSubsystem"/>
+    <nameObject name="lonNvProgName"/>
+   </lonNv>
+   <lonCp separator="_">
+    <nameObject name="CP"/>
+    <nameObject name="lonDeviceName"/>
+    <nameObject name="lonCpScope"/>
+    <nameObject name="lonCpTypeName"/>
+   </lonCp>
+   <BACnet separator="_">
+    <nameObject name="Object Name"/>
+   </BACnet>
+   <Modbus separator="_">
+    <nameObject name="Mod Origin Name"/>
+   </Modbus>
+   <ModbusDevice separator="_">
+    <nameObject name="ModDevTemplName"/>
+    <nameObject name="ModDevAddr"/>
+   </ModbusDevice>
+   <M-Bus separator="_">
+    <nameObject name="Mbus Origin Name"/>
+   </M-Bus>
+   <knxNaming separator="_">
+    <nameObject name="knxGroupName"/>
+   </knxNaming>
+  </namingRules>
+  <logiCAD projectPath="" programName=""/>
+  <registerSettings createRead="false" createWrite="false"/>
+ </prjSettings>
+ <projectInfo author="" reference="" cfgBuildTimestamp="" lastModified="2024-03-14T13:00:20+08:00">
+  <comments/>
+ </projectInfo>
+ <deviceSystemSettings>
+  <registryCfg creator="">
+   <path path="sys">
+    <path path="app">
+     <path path="lcdui">
+      <path path="0">
+       <path path="pin">
+        <key name="admin" type="REG_DATA_INT">0</key>
+       </path>
+      </path>
+     </path>
+    </path>
+    <path path="locale">
+     <key name="devicename" type="REG_DATA_STRING"/>
+     <key name="locationstring" type="REG_DATA_STRING"/>
+     <key name="lang" type="REG_DATA_STRING"/>
+     <key name="tm_src" type="REG_DATA_STRING">NTP</key>
+     <key name="tz_offset" type="REG_DATA_INT">480</key>
+     <key name="dst_start" type="REG_DATA_STRING"/>
+     <key name="dst_end" type="REG_DATA_STRING"/>
+     <key name="tz" type="REG_DATA_STRING"/>
+     <key name="latitude" type="REG_DATA_DOUBLE">48.220556</key>
+     <key name="longitude" type="REG_DATA_DOUBLE">-16.334722</key>
+     <key name="altitude" type="REG_DATA_DOUBLE">200</key>
+     <key name="csv_delim" type="REG_DATA_INT">44</key>
+    </path>
+    <path path="dev">
+     <path path="wlan">
+      <path path="1"/>
+      <path path="0">
+       <path path="interface">
+        <path path="1"/>
+        <path path="0"/>
+       </path>
+      </path>
+     </path>
+     <path path="wwan">
+      <path path="0"/>
+     </path>
+     <path path="vpn">
+      <path path="0"/>
+     </path>
+     <path path="eth">
+      <path path="1"/>
+      <path path="0"/>
+     </path>
+    </path>
+    <path path="proto">
+     <path path="bacnet">
+      <path path="dl">
+       <path path="bip">
+        <path path="0">
+         <path path="fd">
+          <key name="bbmd_addr" type="REG_DATA_STRING"/>
+          <key name="bbmd_port" type="REG_DATA_INT">47808</key>
+          <key name="reg_ttl" type="REG_DATA_INT">1800</key>
+          <key name="reg_tmout" type="REG_DATA_INT">30000</key>
+          <key name="reg_retries" type="REG_DATA_INT">3</key>
+         </path>
+         <key name="device" type="REG_DATA_STRING">eth0</key>
+         <key name="enabled" type="REG_DATA_INT">1</key>
+         <key name="dnet" type="REG_DATA_INT">0</key>
+         <key name="mode" type="REG_DATA_INT">0</key>
+        </path>
+       </path>
+       <path path="mstp">
+        <path path="0">
+         <key name="enabled" type="REG_DATA_INT">0</key>
+         <key name="dnet" type="REG_DATA_INT">2</key>
+         <key name="node" type="REG_DATA_INT">127</key>
+         <key name="baud" type="REG_DATA_INT">38400</key>
+         <key name="max_info_frames" type="REG_DATA_INT">1</key>
+         <key name="max_master" type="REG_DATA_INT">127</key>
+         <key name="usage_tmout" type="REG_DATA_INT">50</key>
+        </path>
+       </path>
+      </path>
+     </path>
+     <path path="mpbus">
+      <path path="port">
+       <path path="0">
+        <key name="enabled" type="REG_DATA_INT">0</key>
+       </path>
+      </path>
+      <path path="ser">
+       <path path="port">
+        <path path="0">
+         <key name="enabled" type="REG_DATA_INT">0</key>
+        </path>
+       </path>
+      </path>
+     </path>
+     <path path="ekey">
+      <path path="port">
+       <path path="0">
+        <key name="enabled" type="REG_DATA_INT">0</key>
+        <key name="baud" type="REG_DATA_INT">115200</key>
+       </path>
+      </path>
+     </path>
+     <path path="knx">
+      <path path="port">
+       <path path="tp">
+        <path path="0">
+         <key name="enabled" type="REG_DATA_INT">0</key>
+         <key name="phy_addr" type="REG_DATA_INT">0</key>
+        </path>
+       </path>
+       <path path="ip">
+        <path path="0">
+         <key name="device" type="REG_DATA_STRING">eth0</key>
+         <key name="enabled" type="REG_DATA_INT">1</key>
+         <key name="phy_addr" type="REG_DATA_INT">0</key>
+        </path>
+       </path>
+      </path>
+     </path>
+     <path path="eia709">
+      <path path="3">
+       <key name="enabled" type="REG_DATA_INT">1</key>
+      </path>
+      <path path="2">
+       <key name="enabled" type="REG_DATA_INT">1</key>
+      </path>
+      <path path="1">
+       <key name="enabled" type="REG_DATA_INT">1</key>
+      </path>
+      <path path="0">
+       <key name="enabled" type="REG_DATA_INT">1</key>
+      </path>
+     </path>
+     <path path="cnip">
+      <path path="cs">
+       <key name="addr" type="REG_DATA_STRING"/>
+       <key name="port" type="REG_DATA_INT">1629</key>
+       <key name="enabled" type="REG_DATA_INT">0</key>
+       <key name="device" type="REG_DATA_STRING"/>
+       <key name="nat_addr" type="REG_DATA_STRING"/>
+       <key name="ch_name" type="REG_DATA_STRING"/>
+       <key name="sntp_addr1" type="REG_DATA_STRING"/>
+       <key name="sntp_port1" type="REG_DATA_INT">0</key>
+       <key name="sntp_addr2" type="REG_DATA_STRING"/>
+       <key name="sntp_port2" type="REG_DATA_INT">0</key>
+       <key name="ch_cto" type="REG_DATA_INT">0</key>
+       <key name="auto_member" type="REG_DATA_INT">0</key>
+       <key name="roam_member" type="REG_DATA_INT">0</key>
+       <key name="md5enabled" type="REG_DATA_INT">0</key>
+       <key name="md5phrase" type="REG_DATA_ARRAY">{ 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00 }</key>
+      </path>
+      <path path="cc">
+       <path path="0">
+        <path path="mcast">
+         <path path="0">
+          <key name="addr" type="REG_DATA_STRING"/>
+         </path>
+        </path>
+        <path path="proto">
+         <path path="eia709">
+          <key name="enabled" type="REG_DATA_INT">1</key>
+         </path>
+        </path>
+        <key name="device" type="REG_DATA_STRING">eth0</key>
+        <key name="port" type="REG_DATA_INT">1628</key>
+        <key name="eto" type="REG_DATA_INT">64</key>
+        <key name="ato" type="REG_DATA_INT">16</key>
+        <key name="md5enabled" type="REG_DATA_INT">0</key>
+        <key name="md5phrase" type="REG_DATA_STRING"/>
+        <key name="enabled" type="REG_DATA_INT">1</key>
+       </path>
+      </path>
+     </path>
+     <path path="logic">
+      <path path="port">
+       <path path="1">
+        <key name="enabled" type="REG_DATA_INT">0</key>
+        <key name="proto_key" type="REG_DATA_STRING"/>
+        <key name="bus" type="REG_DATA_INT">1</key>
+       </path>
+      </path>
+     </path>
+     <path path="mbus">
+      <path path="port">
+       <path path="0">
+        <key name="enabled" type="REG_DATA_INT">1</key>
+       </path>
+      </path>
+     </path>
+     <path path="modbus">
+      <path path="port">
+       <path path="tcp">
+        <path path="0">
+         <key name="device" type="REG_DATA_STRING"/>
+         <key name="port" type="REG_DATA_INT">502</key>
+         <key name="enabled" type="REG_DATA_INT">0</key>
+        </path>
+       </path>
+       <path path="rs485">
+        <path path="0">
+         <key name="baud" type="REG_DATA_INT">38400</key>
+         <key name="parity" type="REG_DATA_INT">2</key>
+         <key name="stop" type="REG_DATA_INT">0</key>
+         <key name="ascii" type="REG_DATA_INT">0</key>
+         <key name="delay" type="REG_DATA_INT">0</key>
+        </path>
+       </path>
+      </path>
+      <path path="inst">
+       <path path="1">
+        <key name="mode" type="REG_DATA_INT">0</key>
+        <key name="coil" type="REG_DATA_INT">0</key>
+        <key name="coilend" type="REG_DATA_INT">99</key>
+        <key name="coilnr" type="REG_DATA_INT">100</key>
+        <key name="discinp" type="REG_DATA_INT">0</key>
+        <key name="discinpend" type="REG_DATA_INT">99</key>
+        <key name="discinpnr" type="REG_DATA_INT">100</key>
+        <key name="hold" type="REG_DATA_INT">0</key>
+        <key name="holdend" type="REG_DATA_INT">99</key>
+        <key name="holdnr" type="REG_DATA_INT">100</key>
+        <key name="reginp" type="REG_DATA_INT">0</key>
+        <key name="reginpend" type="REG_DATA_INT">99</key>
+        <key name="reginpnr" type="REG_DATA_INT">100</key>
+       </path>
+       <path path="0">
+        <key name="mode" type="REG_DATA_INT">2</key>
+        <key name="addr" type="REG_DATA_INT">1</key>
+        <key name="coil" type="REG_DATA_INT">0</key>
+        <key name="coilend" type="REG_DATA_INT">99</key>
+        <key name="coilnr" type="REG_DATA_INT">100</key>
+        <key name="discinp" type="REG_DATA_INT">0</key>
+        <key name="discinpend" type="REG_DATA_INT">99</key>
+        <key name="discinpnr" type="REG_DATA_INT">100</key>
+        <key name="hold" type="REG_DATA_INT">0</key>
+        <key name="holdend" type="REG_DATA_INT">99</key>
+        <key name="holdnr" type="REG_DATA_INT">100</key>
+        <key name="reginp" type="REG_DATA_INT">0</key>
+        <key name="reginpend" type="REG_DATA_INT">99</key>
+        <key name="reginpnr" type="REG_DATA_INT">100</key>
+       </path>
+      </path>
+     </path>
+     <path path="enocean">
+      <path path="port">
+       <path path="0">
+        <key name="enabled" type="REG_DATA_INT">1</key>
+       </path>
+      </path>
+     </path>
+    </path>
+    <path path="net">
+     <path path="ipv4">
+      <path path="bridge">
+       <path path="1"/>
+       <path path="0"/>
+      </path>
+      <path path="switch">
+       <path path="0">
+        <path path="1"/>
+       </path>
+      </path>
+      <path path="host">
+       <path path="nameserver">
+        <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+        <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+        <key name="2" type="REG_DATA_STRING"/>
+       </path>
+       <key name="dns_iface" type="REG_DATA_STRING"/>
+       <key name="ntp_iface" type="REG_DATA_STRING"/>
+       <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+       <key name="ntpserver2" type="REG_DATA_STRING"/>
+       <key name="ntpserver3" type="REG_DATA_STRING"/>
+       <key name="gateway" type="REG_DATA_STRING"/>
+      </path>
+      <path path="iface">
+       <path path="wlan">
+        <path path="1">
+         <path path="0">
+          <path path="nameserver">
+           <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+           <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+           <key name="2" type="REG_DATA_STRING"/>
+          </path>
+          <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+          <key name="ntpserver2" type="REG_DATA_STRING"/>
+          <key name="ntpserver3" type="REG_DATA_STRING"/>
+          <key name="excl_ip_rng" type="REG_DATA_INT">0</key>
+         </path>
+        </path>
+        <path path="0">
+         <path path="0">
+          <path path="nameserver">
+           <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+           <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+           <key name="2" type="REG_DATA_STRING"/>
+          </path>
+          <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+          <key name="ntpserver2" type="REG_DATA_STRING"/>
+          <key name="ntpserver3" type="REG_DATA_STRING"/>
+          <key name="excl_ip_rng" type="REG_DATA_INT">0</key>
+         </path>
+        </path>
+       </path>
+       <path path="wwan">
+        <path path="0">
+         <path path="0">
+          <path path="nameserver">
+           <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+           <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+           <key name="2" type="REG_DATA_STRING"/>
+          </path>
+          <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+          <key name="ntpserver2" type="REG_DATA_STRING"/>
+          <key name="ntpserver3" type="REG_DATA_STRING"/>
+          <key name="excl_ip_rng" type="REG_DATA_INT">0</key>
+         </path>
+        </path>
+       </path>
+       <path path="vpn">
+        <path path="0">
+         <path path="0">
+          <path path="nameserver">
+           <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+           <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+           <key name="2" type="REG_DATA_STRING"/>
+          </path>
+          <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+          <key name="ntpserver2" type="REG_DATA_STRING"/>
+          <key name="ntpserver3" type="REG_DATA_STRING"/>
+          <key name="excl_ip_rng" type="REG_DATA_INT">0</key>
+         </path>
+        </path>
+       </path>
+       <path path="eth">
+        <path path="1">
+         <path path="0">
+          <path path="nameserver">
+           <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+           <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+           <key name="2" type="REG_DATA_STRING"/>
+          </path>
+          <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+          <key name="ntpserver2" type="REG_DATA_STRING"/>
+          <key name="ntpserver3" type="REG_DATA_STRING"/>
+          <key name="excl_ip_rng" type="REG_DATA_INT">0</key>
+         </path>
+        </path>
+        <path path="0">
+         <path path="0">
+          <path path="nameserver">
+           <key name="0" type="REG_DATA_STRING">8.8.8.8</key>
+           <key name="1" type="REG_DATA_STRING">8.8.4.4</key>
+           <key name="2" type="REG_DATA_STRING"/>
+          </path>
+          <key name="ntpserver1" type="REG_DATA_STRING">time1.loytec.com</key>
+          <key name="ntpserver2" type="REG_DATA_STRING"/>
+          <key name="ntpserver3" type="REG_DATA_STRING"/>
+          <key name="excl_ip_rng" type="REG_DATA_INT">0</key>
+         </path>
+        </path>
+       </path>
+      </path>
+     </path>
+    </path>
+    <path path="srv">
+     <path path="httpd">
+      <path path="0">
+       <key name="device" type="REG_DATA_STRING">eth0</key>
+       <key name="enabled" type="REG_DATA_INT">1</key>
+       <key name="port" type="REG_DATA_INT">80</key>
+      </path>
+     </path>
+     <path path="ftpd">
+      <path path="0">
+       <key name="device" type="REG_DATA_STRING">eth0</key>
+       <key name="enabled" type="REG_DATA_INT">1</key>
+       <key name="port" type="REG_DATA_INT">21</key>
+      </path>
+     </path>
+     <path path="telnetd">
+      <path path="0">
+       <key name="device" type="REG_DATA_STRING">eth0</key>
+       <key name="enabled" type="REG_DATA_INT">1</key>
+       <key name="port" type="REG_DATA_INT">23</key>
+      </path>
+     </path>
+    </path>
+    <path path="client">
+     <path path="smtp">
+      <path path="0">
+       <key name="server" type="REG_DATA_STRING"/>
+       <key name="port" type="REG_DATA_INT">25</key>
+       <key name="use_smtps" type="REG_DATA_INT">0</key>
+       <key name="from" type="REG_DATA_STRING"/>
+       <key name="from_name" type="REG_DATA_STRING"/>
+       <key name="reply_to" type="REG_DATA_STRING"/>
+       <key name="auth_user" type="REG_DATA_STRING"/>
+       <key name="auth_passwd" type="REG_DATA_STRING"/>
+      </path>
+     </path>
+    </path>
+   </path>
+  </registryCfg>
+ </deviceSystemSettings>
+ <manufacturerTemplates>
+  <modDeviceTemplates/>
+  <mbusDeviceTemplates/>
+ </manufacturerTemplates>
+ <linx:pointCfg xmlns="http://www.loytec.com/point_cfg" version="19" maxUID="4516" notExposedDefault="false">
+  <multistateMapList/>
+  <resources/>
+  <treeElement id="l0x00001016" qualifiedId="0x00001016" name="SFB">
+   <treeElement id="l0x00001017" qualifiedId="0x00001017" name="Favorites"/>
+   <treeElement id="l0x00001018" qualifiedId="0x00001018" name="System Registers" collapsed="true">
+    <point id="l0x0000001b" qualifiedId="0x0000001b" name="State Summary" pointType="multistate" direction="in" description="Device status summary" readOnly="true">
+     <multistateProps multistatePath="System/DeviceStatus"/>
+     <regMapping regPointRef="gen0x00200000"/>
+    </point>
+    <point id="l0x00000001" qualifiedId="0x00000001" name="System Time" pointType="analog" direction="in" description="System time (UTC) in seconds since January 1, 1970 00:00:00" readOnly="true">
+     <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" precision="0"/>
+     <regMapping regPointRef="gen0x00200001"/>
+    </point>
+    <point id="l0x00000019" qualifiedId="0x00000019" name="Time UTC" pointType="user" direction="in" description="UTC Time" readOnly="true" isStruct="true">
+     <userProps length="7"/>
+     <structMapping typePath="System/TimeStamp"/>
+     <regMapping regPointRef="gen0x00200002"/>
+     <point id="l0x000000b1" qualifiedId="0x000000b1" name="year" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="yr" tgtUnit1Path="yr" tgtUnit2Path="yr" highLimit="3000" lowLimit="-1" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.year"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b2" qualifiedId="0x000000b2" name="month" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="months" tgtUnit1Path="months" tgtUnit2Path="months" highLimit="12" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.month"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b3" qualifiedId="0x000000b3" name="day" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="d" tgtUnit1Path="d" tgtUnit2Path="d" highLimit="31" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.day"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b4" qualifiedId="0x000000b4" name="hour" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="h" tgtUnit1Path="h" tgtUnit2Path="h" highLimit="23" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.hour"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b5" qualifiedId="0x000000b5" name="minute" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="min" tgtUnit1Path="min" tgtUnit2Path="min" highLimit="59" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.minute"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b6" qualifiedId="0x000000b6" name="second" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" highLimit="59" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.second"/>
+      <inheritTechMapping/>
+     </point>
+    </point>
+    <point id="l0x0000001a" qualifiedId="0x0000001a" name="Time Local" pointType="user" direction="in" description="Time Local" readOnly="true" isStruct="true">
+     <userProps length="7"/>
+     <structMapping typePath="System/TimeStamp"/>
+     <regMapping regPointRef="gen0x00200003"/>
+     <point id="l0x000000b7" qualifiedId="0x000000b7" name="year" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="yr" tgtUnit1Path="yr" tgtUnit2Path="yr" highLimit="3000" lowLimit="-1" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.year"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b8" qualifiedId="0x000000b8" name="month" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="months" tgtUnit1Path="months" tgtUnit2Path="months" highLimit="12" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.month"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000b9" qualifiedId="0x000000b9" name="day" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="d" tgtUnit1Path="d" tgtUnit2Path="d" highLimit="31" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.day"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000ba" qualifiedId="0x000000ba" name="hour" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="h" tgtUnit1Path="h" tgtUnit2Path="h" highLimit="23" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.hour"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000bb" qualifiedId="0x000000bb" name="minute" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="min" tgtUnit1Path="min" tgtUnit2Path="min" highLimit="59" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.minute"/>
+      <inheritTechMapping/>
+     </point>
+     <point id="l0x000000bc" qualifiedId="0x000000bc" name="second" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+      <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" highLimit="59" lowLimit="0" precision="0"/>
+      <structMapping fieldPath="System/TimeStamp.second"/>
+      <inheritTechMapping/>
+     </point>
+    </point>
+    <point id="l0x0000001c" qualifiedId="0x0000001c" name="Unit System" pointType="multistate" direction="in" description="Unit System" readOnly="true">
+     <multistateProps multistatePath="System/Unit"/>
+     <regMapping regPointRef="gen0x00200004"/>
+    </point>
+    <point id="l0x0000081d" qualifiedId="0x0000081d" name="Unit System Set" pointType="multistate" direction="out" inactive="true" description="Unit System Set" notExposed="true">
+     <multistateProps multistatePath="System/Unit"/>
+     <regMapping regPointRef="gen0x00200005"/>
+    </point>
+    <point id="l0x00000002" qualifiedId="0x00000002" name="CPU Load" pointType="analog" direction="in" description="CPU load in %" readOnly="true">
+     <analogProps unitPath="%" tgtUnit1Path="%" tgtUnit2Path="%" precision="0"/>
+     <regMapping regPointRef="gen0x00200006"/>
+    </point>
+    <point id="l0x00000003" qualifiedId="0x00000003" name="Free Memory" pointType="analog" direction="in" description="Free RAM in Bytes" readOnly="true">
+     <analogProps unitText="Bytes" precision="0"/>
+     <regMapping regPointRef="gen0x00200007"/>
+    </point>
+    <point id="l0x00000004" qualifiedId="0x00000004" name="Free Flash" pointType="analog" direction="in" description="Free flash memory in Bytes" readOnly="true">
+     <analogProps unitText="Bytes" precision="0"/>
+     <regMapping regPointRef="gen0x00200008"/>
+    </point>
+    <point id="l0x00000005" qualifiedId="0x00000005" name="Supply Voltage" pointType="analog" direction="in" description="Supply Voltage" readOnly="true">
+     <analogProps unitPath="V" tgtUnit1Path="V" tgtUnit2Path="V" precision="0"/>
+     <regMapping regPointRef="gen0x00200009"/>
+    </point>
+    <point id="l0x00000006" qualifiedId="0x00000006" name="System Temp" pointType="analog" direction="in" description="System temperature of device" readOnly="true">
+     <analogProps unitPath="°C" tgtUnit1Path="°C" tgtUnit2Path="°F" precision="0"/>
+     <regMapping regPointRef="gen0x0020000a"/>
+    </point>
+    <point id="l0x00000007" qualifiedId="0x00000007" name="Application Vendor" pointType="analog" direction="in" description="Application vendor ID" readOnly="true">
+     <analogProps precision="0"/>
+     <regMapping regPointRef="gen0x0020000b"/>
+    </point>
+    <point id="l0x00000808" qualifiedId="0x00000808" name="Authentication Code" pointType="analog" direction="out" description="OEM Product Authentication Request">
+     <analogProps precision="0"/>
+     <regMapping regPointRef="gen0x0020000c"/>
+    </point>
+    <point id="l0x00000009" qualifiedId="0x00000009" name="Authentication Result" pointType="binary" direction="in" description="OEM Product Authentication Result" readOnly="true">
+     <binaryProps/>
+     <regMapping regPointRef="gen0x0020000d"/>
+    </point>
+    <point id="l0x0000000a" qualifiedId="0x0000000a" name="Serial Number" pointType="string" direction="in" description="Serial number" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x0020000e"/>
+    </point>
+    <point id="l0x0000001f" qualifiedId="0x0000001f" name="Device Type" pointType="string" direction="in" description="Device Type" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x0020000f"/>
+    </point>
+    <point id="l0x0000000b" qualifiedId="0x0000000b" name="MAC Address" pointType="user" direction="in" description="MAC address" readOnly="true">
+     <userProps length="6"/>
+     <regMapping regPointRef="gen0x00200010"/>
+    </point>
+    <point id="l0x0000000c" qualifiedId="0x0000000c" name="Firmware Version" pointType="string" direction="in" description="Firmware Version" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x00200011"/>
+    </point>
+    <point id="l0x0000000d" qualifiedId="0x0000000d" name="Device IP Address" pointType="string" direction="in" description="IP address of the device" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x00200012"/>
+    </point>
+    <point id="l0x00000018" qualifiedId="0x00000018" name="Device IP Address 2" pointType="string" direction="in" description="IP address of the second interface (if available)" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x00200013"/>
+    </point>
+    <point id="l0x0000000e" qualifiedId="0x0000000e" name="Device IP Port" pointType="analog" direction="in" description="IP port for OPC XML-DA" readOnly="true">
+     <analogProps precision="0"/>
+     <regMapping regPointRef="gen0x00200014"/>
+    </point>
+    <point id="l0x0000000f" qualifiedId="0x0000000f" name="TZ Offset" pointType="analog" direction="in" description="Timezone offset in seconds, positive east of GMT" readOnly="true">
+     <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" precision="0"/>
+     <regMapping regPointRef="gen0x00200015"/>
+    </point>
+    <point id="l0x00000026" qualifiedId="0x00000026" name="Time Zone Name" pointType="string" direction="value" description="Timezone name configuration">
+     <stringProps/>
+     <regMapping regPointRef="gen0x00200016"/>
+    </point>
+    <point id="l0x00000010" qualifiedId="0x00000010" name="Device Status" pointType="string" direction="in" description="Device Status" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x00200017"/>
+    </point>
+    <point id="l0x00000011" qualifiedId="0x00000011" name="Ethernet Link Mask" pointType="multistate" direction="in" description="Ethernet Link Mask" readOnly="true">
+     <multistateProps multistatePath="User/linx_sysreg_eth_link_e"/>
+     <regMapping regPointRef="gen0x00200018"/>
+    </point>
+    <point id="l0x00000012" qualifiedId="0x00000012" name="Hostname" pointType="string" direction="in" description="Hostname" readOnly="true">
+     <stringProps/>
+     <regMapping regPointRef="gen0x00200019"/>
+    </point>
+    <point id="l0x00000013" qualifiedId="0x00000013" name="Position Longitude" pointType="analog" direction="in" description="Position Longitude" readOnly="true">
+     <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+     <regMapping regPointRef="gen0x0020001a"/>
+    </point>
+    <point id="l0x00000813" qualifiedId="0x00000813" name="Position Longitude_Set" pointType="analog" direction="out" description="Position Longitude">
+     <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+     <regMapping regPointRef="gen0x0020001a"/>
+    </point>
+    <point id="l0x00000014" qualifiedId="0x00000014" name="Position Latitude" pointType="analog" direction="in" description="Position Latitude" readOnly="true">
+     <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+     <regMapping regPointRef="gen0x0020001b"/>
+    </point>
+    <point id="l0x00000814" qualifiedId="0x00000814" name="Position Latitude_Set" pointType="analog" direction="out" description="Position Latitude">
+     <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+     <regMapping regPointRef="gen0x0020001b"/>
+    </point>
+    <point id="l0x00000015" qualifiedId="0x00000015" name="Position Altitude" pointType="analog" direction="in" description="Position Altitude" readOnly="true">
+     <analogProps unitPath="m" tgtUnit1Path="m" tgtUnit2Path="ft." precision="0"/>
+     <regMapping regPointRef="gen0x0020001c"/>
+    </point>
+    <point id="l0x00000815" qualifiedId="0x00000815" name="Position Altitude_Set" pointType="analog" direction="out" description="Position Altitude">
+     <analogProps unitPath="m" tgtUnit1Path="m" tgtUnit2Path="ft." precision="0"/>
+     <regMapping regPointRef="gen0x0020001c"/>
+    </point>
+    <point id="l0x00000020" qualifiedId="0x00000020" name="Sun Azimuth" pointType="analog" direction="in" description="Sun Azimuth" readOnly="true">
+     <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+     <regMapping regPointRef="gen0x0020001d"/>
+    </point>
+    <point id="l0x00000021" qualifiedId="0x00000021" name="Sun Elevation" pointType="analog" direction="in" description="Sun Elevation" readOnly="true">
+     <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+     <regMapping regPointRef="gen0x0020001e"/>
+    </point>
+    <point id="l0x0000081e" qualifiedId="0x0000081e" name="Command" pointType="multistate" direction="out" inactive="true" description="Command Register" notExposed="true">
+     <multistateProps multistatePath="System/Command"/>
+     <regMapping regPointRef="gen0x0020001f"/>
+    </point>
+    <point id="l0x00000022" qualifiedId="0x00000022" name="Mobile TX Bytes" pointType="analog" direction="in" description="Mobile TX Bytes" readOnly="true">
+     <analogProps precision="0"/>
+     <regMapping regPointRef="gen0x00200020"/>
+    </point>
+    <point id="l0x00000023" qualifiedId="0x00000023" name="Mobile RX Bytes" pointType="analog" direction="in" description="Mobile RX Bytes" readOnly="true">
+     <analogProps precision="0"/>
+     <regMapping regPointRef="gen0x00200021"/>
+    </point>
+    <point id="l0x00000024" qualifiedId="0x00000024" name="Mobile SMS Sent" pointType="analog" direction="in" description="Mobile SMS Sent" readOnly="true">
+     <analogProps precision="0"/>
+     <regMapping regPointRef="gen0x00200022"/>
+    </point>
+    <treeElement id="l0x00001064" qualifiedId="0x00001064" name="Time" collapsed="true">
+     <point id="l0x00000401" qualifiedId="0x00000401" name="System Time" pointType="analog" direction="in" description="System time (UTC) in seconds since January 1, 1970 00:00:00" readOnly="true">
+      <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" precision="0"/>
+      <regMapping regPointRef="gen0x00200001"/>
+     </point>
+     <point id="l0x00000415" qualifiedId="0x00000415" name="TZ Offset" pointType="analog" direction="in" description="Timezone offset in seconds, positive east of GMT" readOnly="true">
+      <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" precision="0"/>
+      <regMapping regPointRef="gen0x00200015"/>
+     </point>
+     <point id="l0x0000042f" qualifiedId="0x0000042f" name="Time Zone Name" pointType="string" direction="value" description="Timezone name configuration">
+      <stringProps/>
+      <regMapping regPointRef="gen0x00200016"/>
+     </point>
+     <point id="l0x00000402" qualifiedId="0x00000402" name="Time UTC" pointType="user" direction="in" description="UTC time" readOnly="true" isStruct="true">
+      <userProps length="7"/>
+      <structMapping typePath="System/TimeStamp"/>
+      <regMapping regPointRef="gen0x00200002"/>
+      <point id="l0x0000106d" qualifiedId="0x0000106d" name="year" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="yr" tgtUnit1Path="yr" tgtUnit2Path="yr" highLimit="3000" lowLimit="-1" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.year"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00001094" qualifiedId="0x00001094" name="month" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="months" tgtUnit1Path="months" tgtUnit2Path="months" highLimit="12" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.month"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00001085" qualifiedId="0x00001085" name="day" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="d" tgtUnit1Path="d" tgtUnit2Path="d" highLimit="31" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.day"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00001076" qualifiedId="0x00001076" name="hour" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="h" tgtUnit1Path="h" tgtUnit2Path="h" highLimit="23" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.hour"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x0000041a" qualifiedId="0x0000041a" name="minute" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="min" tgtUnit1Path="min" tgtUnit2Path="min" highLimit="59" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.minute"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00001078" qualifiedId="0x00001078" name="second" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" highLimit="59" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.second"/>
+       <inheritTechMapping/>
+      </point>
+     </point>
+     <point id="l0x00000403" qualifiedId="0x00000403" name="Time Local" pointType="user" direction="in" description="Local time" readOnly="true" isStruct="true">
+      <userProps length="7"/>
+      <structMapping typePath="System/TimeStamp"/>
+      <regMapping regPointRef="gen0x00200003"/>
+      <point id="l0x0000041c" qualifiedId="0x0000041c" name="year" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="yr" tgtUnit1Path="yr" tgtUnit2Path="yr" highLimit="3000" lowLimit="-1" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.year"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x0000107a" qualifiedId="0x0000107a" name="month" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="months" tgtUnit1Path="months" tgtUnit2Path="months" highLimit="12" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.month"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x0000041e" qualifiedId="0x0000041e" name="day" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="d" tgtUnit1Path="d" tgtUnit2Path="d" highLimit="31" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.day"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00001087" qualifiedId="0x00001087" name="hour" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="h" tgtUnit1Path="h" tgtUnit2Path="h" highLimit="23" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.hour"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00001089" qualifiedId="0x00001089" name="minute" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="min" tgtUnit1Path="min" tgtUnit2Path="min" highLimit="59" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.minute"/>
+       <inheritTechMapping/>
+      </point>
+      <point id="l0x00000421" qualifiedId="0x00000421" name="second" pointType="analog" direction="in" inactive="true" notExposed="true" readOnly="true">
+       <analogProps unitPath="s" tgtUnit1Path="s" tgtUnit2Path="s" highLimit="59" lowLimit="0" precision="0"/>
+       <structMapping fieldPath="System/TimeStamp.second"/>
+       <inheritTechMapping/>
+      </point>
+     </point>
+    </treeElement>
+    <treeElement id="l0x0000106a" qualifiedId="0x0000106a" name="System" collapsed="true">
+     <point id="l0x00000400" qualifiedId="0x00000400" name="State Summary" pointType="multistate" direction="in" description="Device status summary" readOnly="true">
+      <multistateProps multistatePath="System/DeviceStatus"/>
+      <regMapping regPointRef="gen0x00200000"/>
+     </point>
+     <point id="l0x00000416" qualifiedId="0x00000416" name="Device Status" pointType="string" direction="in" description="Device Status" readOnly="true">
+      <stringProps/>
+      <regMapping regPointRef="gen0x00200017"/>
+     </point>
+     <point id="l0x00000406" qualifiedId="0x00000406" name="CPU Load" pointType="analog" direction="in" description="CPU load in %" readOnly="true">
+      <analogProps unitPath="%" tgtUnit1Path="%" tgtUnit2Path="%" precision="0"/>
+      <regMapping regPointRef="gen0x00200006"/>
+     </point>
+     <point id="l0x0000040a" qualifiedId="0x0000040a" name="System Temp" pointType="analog" direction="in" description="System temperature of device" readOnly="true">
+      <analogProps unitPath="°C" tgtUnit1Path="°C" tgtUnit2Path="°F" precision="0"/>
+      <regMapping regPointRef="gen0x0020000a"/>
+     </point>
+     <point id="l0x00000407" qualifiedId="0x00000407" name="Free Memory" pointType="analog" direction="in" description="Free RAM in Bytes" readOnly="true">
+      <analogProps unitText="Bytes" precision="0"/>
+      <regMapping regPointRef="gen0x00200007"/>
+     </point>
+     <point id="l0x00000408" qualifiedId="0x00000408" name="Free Flash" pointType="analog" direction="in" description="Free flash memory in Bytes" readOnly="true">
+      <analogProps unitText="Bytes" precision="0"/>
+      <regMapping regPointRef="gen0x00200008"/>
+     </point>
+     <point id="l0x00000404" qualifiedId="0x00000404" name="Unit System" pointType="multistate" direction="in" description="Unit System" readOnly="true">
+      <multistateProps multistatePath="System/Unit"/>
+      <regMapping regPointRef="gen0x00200004"/>
+     </point>
+     <point id="l0x00000c25" qualifiedId="0x00000c25" name="Command" pointType="multistate" direction="out" inactive="true" description="Command Register" notExposed="true">
+      <multistateProps multistatePath="System/Command"/>
+      <regMapping regPointRef="gen0x0020001f"/>
+     </point>
+     <point id="l0x00000c05" qualifiedId="0x00000c05" name="Unit System Set" pointType="multistate" direction="out" inactive="true" description="Unit System Set" notExposed="true">
+      <multistateProps multistatePath="System/Unit"/>
+      <regMapping regPointRef="gen0x00200005"/>
+     </point>
+     <point id="l0x00000419" qualifiedId="0x00000419" name="Position Longitude" pointType="analog" direction="value" description="Position Longitude">
+      <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+      <regMapping regPointRef="gen0x0020001a"/>
+     </point>
+     <point id="l0x0000041b" qualifiedId="0x0000041b" name="Position Latitude" pointType="analog" direction="value" description="Position Latitude">
+      <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+      <regMapping regPointRef="gen0x0020001b"/>
+     </point>
+     <point id="l0x0000041d" qualifiedId="0x0000041d" name="Position Altitude" pointType="analog" direction="value" description="Position Altitude">
+      <analogProps unitPath="m" tgtUnit1Path="m" tgtUnit2Path="ft." precision="0"/>
+      <regMapping regPointRef="gen0x0020001c"/>
+     </point>
+     <point id="l0x00000409" qualifiedId="0x00000409" name="Supply Voltage" pointType="analog" direction="in" description="Supply Voltage" readOnly="true">
+      <analogProps unitPath="V" tgtUnit1Path="V" tgtUnit2Path="V" precision="0"/>
+      <regMapping regPointRef="gen0x00200009"/>
+     </point>
+    </treeElement>
+    <treeElement id="l0x0000107e" qualifiedId="0x0000107e" name="Info" collapsed="true">
+     <point id="l0x0000040e" qualifiedId="0x0000040e" name="Serial Number" pointType="string" direction="in" description="Serial Number" readOnly="true">
+      <stringProps/>
+      <regMapping regPointRef="gen0x0020000e"/>
+     </point>
+     <point id="l0x0000040f" qualifiedId="0x0000040f" name="Device Type" pointType="string" direction="in" description="Device Type" readOnly="true">
+      <stringProps/>
+      <regMapping regPointRef="gen0x0020000f"/>
+     </point>
+     <point id="l0x00000411" qualifiedId="0x00000411" name="Firmware Version" pointType="string" direction="in" description="Firmware Version" readOnly="true">
+      <stringProps/>
+      <regMapping regPointRef="gen0x00200011"/>
+     </point>
+     <point id="l0x00000431" qualifiedId="0x00000431" name="Device IP Address" pointType="string" direction="in" description="Primary IP address of the device" readOnly="true">
+      <stringProps/>
+      <regMapping regPointRef="gen0x00200012"/>
+     </point>
+     <point id="l0x00000414" qualifiedId="0x00000414" name="Device IP Port" pointType="analog" direction="in" description="IP port for OPC XML-DA on the device" readOnly="true">
+      <analogProps precision="0"/>
+      <regMapping regPointRef="gen0x00200014"/>
+     </point>
+     <point id="l0x00000418" qualifiedId="0x00000418" name="Hostname" pointType="string" direction="in" description="Hostname" readOnly="true">
+      <stringProps/>
+      <regMapping regPointRef="gen0x00200019"/>
+     </point>
+     <point id="l0x0000041f" qualifiedId="0x0000041f" name="Sun Azimuth" pointType="analog" direction="in" description="Sun Azimuth" readOnly="true">
+      <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+      <regMapping regPointRef="gen0x0020001d"/>
+     </point>
+     <point id="l0x00000420" qualifiedId="0x00000420" name="Sun Elevation" pointType="analog" direction="in" description="Sun Elevation" readOnly="true">
+      <analogProps unitPath="°" tgtUnit1Path="°" tgtUnit2Path="°" precision="0"/>
+      <regMapping regPointRef="gen0x0020001e"/>
+     </point>
+     <point id="l0x0000040b" qualifiedId="0x0000040b" name="Application Vendor" pointType="analog" direction="in" description="Application vendor ID" readOnly="true">
+      <analogProps precision="0"/>
+      <regMapping regPointRef="gen0x0020000b"/>
+     </point>
+     <point id="l0x00000c0c" qualifiedId="0x00000c0c" name="Authentication Code" pointType="analog" direction="out" description="OEM Product Authentication Request">
+      <analogProps precision="0"/>
+      <regMapping regPointRef="gen0x0020000c"/>
+     </point>
+     <point id="l0x0000040d" qualifiedId="0x0000040d" name="Authentication Result" pointType="binary" direction="in" description="OEM Product Authentication Result" readOnly="true">
+      <binaryProps/>
+      <regMapping regPointRef="gen0x0020000d"/>
+     </point>
+     <point id="l0x00000426" qualifiedId="0x00000426" name="Mobile TX Bytes" pointType="analog" direction="in" description="Mobile TX Bytes" readOnly="true">
+      <analogProps precision="0"/>
+      <regMapping regPointRef="gen0x00200020"/>
+     </point>
+     <point id="l0x00000427" qualifiedId="0x00000427" name="Mobile RX Bytes" pointType="analog" direction="in" description="Mobile RX Bytes" readOnly="true">
+      <analogProps precision="0"/>
+      <regMapping regPointRef="gen0x00200021"/>
+     </point>
+     <point id="l0x00000428" qualifiedId="0x00000428" name="Mobile SMS Sent" pointType="analog" direction="in" description="Mobile SMS Sent" readOnly="true">
+      <analogProps precision="0"/>
+      <regMapping regPointRef="gen0x00200022"/>
+     </point>
+    </treeElement>
+    <treeElement id="l0x00001092" qualifiedId="0x00001092" name="Network" collapsed="true">
+     <point id="l0x00000417" qualifiedId="0x00000417" name="Ethernet Link Mask" pointType="multistate" direction="in" description="Ethernet Link Mask" readOnly="true">
+      <multistateProps multistatePath="User/linx_sysreg_eth_link_e"/>
+      <regMapping regPointRef="gen0x00200018"/>
+     </point>
+     <treeElement id="l0x00001095" qualifiedId="0x00001095" name="LAN" collapsed="true">
+      <point id="l0x00000410" qualifiedId="0x00000410" name="MAC Address" pointType="user" direction="in" description="MAC address of the LAN port" readOnly="true">
+       <userProps length="6"/>
+       <regMapping regPointRef="gen0x00200010"/>
+      </point>
+      <point id="l0x00000412" qualifiedId="0x00000412" name="IP Address" pointType="string" direction="in" description="IP address of the LAN port" readOnly="true">
+       <stringProps/>
+       <regMapping regPointRef="gen0x00200023"/>
+      </point>
+     </treeElement>
+     <treeElement id="l0x00001098" qualifiedId="0x00001098" name="WAN" collapsed="true">
+      <point id="l0x00000430" qualifiedId="0x00000430" name="MAC Address" pointType="user" direction="in" description="MAC address of the WAN port" readOnly="true">
+       <userProps length="6"/>
+       <regMapping regPointRef="gen0x00200010"/>
+      </point>
+      <point id="l0x00000413" qualifiedId="0x00000413" name="IP Address" pointType="string" direction="in" description="IP address of the WAN port" readOnly="true">
+       <stringProps/>
+       <regMapping regPointRef="gen0x00200013"/>
+      </point>
+     </treeElement>
+     <treeElement id="l0x0000109b" qualifiedId="0x0000109b" name="WLAN Client" collapsed="true">
+      <point id="l0x00000446" qualifiedId="0x00000446" name="Enable" pointType="binary" direction="value" description="WLAN Client enable">
+       <binaryProps/>
+       <regMapping regPointRef="gen0x00200024"/>
+      </point>
+      <point id="l0x00000433" qualifiedId="0x00000433" name="SSID" pointType="string" direction="value" description="Service Set Identifier">
+       <stringProps/>
+       <regMapping regPointRef="gen0x00200025"/>
+      </point>
+      <point id="l0x00000435" qualifiedId="0x00000435" name="Key" pointType="string" direction="out" description="WLAN Password">
+       <stringProps/>
+       <regMapping regPointRef="gen0x00200026"/>
+      </point>
+      <point id="l0x00000436" qualifiedId="0x00000436" name="Channel" pointType="analog" direction="in" description="WLAN Channel" readOnly="true">
+       <analogProps precision="0"/>
+       <regMapping regPointRef="gen0x00200027"/>
+      </point>
+      <point id="l0x00000438" qualifiedId="0x00000438" name="Link State" pointType="binary" direction="in" description="WLAN Up or Down" readOnly="true">
+       <binaryProps/>
+       <regMapping regPointRef="gen0x00200028"/>
+      </point>
+      <point id="l0x00000439" qualifiedId="0x00000439" name="RSSI" pointType="analog" direction="in" description="Received Signal Strength Indicator" readOnly="true">
+       <analogProps unitPath="dBm" tgtUnit1Path="dBm" tgtUnit2Path="dBm" precision="0"/>
+       <regMapping regPointRef="gen0x00200029"/>
+      </point>
+      <point id="l0x00000444" qualifiedId="0x00000444" name="TX Bitrate" pointType="analog" direction="in" description="WLAN transmit bitrate" readOnly="true">
+       <analogProps unitText="MBit/s" precision="0"/>
+       <regMapping regPointRef="gen0x0020002a"/>
+      </point>
+      <point id="l0x00000445" qualifiedId="0x00000445" name="RX Bitrate" pointType="analog" direction="in" description="WLAN receive bitrate" readOnly="true">
+       <analogProps unitText="MBit/s" precision="0"/>
+       <regMapping regPointRef="gen0x0020002b"/>
+      </point>
+     </treeElement>
+     <treeElement id="l0x000010a4" qualifiedId="0x000010a4" name="WLAN Access Point" collapsed="true">
+      <point id="l0x0000043b" qualifiedId="0x0000043b" name="Wireless Mode" pointType="multistate" direction="in" description="WLAN Mode: Disable, Access Point, Mesh Point" readOnly="true">
+       <multistateProps multistatePath="User/WirelessMode"/>
+       <regMapping regPointRef="gen0x0020002c"/>
+      </point>
+      <point id="l0x0000043c" qualifiedId="0x0000043c" name="SSID" pointType="string" direction="value" description="Service Set Identifier">
+       <stringProps/>
+       <regMapping regPointRef="gen0x0020002d"/>
+      </point>
+      <point id="l0x0000043e" qualifiedId="0x0000043e" name="Key" pointType="string" direction="out" description="WLAN Password">
+       <stringProps/>
+       <regMapping regPointRef="gen0x0020002e"/>
+      </point>
+      <point id="l0x0000043f" qualifiedId="0x0000043f" name="Channel" pointType="analog" direction="value" description="WLAN Channel">
+       <analogProps precision="0"/>
+       <regMapping regPointRef="gen0x0020002f"/>
+      </point>
+      <point id="l0x00000440" qualifiedId="0x00000440" name="XMT signal strength" pointType="analog" direction="value" description="WLAN transmit power">
+       <analogProps unitPath="%" tgtUnit1Path="%" tgtUnit2Path="%" precision="0"/>
+       <regMapping regPointRef="gen0x00200030"/>
+      </point>
+      <point id="l0x00000443" qualifiedId="0x00000443" name="WLAN clients connected" pointType="analog" direction="in" description="Clients connected to WLAN (max 7)" readOnly="true">
+       <analogProps precision="0"/>
+       <regMapping regPointRef="gen0x00200031"/>
+      </point>
+     </treeElement>
+    </treeElement>
+   </treeElement>
+   <treeElement id="l0x00001019" qualifiedId="0x00001019" name="User Registers"/>
+   <treeElement id="l0x0000101a" qualifiedId="0x0000101a" name="Scheduler">
+    <point id="l0x000010c2" qualifiedId="0x000010c2" name="calendar" pointType="calendar" direction="value" notExposed="true">
+     <calendarProps>
+      <calendarCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pointRef="4290"/>
+     </calendarProps>
+    </point>
+   </treeElement>
+   <treeElement id="l0x0000101b" qualifiedId="0x0000101b" name="Alarm"/>
+   <treeElement id="l0x0000101c" qualifiedId="0x0000101c" name="Trend"/>
+   <treeElement id="l0x0000101d" qualifiedId="0x0000101d" name="CEA709 Port" collapsed="true">
+    <treeElement id="l0x0000101e" qualifiedId="0x0000101e" name="Datapoints"/>
+    <treeElement id="l0x0000101f" qualifiedId="0x0000101f" name="Calendar"/>
+    <treeElement id="l0x00001020" qualifiedId="0x00001020" name="Scheduler"/>
+    <treeElement id="l0x00001021" qualifiedId="0x00001021" name="Alarm">
+     <point id="l0x000010bc" qualifiedId="0x000010bc" name="alarm" pointType="alarm" direction="value">
+      <alarmProps>
+       <ackRequired toNormal="false" toOffNormal="true" toFault="true"/>
+      </alarmProps>
+      <lonAlarmMapping lonAlarmRef="gen0x00400000"/>
+      <link id="l0x000010c0" qualifiedId="0x000010c0" semantic="ackAll">
+       <tgtInfo len="0" dir="value" typeInfo="" dtype="DPAL_DT_BOOL">
+        <binaryProps/>
+       </tgtInfo>
+      </link>
+      <link id="l0x000010bd" qualifiedId="0x000010bd" semantic="totalAcked">
+       <tgtInfo len="0" dir="in" typeInfo="" dtype="DPAL_DT_DOUBLE">
+        <analogProps/>
+       </tgtInfo>
+      </link>
+      <link id="l0x000010bf" qualifiedId="0x000010bf" semantic="totalActive">
+       <tgtInfo len="0" dir="in" typeInfo="" dtype="DPAL_DT_DOUBLE">
+        <analogProps/>
+       </tgtInfo>
+      </link>
+      <link id="l0x000010be" qualifiedId="0x000010be" semantic="totalUnacked">
+       <tgtInfo len="0" dir="in" typeInfo="" dtype="DPAL_DT_DOUBLE">
+        <analogProps/>
+       </tgtInfo>
+      </link>
+     </point>
+    </treeElement>
+    <treeElement id="l0x00001022" qualifiedId="0x00001022" name="Trend"/>
+    <treeElement id="l0x00001023" qualifiedId="0x00001023" name="Statistics"/>
+    <treeElement id="l0x00001024" qualifiedId="0x00001024" name="Remote Devices"/>
+   </treeElement>
+   <treeElement id="l0x00001025" qualifiedId="0x00001025" name="BACnet Port" collapsed="true">
+    <treeElement id="l0x00001026" qualifiedId="0x00001026" name="Datapoints"/>
+    <treeElement id="l0x00001027" qualifiedId="0x00001027" name="Calendar">
+     <point id="l0x000010c1" qualifiedId="0x000010c1" name="calendar" pointType="calendar" direction="value" notExposed="true">
+      <calendarProps>
+       <calendarCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" pointRef="4289">
+        <datePattern id="0" name="pattern0"/>
+        <datePattern id="1" name="pattern1"/>
+        <datePattern id="2" name="pattern2"/>
+        <datePattern id="3" name="pattern3"/>
+        <datePattern id="4" name="pattern4"/>
+        <datePattern id="5" name="pattern5"/>
+        <datePattern id="6" name="pattern6"/>
+        <datePattern id="7" name="pattern7"/>
+        <datePattern id="8" name="pattern8"/>
+        <datePattern id="9" name="pattern9"/>
+       </calendarCfg>
+      </calendarProps>
+      <bacCalMapping>
+       <bacPointRef>gen0x00600000</bacPointRef>
+       <bacPointRef>gen0x00600001</bacPointRef>
+       <bacPointRef>gen0x00600002</bacPointRef>
+       <bacPointRef>gen0x00600003</bacPointRef>
+       <bacPointRef>gen0x00600004</bacPointRef>
+       <bacPointRef>gen0x00600005</bacPointRef>
+       <bacPointRef>gen0x00600006</bacPointRef>
+       <bacPointRef>gen0x00600007</bacPointRef>
+       <bacPointRef>gen0x00600008</bacPointRef>
+       <bacPointRef>gen0x00600009</bacPointRef>
+      </bacCalMapping>
+     </point>
+    </treeElement>
+    <treeElement id="l0x00001028" qualifiedId="0x00001028" name="Scheduler"/>
+    <treeElement id="l0x00001029" qualifiedId="0x00001029" name="Alarm"/>
+    <treeElement id="l0x0000102a" qualifiedId="0x0000102a" name="Trend"/>
+    <treeElement id="l0x0000102b" qualifiedId="0x0000102b" name="Statistics"/>
+    <treeElement id="l0x0000102c" qualifiedId="0x0000102c" name="Remote Devices"/>
+   </treeElement>
+   <treeElement id="l0x0000102d" qualifiedId="0x0000102d" name="M-Bus Port" collapsed="true">
+    <treeElement id="l0x0000102e" qualifiedId="0x0000102e" name="Datapoints"/>
+   </treeElement>
+   <treeElement id="l0x0000102f" qualifiedId="0x0000102f" name="Modbus Port RS485" collapsed="true">
+    <treeElement id="l0x00001030" qualifiedId="0x00001030" name="Datapoints"/>
+   </treeElement>
+   <treeElement id="l0x00001031" qualifiedId="0x00001031" name="Modbus Port TCP" collapsed="true">
+    <treeElement id="l0x00001032" qualifiedId="0x00001032" name="Datapoints"/>
+   </treeElement>
+   <treeElement id="l0x00001033" qualifiedId="0x00001033" name="EnOcean"/>
+   <treeElement id="l0x00001034" qualifiedId="0x00001034" name="MP-Bus" collapsed="true"/>
+   <treeElement id="l0x00001035" qualifiedId="0x00001035" name="ekey" collapsed="true">
+    <treeElement id="l0x000010b1" qualifiedId="0x000010b1" name="Groups">
+     <point id="l0x000010b2" qualifiedId="0x000010b2" name="groupEnable_0" pointType="binary" direction="out" description="Enable or disable ekey user group 0" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200032"/>
+     </point>
+     <point id="l0x000010b3" qualifiedId="0x000010b3" name="groupEnable_1" pointType="binary" direction="out" description="Enable or disable ekey user group 1" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200033"/>
+     </point>
+     <point id="l0x000010b4" qualifiedId="0x000010b4" name="groupEnable_2" pointType="binary" direction="out" description="Enable or disable ekey user group 2" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200034"/>
+     </point>
+     <point id="l0x000010b5" qualifiedId="0x000010b5" name="groupEnable_3" pointType="binary" direction="out" description="Enable or disable ekey user group 3" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200035"/>
+     </point>
+     <point id="l0x000010b6" qualifiedId="0x000010b6" name="groupEnable_4" pointType="binary" direction="out" description="Enable or disable ekey user group 4" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200036"/>
+     </point>
+     <point id="l0x000010b7" qualifiedId="0x000010b7" name="groupEnable_5" pointType="binary" direction="out" description="Enable or disable ekey user group 5" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200037"/>
+     </point>
+     <point id="l0x000010b8" qualifiedId="0x000010b8" name="groupEnable_6" pointType="binary" direction="out" description="Enable or disable ekey user group 6" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200038"/>
+     </point>
+     <point id="l0x000010b9" qualifiedId="0x000010b9" name="groupEnable_7" pointType="binary" direction="out" description="Enable or disable ekey user group 7" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x00200039"/>
+     </point>
+     <point id="l0x000010ba" qualifiedId="0x000010ba" name="groupEnable_8" pointType="binary" direction="out" description="Enable or disable ekey user group 8" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x0020003a"/>
+     </point>
+     <point id="l0x000010bb" qualifiedId="0x000010bb" name="groupEnable_9" pointType="binary" direction="out" description="Enable or disable ekey user group 9" notExposed="true" persistent="true" cpVal="true">
+      <defaultValue type="xs:double">1</defaultValue>
+      <binaryProps/>
+      <structMapping typePath="ekey/GroupEnable"/>
+      <regMapping regPointRef="gen0x0020003b"/>
+     </point>
+    </treeElement>
+   </treeElement>
+   <treeElement id="l0x00001036" qualifiedId="0x00001036" name="DALI" collapsed="true"/>
+   <treeElement id="l0x00001037" qualifiedId="0x00001037" name="SMI" collapsed="true"/>
+   <treeElement id="l0x00001038" qualifiedId="0x00001038" name="Bluetooth" collapsed="true"/>
+   <treeElement id="l0x00001039" qualifiedId="0x00001039" name="OPC Client"/>
+   <treeElement id="l0x0000103a" qualifiedId="0x0000103a" name="KNX TP1" collapsed="true">
+    <treeElement id="l0x0000103b" qualifiedId="0x0000103b" name="Datapoints"/>
+   </treeElement>
+   <treeElement id="l0x0000103c" qualifiedId="0x0000103c" name="KNXnet IP" collapsed="true">
+    <treeElement id="l0x0000103d" qualifiedId="0x0000103d" name="Datapoints"/>
+   </treeElement>
+  </treeElement>
+  <lonCfg>
+   <lonDeviceList/>
+   <lonPointList/>
+   <lonAlarmList>
+    <lonAlarm id="gen0x00400000">
+     <srvObj/>
+    </lonAlarm>
+   </lonAlarmList>
+  </lonCfg>
+  <bacCfg>
+   <bacResources>
+    <bacObjTemplateList/>
+   </bacResources>
+   <bacDeviceList/>
+   <bacPointList>
+    <bacPoint id="gen0x00600000" allocClientMapping="false">
+     <srvObject type="calendar" instNum="0" name="pattern0" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600001" allocClientMapping="false">
+     <srvObject type="calendar" instNum="1" name="pattern1" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600002" allocClientMapping="false">
+     <srvObject type="calendar" instNum="2" name="pattern2" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600003" allocClientMapping="false">
+     <srvObject type="calendar" instNum="3" name="pattern3" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600004" allocClientMapping="false">
+     <srvObject type="calendar" instNum="4" name="pattern4" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600005" allocClientMapping="false">
+     <srvObject type="calendar" instNum="5" name="pattern5" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600006" allocClientMapping="false">
+     <srvObject type="calendar" instNum="6" name="pattern6" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600007" allocClientMapping="false">
+     <srvObject type="calendar" instNum="7" name="pattern7" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600008" allocClientMapping="false">
+     <srvObject type="calendar" instNum="8" name="pattern8" engUnits="95"/>
+    </bacPoint>
+    <bacPoint id="gen0x00600009" allocClientMapping="false">
+     <srvObject type="calendar" instNum="9" name="pattern9" engUnits="95"/>
+    </bacPoint>
+   </bacPointList>
+  </bacCfg>
+  <regCfg>
+   <regPointList>
+    <regPoint id="gen0x00200000" dataType="DPAL_DT_INT" regID="27" regName="State Summary" regClass="system"/>
+    <regPoint id="gen0x00200001" dataType="DPAL_DT_DOUBLE" regID="1" regName="System Time" regClass="system" regInfo="UDINT"/>
+    <regPoint id="gen0x00200002" dataType="DPAL_DT_VARIANT" regID="25" regName="Time UTC" regClass="system" regInfo="System_TimeStamp"/>
+    <regPoint id="gen0x00200003" dataType="DPAL_DT_VARIANT" regID="26" regName="Time Local" regClass="system" regInfo="System_TimeStamp"/>
+    <regPoint id="gen0x00200004" dataType="DPAL_DT_INT" regID="28" regName="Unit System" regClass="system"/>
+    <regPoint id="gen0x00200005" dataType="DPAL_DT_INT" regID="29" regName="Unit System Set" regClass="system"/>
+    <regPoint id="gen0x00200006" dataType="DPAL_DT_DOUBLE" regID="2" regName="CPU Load" regClass="system"/>
+    <regPoint id="gen0x00200007" dataType="DPAL_DT_DOUBLE" regID="3" regName="Free Memory" regClass="system"/>
+    <regPoint id="gen0x00200008" dataType="DPAL_DT_DOUBLE" regID="4" regName="Free Flash" regClass="system"/>
+    <regPoint id="gen0x00200009" dataType="DPAL_DT_DOUBLE" regID="5" regName="Supply Voltage" regClass="system"/>
+    <regPoint id="gen0x0020000a" dataType="DPAL_DT_DOUBLE" regID="6" regName="System Temp" regClass="system"/>
+    <regPoint id="gen0x0020000b" dataType="DPAL_DT_DOUBLE" regID="7" regName="Application Vendor" regClass="system"/>
+    <regPoint id="gen0x0020000c" dataType="DPAL_DT_DOUBLE" regID="8" regName="Authentication Code" regClass="system"/>
+    <regPoint id="gen0x0020000d" dataType="DPAL_DT_BOOL" regID="9" regName="Authentication Result" regClass="system"/>
+    <regPoint id="gen0x0020000e" dataType="DPAL_DT_STRING" regID="10" regName="Serial Number" regClass="system"/>
+    <regPoint id="gen0x0020000f" dataType="DPAL_DT_STRING" regID="31" regName="Device Type" regClass="system"/>
+    <regPoint id="gen0x00200010" dataType="DPAL_DT_VARIANT" regID="40" regName="MAC Address WAN" regClass="system"/>
+    <regPoint id="gen0x00200011" dataType="DPAL_DT_STRING" regID="12" regName="Firmware Version" regClass="system"/>
+    <regPoint id="gen0x00200012" dataType="DPAL_DT_STRING" regID="13" regName="Device IP Address" regClass="system"/>
+    <regPoint id="gen0x00200013" dataType="DPAL_DT_STRING" regID="24" regName="IP Address WAN" regClass="system"/>
+    <regPoint id="gen0x00200014" dataType="DPAL_DT_DOUBLE" regID="14" regName="Device IP Port" regClass="system"/>
+    <regPoint id="gen0x00200015" dataType="DPAL_DT_DOUBLE" regID="15" regName="TZ Offset" regClass="system"/>
+    <regPoint id="gen0x00200016" dataType="DPAL_DT_STRING" regID="38" regName="Time Zone Name" regClass="system"/>
+    <regPoint id="gen0x00200017" dataType="DPAL_DT_STRING" regID="16" regName="Device Status" regClass="system"/>
+    <regPoint id="gen0x00200018" dataType="DPAL_DT_INT" regID="17" regName="Ethernet Link Mask" regClass="system"/>
+    <regPoint id="gen0x00200019" dataType="DPAL_DT_STRING" regID="18" regName="Hostname" regClass="system"/>
+    <regPoint id="gen0x0020001a" dataType="DPAL_DT_DOUBLE" regID="19" regName="Position Longitude" regClass="system"/>
+    <regPoint id="gen0x0020001b" dataType="DPAL_DT_DOUBLE" regID="20" regName="Position Latitude" regClass="system"/>
+    <regPoint id="gen0x0020001c" dataType="DPAL_DT_DOUBLE" regID="21" regName="Position Altitude" regClass="system"/>
+    <regPoint id="gen0x0020001d" dataType="DPAL_DT_DOUBLE" regID="32" regName="Sun Azimuth" regClass="system"/>
+    <regPoint id="gen0x0020001e" dataType="DPAL_DT_DOUBLE" regID="33" regName="Sun Elevation" regClass="system"/>
+    <regPoint id="gen0x0020001f" dataType="DPAL_DT_INT" regID="30" regName="Command" regClass="system"/>
+    <regPoint id="gen0x00200020" dataType="DPAL_DT_DOUBLE" regID="34" regName="Mobile TX Bytes" regClass="system"/>
+    <regPoint id="gen0x00200021" dataType="DPAL_DT_DOUBLE" regID="35" regName="Mobile RX Bytes" regClass="system"/>
+    <regPoint id="gen0x00200022" dataType="DPAL_DT_DOUBLE" regID="36" regName="Mobile SMS Sent" regClass="system"/>
+    <regPoint id="gen0x00200023" dataType="DPAL_DT_STRING" regID="13" regName="IP Address LAN" regClass="system"/>
+    <regPoint id="gen0x00200024" dataType="DPAL_DT_BOOL" regID="134" regName="Enable Wireless 1" regClass="system"/>
+    <regPoint id="gen0x00200025" dataType="DPAL_DT_STRING" regID="42" regName="SSID Wireless 1" regClass="system"/>
+    <regPoint id="gen0x00200026" dataType="DPAL_DT_STRING" regID="47" regName="Key Wireless 1" regClass="system"/>
+    <regPoint id="gen0x00200027" dataType="DPAL_DT_DOUBLE" regID="49" regName="Channel Wireless 1" regClass="system"/>
+    <regPoint id="gen0x00200028" dataType="DPAL_DT_BOOL" regID="53" regName="Link State Wireless 1" regClass="system"/>
+    <regPoint id="gen0x00200029" dataType="DPAL_DT_DOUBLE" regID="55" regName="RSSI Wireless 1" regClass="system"/>
+    <regPoint id="gen0x0020002a" dataType="DPAL_DT_DOUBLE" regID="132" regName="TX Bitrate Wireless 1" regClass="system"/>
+    <regPoint id="gen0x0020002b" dataType="DPAL_DT_DOUBLE" regID="133" regName="RX Bitrate Wireless 1" regClass="system"/>
+    <regPoint id="gen0x0020002c" dataType="DPAL_DT_INT" regID="41" regName="Wireless Mode Wireless 2" regClass="system"/>
+    <regPoint id="gen0x0020002d" dataType="DPAL_DT_STRING" regID="44" regName="SSID Wireless 2" regClass="system"/>
+    <regPoint id="gen0x0020002e" dataType="DPAL_DT_STRING" regID="48" regName="Key Wireless 2" regClass="system"/>
+    <regPoint id="gen0x0020002f" dataType="DPAL_DT_DOUBLE" regID="50" regName="Channel Wireless 2" regClass="system"/>
+    <regPoint id="gen0x00200030" dataType="DPAL_DT_DOUBLE" regID="52" regName="XMT signal strength Wireless 2" regClass="system"/>
+    <regPoint id="gen0x00200031" dataType="DPAL_DT_DOUBLE" regID="58" regName="WLAN clients Wireless 2" regClass="system"/>
+   </regPointList>
+   <regResources>
+    <regDeviceTypes regClass="ekey">
+     <regDevice id="reg0x00800000" name="Groups" model="Groups" manuID="1" manufacturer="ekey" description="ekey user groups" defaultName="Groups">
+      <regPoint id="reg0x00a00000" typeRef="ekey/GroupEnable" dpName="groupEnable_0" dpDesc="Enable or disable ekey user group 0" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00001" typeRef="ekey/GroupEnable" dpName="groupEnable_1" dpDesc="Enable or disable ekey user group 1" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00002" typeRef="ekey/GroupEnable" dpName="groupEnable_2" dpDesc="Enable or disable ekey user group 2" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00003" typeRef="ekey/GroupEnable" dpName="groupEnable_3" dpDesc="Enable or disable ekey user group 3" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00004" typeRef="ekey/GroupEnable" dpName="groupEnable_4" dpDesc="Enable or disable ekey user group 4" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00005" typeRef="ekey/GroupEnable" dpName="groupEnable_5" dpDesc="Enable or disable ekey user group 5" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00006" typeRef="ekey/GroupEnable" dpName="groupEnable_6" dpDesc="Enable or disable ekey user group 6" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00007" typeRef="ekey/GroupEnable" dpName="groupEnable_7" dpDesc="Enable or disable ekey user group 7" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00008" typeRef="ekey/GroupEnable" dpName="groupEnable_8" dpDesc="Enable or disable ekey user group 8" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+      <regPoint id="reg0x00a00009" typeRef="ekey/GroupEnable" dpName="groupEnable_9" dpDesc="Enable or disable ekey user group 9" param="true" direction="out">
+       <defaultValue type="xs:double">1</defaultValue>
+       <analogProps/>
+      </regPoint>
+     </regDevice>
+    </regDeviceTypes>
+   </regResources>
+   <regDeviceList>
+    <regDevice uid="l0x000010b1" name="Groups" regClass="ekey" deviceTypeRef="reg0x00800000">
+     <devProps commission="false" staticInfo="group"/>
+     <regPoint id="gen0x00200032" regID="1000" typeRef="reg0x00a00000"/>
+     <regPoint id="gen0x00200033" regID="1001" typeRef="reg0x00a00001"/>
+     <regPoint id="gen0x00200034" regID="1002" typeRef="reg0x00a00002"/>
+     <regPoint id="gen0x00200035" regID="1003" typeRef="reg0x00a00003"/>
+     <regPoint id="gen0x00200036" regID="1004" typeRef="reg0x00a00004"/>
+     <regPoint id="gen0x00200037" regID="1005" typeRef="reg0x00a00005"/>
+     <regPoint id="gen0x00200038" regID="1006" typeRef="reg0x00a00006"/>
+     <regPoint id="gen0x00200039" regID="1007" typeRef="reg0x00a00007"/>
+     <regPoint id="gen0x0020003a" regID="1008" typeRef="reg0x00a00008"/>
+     <regPoint id="gen0x0020003b" regID="1009" typeRef="reg0x00a00009"/>
+     <uiCapabilities deletable="false"/>
+    </regDevice>
+   </regDeviceList>
+  </regCfg>
+  <knxCfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loytec.com/xsd/knxCfg/1.0/" xmlns:knx="http://www.loytec.com/xsd/knxCfg/1.0/">
+   <resources/>
+   <projects>
+    <project id="P-0000" role="Device" importIface="0">
+     <projectInformation name="" projectNumber="0" contractNumber="0" lastModified="" projectStart="" projectId="0" comment="" completionStatus="" importLinkedAddr="false" createGroupFolders="false"/>
+     <installations>
+      <installation name="">
+       <groupAddresses>
+        <groupRange id="P-0000_GR-00000259FE04E148" name="" rangeStart="0" rangeEnd="65535"/>
+       </groupAddresses>
+      </installation>
+     </installations>
+    </project>
+    <project id="P-0001" role="Device" importIface="1">
+     <projectInformation name="" projectNumber="0" contractNumber="0" lastModified="" projectStart="" projectId="0" comment="" completionStatus="" importLinkedAddr="false" createGroupFolders="false"/>
+     <installations>
+      <installation name="">
+       <groupAddresses>
+        <groupRange id="P-0001_GR-00000259FC9CA5C8" name="" rangeStart="0" rangeEnd="65535"/>
+       </groupAddresses>
+      </installation>
+     </installations>
+    </project>
+   </projects>
+   <instances>
+    <instance id="knx0x00c00000" iface="0" phyAddr="-1" addrMode="ThreeLevel" projectId="P-0000" projectSubId="0" role="Device"/>
+    <instance id="knx0x00c00001" iface="1" phyAddr="-1" addrMode="ThreeLevel" projectId="P-0001" projectSubId="0" role="Device"/>
+   </instances>
+  </knxCfg>
+  <enoCfg>
+   <enoResources>
+    <enoProfiles/>
+    <enoDeviceTypes/>
+   </enoResources>
+   <enoInstances/>
+  </enoCfg>
+  <groupCfg backgroundPollrate="0">
+   <group xsi:type="pollGroup" id="l0x00001000" name="Default Pollgroup" pollCycle="60" pollCycleMS="60000"/>
+  </groupCfg>
+ </linx:pointCfg>
+ <linx:gatewayHubConfig>
+  <localHubs name="hubFolder">
+   <folder name="Local Connections"/>
+  </localHubs>
+ </linx:gatewayHubConfig>
+ <linx:appCfg xmlns="http://www.loytec.com/lgtw_xml_app" version="1">
+  <alarmLogCfg version="1">
+   <alarmLogObjList>
+    <alarmLogObj appUid="app0x00001000" name="Default alarm log" logSize="1000" fillLevel="80" autoGen="true">
+     <alarmRef pointRef="l0x000010bc"/>
+    </alarmLogObj>
+   </alarmLogObjList>
+   <folderView id="af0x00e00000" uid="l0x00001004" name="" expanded="true">
+    <obj ref="app0x00001000"/>
+   </folderView>
+  </alarmLogCfg>
+  <mailCfg>
+   <mailTemplateList/>
+   <folderView id="af0x00e00001" uid="l0x00001002" name="" expanded="true"/>
+  </mailCfg>
+  <mathCfg>
+   <mathObjList/>
+   <scriptFolderView>
+    <folderView id="af0x00e00003" uid="l0x00001005" name="" expanded="true"/>
+   </scriptFolderView>
+   <folderView id="af0x00e00002" uid="l0x00001003" name="" expanded="true"/>
+  </mathCfg>
+ </linx:appCfg>
+ <dappsCfg/>
+</sfbCfg>

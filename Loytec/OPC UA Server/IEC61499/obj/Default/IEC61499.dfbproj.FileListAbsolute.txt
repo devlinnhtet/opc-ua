@@ -1,0 +1,2 @@
+C:\Users\linkwise-linn\Documents\LStudioProjects\OPC UA Server\IEC61499\bin\Default\IEC61499.exe
+C:\Users\linkwise-linn\Documents\LStudioProjects\OPC UA Server\IEC61499\obj\Default\IEC61499.exe

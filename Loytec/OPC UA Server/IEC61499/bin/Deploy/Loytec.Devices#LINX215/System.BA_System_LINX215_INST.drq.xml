@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RQSTCollection>
+  <Request>
+    <DST />
+    <RQST>&lt;Request ID="1" Action="CREATE"&gt;&lt;FBType Name="IEC61499.exe:Composites/Main#LINX215_LWEB.bin" /&gt;&lt;/Request&gt;</RQST>
+  </Request>
+  <Request>
+    <DST />
+    <RQST>&lt;Request ID="2" Action="CREATE"&gt;&lt;FBType Name="IEC61499.exe:Composites/Main#LINX215.bin" /&gt;&lt;/Request&gt;</RQST>
+  </Request>
+  <Request>
+    <DST />
+    <RQST>&lt;Request ID="3" Action="CREATE"&gt;&lt;FB Name="RES0" Type="IEC61499.Management#EMB_RES" /&gt;&lt;/Request&gt;</RQST>
+    <LineInfo LineNr="15" />
+  </Request>
+  <Request>
+    <DST>RES0</DST>
+    <RQST>&lt;Request ID="4" Action="CREATE"&gt;&lt;FB Name="LINX215_INST" Type="Main#LINX215" /&gt;&lt;/Request&gt;</RQST>
+    <LineInfo LineNr="17" />
+  </Request>
+  <Request>
+    <DST />
+    <RQST>&lt;Request ID="5" Action="START" /&gt;</RQST>
+  </Request>
+</RQSTCollection>

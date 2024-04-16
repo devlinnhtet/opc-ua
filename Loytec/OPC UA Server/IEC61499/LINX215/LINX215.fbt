@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="2E25EF917DEA4AE0" Name="LINX215" Comment="Composite Function Block Type" Namespace="Main">
+  <Attribute Name="Runtime.FBType.DPAL.Device" Value="true" />
+  <Attribute Name="Configuration.FB.IDCounter" Value="1" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="LOYTEC electronics GmbH" Version="1.0" Author="linkwise-linn" Date="3/14/2024" Remarks="template" />
+  <InterfaceList>
+    <EventInputs />
+    <EventOutputs />
+    <InputVars />
+    <OutputVars />
+  </InterfaceList>
+  <FBNetwork>
+    <FB ID="1" Name="lweb" Type="LINX215_LWEB" x="660" y="420" Namespace="Main">
+      <Parameter Name="QI" Value="TRUE" />
+    </FB>
+  </FBNetwork>
+</FBType>

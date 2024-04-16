@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<IdentificationKeyDescriptor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FillCharacter>45</FillCharacter>
+  <Fields>
+    <IdentificationKeyFieldDescriptor>
+      <Id>1</Id>
+      <Name>ObjectName</Name>
+      <Length>100</Length>
+      <ValuesAreNumber>false</ValuesAreNumber>
+      <Values />
+    </IdentificationKeyFieldDescriptor>
+  </Fields>
+</IdentificationKeyDescriptor>

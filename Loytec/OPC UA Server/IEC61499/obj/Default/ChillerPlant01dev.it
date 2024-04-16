@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ConfiguratorData="ChillerPlant01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerPlantSwitch" UPath="1.17.1" Path="CP01.CPplantSwitch.ChillerPlantSwitch" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPplantSwitch" UPath="1.17" Path="CP01.CPplantSwitch">
+      <IOInstance Name="outChiller1Call" UName="Ol0x0000124f" UID="l0x0000114d" />
+      <IOInstance Name="outChiller2Call" UName="Ol0x00001250" UID="l0x0000114e" />
+      <IOInstance Name="outChiller3Call" UName="Ol0x00001251" UID="l0x0000114f" />
+      <IOInstance Name="inAlarmReset" UName="Il0x0000124e" UID="l0x0000114c" />
+      <IOInstance Name="inOccupiedStatus" UName="Il0x00001254" UID="l0x0000114b" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerLagDet" UPath="1.18.3" Path="CP01.CPchillerLagDet.ChillerLagDet" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPchillerLagDet" UPath="1.18" Path="CP01.CPchillerLagDet">
+      <IOInstance Name="outLagChillerCall" UName="Ol0x0000120e" UID="l0x00001118" />
+      <IOInstance Name="inTempSupplyWater" UName="Il0x00001178" UID="l0x0000111a" />
+      <IOInstance Name="inTempReturnWater" UName="Il0x000011bf" UID="l0x0000111b" />
+      <IOInstance Name="inTempSupplyWaterSetpt" UName="Il0x0000120a" UID="l0x00001114" />
+      <IOInstance Name="inLagChOnTimeDelay" UName="Il0x0000120b" UID="l0x00001115" />
+      <IOInstance Name="inOffCapacity" UName="Il0x0000120c" UID="l0x00001116" />
+      <IOInstance Name="inOffCapTimeDelay" UName="Il0x0000120d" UID="l0x00001117" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerValve" UPath="1.19.4" Path="CP01.CPisolValve1.ChillerValve" />
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerValve" UPath="1.20.4" Path="CP01.CPisolValve2.ChillerValve" />
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerValve" UPath="1.21.4" Path="CP01.CPisolValve3.ChillerValve" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPisolValve" UPath="1.19" Path="CP01.CPisolValve1">
+      <IOInstance Name="outValve" UName="Ol0x0000112a" UID="l0x00001131" />
+      <IOInstance Name="inValveOffTimeDelay" UName="Il0x00001170" UID="l0x0000112f" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CPisolValve" UPath="1.20" Path="CP01.CPisolValve2">
+      <IOInstance Name="outValve" UName="Ol0x0000112a" UID="l0x00001135" />
+      <IOInstance Name="inValveOffTimeDelay" UName="Il0x00001170" UID="l0x00001133" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CPisolValve" UPath="1.21" Path="CP01.CPisolValve3">
+      <IOInstance Name="outValve" UName="Ol0x0000112a" UID="l0x00001139" />
+      <IOInstance Name="inValveOffTimeDelay" UName="Il0x00001170" UID="l0x00001137" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerLeadDet" UPath="1.22.2" Path="CP01.CPchillerLeadDet.ChillerLeadDet" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPchillerLeadDet" UPath="1.22" Path="CP01.CPchillerLeadDet">
+      <IOInstance Name="outChiller1Lead" UName="Ol0x0000120d" UID="l0x0000112b" />
+      <IOInstance Name="outChiller2Lead" UName="Ol0x0000120e" UID="l0x0000112c" />
+      <IOInstance Name="outChiller3Lead" UName="Ol0x0000120f" UID="l0x0000112d" />
+      <IOInstance Name="inRtManValueCh1" UName="Il0x00001203" UID="l0x00001123" />
+      <IOInstance Name="inSetRtManValueCh1" UName="Il0x00001204" UID="l0x00001124" />
+      <IOInstance Name="inRtManValueCh2" UName="Il0x00001206" UID="l0x00001125" />
+      <IOInstance Name="inSetRtManValueCh2" UName="Il0x00001207" UID="l0x00001126" />
+      <IOInstance Name="inRtManValueCh3" UName="Il0x00001209" UID="l0x00001127" />
+      <IOInstance Name="inSetRtManValueCh3" UName="Il0x0000120a" UID="l0x00001128" />
+      <IOInstance Name="inRtDiffChRotat" UName="Il0x0000120c" UID="l0x00001129" />
+      <IOInstance Name="inRotationDelay" UName="Il0x00001244" UID="l0x0000112a" />
+      <IOInstance Name="outRuntimeCountCh1" UName="Ol0x00001205" UID="l0x00001120" />
+      <IOInstance Name="outRuntimeCountCh2" UName="Ol0x00001208" UID="l0x00001121" />
+      <IOInstance Name="outRuntimeCountCh3" UName="Ol0x0000120b" UID="l0x00001122" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.ChillerPumpLeadDet" UPath="1.23.3" Path="CP01.CPpumpLeadDet.ChillerPumpLeadDet" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPpumpLeadDet" UPath="1.23" Path="CP01.CPpumpLeadDet">
+      <IOInstance Name="outPump1Call" UName="Ol0x0000120e" UID="l0x0000116f" />
+      <IOInstance Name="outPump2Call" UName="Ol0x0000120f" UID="l0x00001170" />
+      <IOInstance Name="inRtManValuePmp1" UName="Il0x00001205" UID="l0x00001165" />
+      <IOInstance Name="inSetRtManValuePmp1" UName="Il0x00001206" UID="l0x00001166" />
+      <IOInstance Name="inRtManValuePmp2" UName="Il0x00001208" UID="l0x00001167" />
+      <IOInstance Name="inSetRtManValuePmp2" UName="Il0x00001209" UID="l0x00001168" />
+      <IOInstance Name="inRtDiffPmpRotat" UName="Il0x0000120b" UID="l0x00001169" />
+      <IOInstance Name="inPmpValveTimeDelay" UName="Il0x0000120c" UID="l0x0000116a" />
+      <IOInstance Name="inPmpChTimeDelay" UName="Il0x0000120d" UID="l0x0000116b" />
+      <IOInstance Name="inRotationDelay" UName="Il0x0000123d" UID="l0x0000116c" />
+      <IOInstance Name="outRuntimeCountPmp1" UName="Ol0x00001207" UID="l0x0000116d" />
+      <IOInstance Name="outRuntimeCountPmp2" UName="Ol0x0000120a" UID="l0x0000116e" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Chiller" UPath="1.24.2" Path="CP01.CPchiller1.Chiller" />
+    <POUInstance Type="Loytec.BuildingAutomation.Chiller" UPath="1.25.2" Path="CP01.CPchiller2.Chiller" />
+    <POUInstance Type="Loytec.BuildingAutomation.Chiller" UPath="1.26.2" Path="CP01.CPchiller3.Chiller" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPchiller" UPath="1.24" Path="CP01.CPchiller1">
+      <IOInstance Name="outChiller" UName="Ol0x0000112b" UID="l0x000010f6" />
+      <IOInstance Name="outAmpDrawPerc" UName="Ol0x0000121e" UID="l0x000010ed" />
+      <IOInstance Name="outAlarmStatus" UName="Ol0x00001222" UID="l0x000010ee" />
+      <IOInstance Name="outChillerStatus" UName="Ol0x00001223" UID="l0x000010f2" />
+      <IOInstance Name="inAmpDraw" UName="Il0x000010eb" UID="l0x000010f5" />
+      <IOInstance Name="inAmpDrawSetpt" UName="Il0x0000121c" UID="l0x000010e9" />
+      <IOInstance Name="inAmpDrawTot" UName="Il0x0000121d" UID="l0x000010ea" />
+      <IOInstance Name="inChPmpTimeDelay" UName="Il0x0000121f" UID="l0x000010eb" />
+      <IOInstance Name="inChAlmTimeDelay" UName="Il0x00001220" UID="l0x000010ec" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CPchiller" UPath="1.25" Path="CP01.CPchiller2">
+      <IOInstance Name="outChiller" UName="Ol0x0000112b" UID="l0x00001104" />
+      <IOInstance Name="outAmpDrawPerc" UName="Ol0x0000121e" UID="l0x000010fc" />
+      <IOInstance Name="outAlarmStatus" UName="Ol0x00001222" UID="l0x000010fd" />
+      <IOInstance Name="outChillerStatus" UName="Ol0x00001223" UID="l0x00001101" />
+      <IOInstance Name="inAmpDraw" UName="Il0x000010eb" UID="l0x00001103" />
+      <IOInstance Name="inAmpDrawSetpt" UName="Il0x0000121c" UID="l0x000010f8" />
+      <IOInstance Name="inAmpDrawTot" UName="Il0x0000121d" UID="l0x000010f9" />
+      <IOInstance Name="inChPmpTimeDelay" UName="Il0x0000121f" UID="l0x000010fa" />
+      <IOInstance Name="inChAlmTimeDelay" UName="Il0x00001220" UID="l0x000010fb" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CPchiller" UPath="1.26" Path="CP01.CPchiller3">
+      <IOInstance Name="outChiller" UName="Ol0x0000112b" UID="l0x00001112" />
+      <IOInstance Name="outAmpDrawPerc" UName="Ol0x0000121e" UID="l0x0000110a" />
+      <IOInstance Name="outAlarmStatus" UName="Ol0x00001222" UID="l0x0000110b" />
+      <IOInstance Name="outChillerStatus" UName="Ol0x00001223" UID="l0x0000110f" />
+      <IOInstance Name="inAmpDraw" UName="Il0x000010eb" UID="l0x00001111" />
+      <IOInstance Name="inAmpDrawSetpt" UName="Il0x0000121c" UID="l0x00001106" />
+      <IOInstance Name="inAmpDrawTot" UName="Il0x0000121d" UID="l0x00001107" />
+      <IOInstance Name="inChPmpTimeDelay" UName="Il0x0000121f" UID="l0x00001108" />
+      <IOInstance Name="inChAlmTimeDelay" UName="Il0x00001220" UID="l0x00001109" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CwPump" UPath="1.27.3" Path="CP01.CPpump1.CwPump" />
+    <POUInstance Type="Loytec.BuildingAutomation.CwPump" UPath="1.28.3" Path="CP01.CPpump2.CwPump" />
+    <POUInstance Type="Loytec.BuildingAutomation.CPpump" UPath="1.27" Path="CP01.CPpump1">
+      <IOInstance Name="outPump" UName="Ol0x00001194" UID="l0x00001159" />
+      <IOInstance Name="outAlarmStatus" UName="Ol0x00001254" UID="l0x00001153" />
+      <IOInstance Name="inPumpStatus" UName="Il0x00001193" UID="l0x00001158" />
+      <IOInstance Name="inPmpOffTimeDelay" UName="Il0x00001251" UID="l0x00001151" />
+      <IOInstance Name="inPmpAlmTimeDelay" UName="Il0x00001252" UID="l0x00001152" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CPpump" UPath="1.28" Path="CP01.CPpump2">
+      <IOInstance Name="outPump" UName="Ol0x00001194" UID="l0x00001163" />
+      <IOInstance Name="outAlarmStatus" UName="Ol0x00001254" UID="l0x0000115d" />
+      <IOInstance Name="inPumpStatus" UName="Il0x00001193" UID="l0x00001162" />
+      <IOInstance Name="inPmpOffTimeDelay" UName="Il0x00001251" UID="l0x0000115b" />
+      <IOInstance Name="inPmpAlmTimeDelay" UName="Il0x00001252" UID="l0x0000115c" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.22.2.1" Path="CP01.CPchillerLeadDet.ChillerLeadDet.Chiller1Runtime" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.23.3.1" Path="CP01.CPpumpLeadDet.ChillerPumpLeadDet.Pmp1Runtime" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.22.2.2" Path="CP01.CPchillerLeadDet.ChillerLeadDet.Chiller2Runtime" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.22.2.3" Path="CP01.CPchillerLeadDet.ChillerLeadDet.Chiller3Runtime" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.23.3.2" Path="CP01.CPpumpLeadDet.ChillerPumpLeadDet.Pmp2Runtime" />
+  </POUInstances>
+</InstanceTable>

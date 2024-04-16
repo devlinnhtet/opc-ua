@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ConfiguratorData="HeatCircuit01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.HeatMode" UPath="28.3.12" Path="HC01.HCheatMode.HeatMode" />
+    <POUInstance Type="Loytec.BuildingAutomation.HCheatMode" UPath="28.3" Path="HC01.HCheatMode">
+      <IOInstance Name="outNightMode" UName="Ol0x00001187" UID="l0x00005061" />
+      <IOInstance Name="outDayMode" UName="Ol0x00001186" UID="l0x00005062" />
+      <IOInstance Name="outOutsTemp" UName="Ol0x00001188" UID="l0x00005063" />
+      <IOInstance Name="outOutsTempMix" UName="Ol0x0000118a" UID="l0x00005065" />
+      <IOInstance Name="inOutsTemp" UName="Il0x0000107c" UID="l0x0000506a" />
+      <IOInstance Name="inPartyButton" UName="Il0x0000107d" UID="l0x0000506b" />
+      <IOInstance Name="inOtLimitDay" UName="Il0x00001179" UID="l0x00005055" />
+      <IOInstance Name="inPartyMode" UName="Il0x0000117a" UID="l0x00005056" />
+      <IOInstance Name="inSchedulerRequest" UName="Il0x0000117b" UID="l0x00005052" />
+      <IOInstance Name="inResetOtAvg" UName="Il0x0000117c" UID="l0x00005057" />
+      <IOInstance Name="inPartyTime" UName="Il0x0000117d" UID="l0x00005058" />
+      <IOInstance Name="inExternalRequest" UName="Il0x0000117e" UID="l0x00005059" />
+      <IOInstance Name="inOtAvgTime" UName="Il0x0000117f" UID="l0x0000505a" />
+      <IOInstance Name="inOtMixFactor" UName="Il0x00001180" UID="l0x0000505b" />
+      <IOInstance Name="inOtLimitNight" UName="Il0x00001181" UID="l0x0000505c" />
+      <IOInstance Name="inOtLimitHys" UName="Il0x00001182" UID="l0x0000505d" />
+      <IOInstance Name="inPartyWeb" UName="Il0x00001183" UID="l0x0000505e" />
+      <IOInstance Name="outAuto" UName="Ol0x00001184" UID="l0x0000505f" />
+      <IOInstance Name="outWinter" UName="Ol0x00001185" UID="l0x00005060" />
+      <IOInstance Name="outOutsTempAvg" UName="Ol0x00001189" UID="l0x00005064" />
+      <IOInstance Name="outPartyAct" UName="Ol0x0000118c" UID="l0x00005066" />
+      <IOInstance Name="outDayInt" UName="Ol0x0000118b" UID="l0x00005067" />
+      <IOInstance Name="inTargetState" UName="Il0x0000120d" UID="l0x00005068" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.PlantSwitchHc" UPath="28.4.12" Path="HC01.HCplantSwitch.PlantSwitchHc" />
+    <POUInstance Type="Loytec.BuildingAutomation.HCplantSwitch" UPath="28.4" Path="HC01.HCplantSwitch">
+      <IOInstance Name="outReqNightMode" UName="Ol0x0000116e" UID="l0x00005075" />
+      <IOInstance Name="outReqDayMode" UName="Ol0x0000116f" UID="l0x00005076" />
+      <IOInstance Name="outRequestB" UName="Ol0x00001171" UID="l0x00005078" />
+      <IOInstance Name="outReset" UName="Ol0x00001174" UID="l0x0000507b" />
+      <IOInstance Name="inRelease" UName="Il0x0000107c" UID="l0x0000507e" />
+      <IOInstance Name="inEmergOFF" UName="Il0x0000107d" UID="l0x0000507f" />
+      <IOInstance Name="inReset" UName="Il0x00001165" UID="l0x0000506d" />
+      <IOInstance Name="inOtLimit" UName="Il0x00001166" UID="l0x0000506e" />
+      <IOInstance Name="inPumpMode" UName="Il0x00001167" UID="l0x0000506f" />
+      <IOInstance Name="inFrostProtEnable" UName="Il0x00001168" UID="l0x00005070" />
+      <IOInstance Name="inActuatAuto" UName="Il0x0000116a" UID="l0x00005071" />
+      <IOInstance Name="inFault" UName="Il0x0000116b" UID="l0x00005072" />
+      <IOInstance Name="outPump" UName="Ol0x0000116c" UID="l0x00005073" />
+      <IOInstance Name="outAuto" UName="Ol0x0000116d" UID="l0x00005074" />
+      <IOInstance Name="outReqMaxHeat" UName="Ol0x00001170" UID="l0x00005077" />
+      <IOInstance Name="outRequestI" UName="Ol0x00001172" UID="l0x00005079" />
+      <IOInstance Name="outManOff" UName="Ol0x00001173" UID="l0x0000507a" />
+      <IOInstance Name="inTargetState" UName="Il0x000011b1" UID="l0x0000507c" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HCstallProtection" UPath="28.5" Path="HC01.HCstallProtection">
+      <IOInstance Name="outPumpSP" UName="Ol0x0000111d" UID="l0x000050a0" />
+      <IOInstance Name="inWeekday" UName="Il0x0000111b" UID="l0x0000509b" />
+      <IOInstance Name="inDayOfMonth" UName="Il0x0000111c" UID="l0x0000509c" />
+      <IOInstance Name="inDuration" UName="Il0x0000111e" UID="l0x0000509d" />
+      <IOInstance Name="inHour" UName="Il0x0000111f" UID="l0x0000509e" />
+      <IOInstance Name="inMinute" UName="Il0x00001120" UID="l0x0000509f" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HCpump" UPath="28.6" Path="HC01.HCpump">
+      <IOInstance Name="outPumpCommand" UName="Ol0x0000107c" UID="l0x00005092" />
+      <IOInstance Name="inFault" UName="Il0x0000107d" UID="l0x0000508e" />
+      <IOInstance Name="inReady" UName="Il0x0000107e" UID="l0x0000508f" />
+      <IOInstance Name="inMaintSwitch" UName="Il0x0000107f" UID="l0x00005090" />
+      <IOInstance Name="inFbOnOff" UName="Il0x00001080" UID="l0x00005091" />
+      <IOInstance Name="inFbTimeDelay" UName="Il0x00001158" UID="l0x00005081" />
+      <IOInstance Name="inTrailTime" UName="Il0x00001159" UID="l0x00005082" />
+      <IOInstance Name="outAuto" UName="Ol0x0000115a" UID="l0x00005083" />
+      <IOInstance Name="outStallProtAct" UName="Ol0x0000115b" UID="l0x00005084" />
+      <IOInstance Name="outFbFault" UName="Ol0x0000115c" UID="l0x00005085" />
+      <IOInstance Name="outNotReadyFault" UName="Ol0x0000115d" UID="l0x00005086" />
+      <IOInstance Name="outMaintSwFault" UName="Ol0x0000115e" UID="l0x00005087" />
+      <IOInstance Name="outCommonFault" UName="Ol0x0000115f" UID="l0x00005088" />
+      <IOInstance Name="inTargetState" UName="Il0x000011a4" UID="l0x0000508c" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HCruntimeCount" UPath="28.7" Path="HC01.HCruntimeCount">
+      <IOInstance Name="inRTmanValue" UName="Il0x0000111b" UID="l0x00005094" />
+      <IOInstance Name="inSetRTmanValue" UName="Il0x0000111c" UID="l0x00005095" />
+      <IOInstance Name="inRTmaxLimit" UName="Il0x0000111d" UID="l0x00005096" />
+      <IOInstance Name="inReset" UName="Il0x0000111f" UID="l0x00005097" />
+      <IOInstance Name="outRTmaxAlarm" UName="Ol0x0000111e" UID="l0x00005098" />
+      <IOInstance Name="outRuntimeCount" UName="Ol0x00001120" UID="l0x00005099" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HCvalve" UPath="28.8" Path="HC01.HCvalve">
+      <IOInstance Name="inPosFb" UName="Il0x0000107d" UID="l0x000050af" />
+      <IOInstance Name="outY" UName="Ol0x0000107c" UID="l0x000050b0" />
+      <IOInstance Name="inMaxDev" UName="Il0x00001155" UID="l0x000050a2" />
+      <IOInstance Name="inFbTimeDelay" UName="Il0x00001156" UID="l0x000050a3" />
+      <IOInstance Name="inInversalFb" UName="Il0x00001157" UID="l0x000050a4" />
+      <IOInstance Name="inInversalY" UName="Il0x00001158" UID="l0x000050a5" />
+      <IOInstance Name="inManPosSetp" UName="Il0x00001159" UID="l0x000050a6" />
+      <IOInstance Name="outFbFault" UName="Ol0x0000115a" UID="l0x000050a7" />
+      <IOInstance Name="outAuto" UName="Ol0x0000115b" UID="l0x000050ab" />
+      <IOInstance Name="outPosFb" UName="Ol0x0000115d" UID="l0x000050ac" />
+      <IOInstance Name="inTargetState" UName="Il0x000011ab" UID="l0x000050ad" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HCcontroller" UPath="28.9" Path="HC01.HCcontroller">
+      <IOInstance Name="inW" UName="Il0x00001143" UID="l0x0000500d" />
+      <IOInstance Name="inActive" UName="Il0x00001145" UID="l0x00005017" />
+      <IOInstance Name="outY" UName="Ol0x00001144" UID="l0x0000500e" />
+      <IOInstance Name="inForwardTemp" UName="Il0x00001088" UID="l0x0000500a" />
+      <IOInstance Name="inYman" UName="Il0x0000113b" UID="l0x0000500f" />
+      <IOInstance Name="inAuto" UName="Il0x0000113c" UID="l0x00005010" />
+      <IOInstance Name="inTi" UName="Il0x0000113d" UID="l0x00005011" />
+      <IOInstance Name="inYmax" UName="Il0x0000113e" UID="l0x00005012" />
+      <IOInstance Name="inDeadZn" UName="Il0x0000113f" UID="l0x00005013" />
+      <IOInstance Name="inExtReset" UName="Il0x00001140" UID="l0x00005014" />
+      <IOInstance Name="inKp" UName="Il0x00001141" UID="l0x00005015" />
+      <IOInstance Name="inYmin" UName="Il0x00001142" UID="l0x00005016" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HeatCurve" UPath="28.10.11" Path="HC01.HCheatCurve.HeatCurve" />
+    <POUInstance Type="Loytec.BuildingAutomation.HCheatCurve" UPath="28.10" Path="HC01.HCheatCurve">
+      <IOInstance Name="inHcNightMode" UName="Il0x00001165" UID="l0x0000502c" />
+      <IOInstance Name="inHcDayMode" UName="Il0x00001166" UID="l0x0000502d" />
+      <IOInstance Name="inOutsTemp" UName="Il0x00001167" UID="l0x0000502e" />
+      <IOInstance Name="inOutsTempMix" UName="Il0x0000127b" UID="l0x0000502f" />
+      <IOInstance Name="outSetpBoiler" UName="Ol0x00001163" UID="l0x00005032" />
+      <IOInstance Name="outSetpEff" UName="Ol0x00001164" UID="l0x00005033" />
+      <IOInstance Name="inReturnTemp" UName="Il0x0000107c" UID="l0x00005037" />
+      <IOInstance Name="inRoomTemp" UName="Il0x0000107d" UID="l0x00005038" />
+      <IOInstance Name="inMaxRoomValvePos" UName="Il0x0000107e" UID="l0x00005039" />
+      <IOInstance Name="inMaxSP" UName="Il0x0000114e" UID="l0x00005019" />
+      <IOInstance Name="inBoilerOffset" UName="Il0x0000114f" UID="l0x0000501a" />
+      <IOInstance Name="inOt1NightFrost" UName="Il0x00001150" UID="l0x0000501b" />
+      <IOInstance Name="inNightFrostEnable" UName="Il0x00001151" UID="l0x0000501c" />
+      <IOInstance Name="inCurveLevel" UName="Il0x00001152" UID="l0x0000501d" />
+      <IOInstance Name="inMinSP" UName="Il0x00001153" UID="l0x0000501e" />
+      <IOInstance Name="inNightRed" UName="Il0x00001154" UID="l0x0000501f" />
+      <IOInstance Name="inOt2NightFrost" UName="Il0x00001155" UID="l0x00005020" />
+      <IOInstance Name="inCurveSlopeFwd" UName="Il0x00001156" UID="l0x00005021" />
+      <IOInstance Name="inCurveSlopeRet" UName="Il0x00001157" UID="l0x00005022" />
+      <IOInstance Name="inMaxValvePos" UName="Il0x00001158" UID="l0x00005023" />
+      <IOInstance Name="inMinValvePos" UName="Il0x00001159" UID="l0x00005024" />
+      <IOInstance Name="inHysValvePos" UName="Il0x0000115a" UID="l0x00005025" />
+      <IOInstance Name="inDelayValvePos" UName="Il0x0000115b" UID="l0x00005026" />
+      <IOInstance Name="inSpRamp" UName="Il0x0000115c" UID="l0x00005027" />
+      <IOInstance Name="inResetRamp" UName="Il0x0000115d" UID="l0x00005028" />
+      <IOInstance Name="inRoomSetp" UName="Il0x0000115e" UID="l0x00005029" />
+      <IOInstance Name="inRoomInfluence" UName="Il0x0000115f" UID="l0x0000502a" />
+      <IOInstance Name="inRoomDelay" UName="Il0x00001160" UID="l0x0000502b" />
+      <IOInstance Name="inRoomCurve" UName="Il0x00001168" UID="l0x00005ffa" />
+      <IOInstance Name="outAdaptRetTemp" UName="Ol0x00001161" UID="l0x00005030" />
+      <IOInstance Name="outFwdCurve" UName="Ol0x00001162" UID="l0x00005031" />
+      <IOInstance Name="outNightRed" UName="Ol0x0000116a" UID="l0x00005034" />
+      <IOInstance Name="inAdaptMode" UName="Il0x000011a4" UID="l0x00005035" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.SystemTime" UPath="28.5.4.1" Path="HC01.HCstallProtection.StallProtect.SystemTime" />
+    <POUInstance Type="Loytec.BuildingAutomation.StallProtect" UPath="28.5.4" Path="HC01.HCstallProtection.StallProtect" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pump" UPath="28.6.1" Path="HC01.HCpump.Pump" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="28.7.1" Path="HC01.HCruntimeCount.RuntimeCount" />
+    <POUInstance Type="Loytec.BuildingAutomation.ValveA" UPath="28.8.1" Path="HC01.HCvalve.ValveA" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="28.9.1" Path="HC01.HCcontroller.Pi1Controller" />
+  </POUInstances>
+</InstanceTable>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ConfiguratorData="WSHP01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.WSHPfanControl" UPath="1.3" Path="WSHP01.WSHPfanControl">
+      <IOInstance Name="inCallHeatFan" UName="Il0x00001148" UID="l0x000010e8" />
+      <IOInstance Name="inCallCoolFan" UName="Il0x00001149" UID="l0x000010e9" />
+      <IOInstance Name="outFan" UName="Ol0x00001086" UID="l0x000010ed" />
+      <IOInstance Name="inFanOffDelay" UName="Il0x00001143" UID="l0x000010d7" />
+      <IOInstance Name="inMinTimeFanOff" UName="Il0x00001144" UID="l0x000010d8" />
+      <IOInstance Name="inMinTimeFanOn" UName="Il0x00001145" UID="l0x000010e5" />
+      <IOInstance Name="inFanMode" UName="Il0x00001146" UID="l0x000010e6" />
+      <IOInstance Name="inMinOnOffFanEnable" UName="Il0x00001147" UID="l0x000010e7" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.HeatCoolCyclesWshp" UPath="1.4.1" Path="WSHP01.WSHPheatCoolCycles.HeatCoolCyclesWshp" />
+    <POUInstance Type="Loytec.BuildingAutomation.WSHPheatCoolCycles" UPath="1.4" Path="WSHP01.WSHPheatCoolCycles">
+      <IOInstance Name="outCompressor" UName="Ol0x000010f5" UID="l0x00001114" />
+      <IOInstance Name="outIsolationValve" UName="Ol0x000010f4" UID="l0x00001113" />
+      <IOInstance Name="outCompressorStage2" UName="Ol0x000010f6" UID="l0x00001115" />
+      <IOInstance Name="outReversingValve" UName="Ol0x000010f7" UID="l0x00001116" />
+      <IOInstance Name="inNumComprStages" UName="Il0x0000113a" UID="l0x00001109" />
+      <IOInstance Name="inMinRuntimeCompr" UName="Il0x0000113b" UID="l0x0000110a" />
+      <IOInstance Name="inDelayComprRvChange" UName="Il0x0000113c" UID="l0x0000110b" />
+      <IOInstance Name="inDelayComprFanOn" UName="Il0x0000113d" UID="l0x0000110c" />
+      <IOInstance Name="inDelayIsolValveComprOff" UName="Il0x0000113e" UID="l0x0000110d" />
+      <IOInstance Name="inDelayComprIsolValveOn" UName="Il0x0000113f" UID="l0x0000110e" />
+      <IOInstance Name="inDelayInterstage" UName="Il0x00001140" UID="l0x0000110f" />
+      <IOInstance Name="inManCompr" UName="Il0x00001143" UID="l0x00001110" />
+      <IOInstance Name="inManComprStg2" UName="Il0x00001144" UID="l0x00001111" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.WSHPheatCoolControl" UPath="1.5" Path="WSHP01.WSHPheatCoolControl">
+      <IOInstance Name="outCallCoolFan" UName="Ol0x000011a1" UID="l0x00001101" />
+      <IOInstance Name="outCallHeatFan" UName="Ol0x000011a2" UID="l0x00001102" />
+      <IOInstance Name="outCallCoolStage1" UName="Ol0x000011a3" UID="l0x00001103" />
+      <IOInstance Name="outCallCoolStage2" UName="Ol0x000011a4" UID="l0x00001104" />
+      <IOInstance Name="outCallHeatStage1" UName="Ol0x000011a5" UID="l0x00001105" />
+      <IOInstance Name="outCallHeatStage2" UName="Ol0x000011a6" UID="l0x00001106" />
+      <IOInstance Name="inCoolDeadband" UName="Il0x00001197" UID="l0x000010f4" />
+      <IOInstance Name="inCoolKp" UName="Il0x00001198" UID="l0x000010f5" />
+      <IOInstance Name="inCoolStagingHys" UName="Il0x00001199" UID="l0x000010f6" />
+      <IOInstance Name="inCoolTi" UName="Il0x0000119a" UID="l0x000010f7" />
+      <IOInstance Name="inHeatDeadband" UName="Il0x0000119c" UID="l0x000010f8" />
+      <IOInstance Name="inHeatKp" UName="Il0x0000119d" UID="l0x000010f9" />
+      <IOInstance Name="inHeatStagingHys" UName="Il0x0000119e" UID="l0x000010fa" />
+      <IOInstance Name="inHeatTi" UName="Il0x0000119f" UID="l0x000010fb" />
+      <IOInstance Name="inSetpCoolStage1" UName="Il0x000011a8" UID="l0x000010fc" />
+      <IOInstance Name="inSetpCoolStage2" UName="Il0x000011a9" UID="l0x000010fd" />
+      <IOInstance Name="inSetpFanOn" UName="Il0x000011aa" UID="l0x000010fe" />
+      <IOInstance Name="inSetpHeatStage1" UName="Il0x000011ab" UID="l0x000010ff" />
+      <IOInstance Name="inSetpHeatStage2" UName="Il0x000011ac" UID="l0x00001100" />
+      <IOInstance Name="outCoolControlLoad" UName="Ol0x0000119b" UID="l0x000010f2" />
+      <IOInstance Name="outHeatControlLoad" UName="Ol0x000011a0" UID="l0x000010f3" />
+      <IOInstance Name="inDelayBetweenModes" UName="Il0x000011de" UID="l0x00001107" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.WSHPplantSwitch" UPath="1.6" Path="WSHP01.WSHPplantSwitch">
+      <IOInstance Name="outCurrCoolSetpt" UName="Ol0x000010d7" UID="l0x00001134" />
+      <IOInstance Name="outCurrHeatSetpt" UName="Ol0x000010d8" UID="l0x00001135" />
+      <IOInstance Name="outHeatLockout" UName="Ol0x000010d9" UID="l0x00001136" />
+      <IOInstance Name="outCoolLockout" UName="Ol0x000010da" UID="l0x00001137" />
+      <IOInstance Name="outSpaceTempAvg" UName="Ol0x000011b5" UID="l0x0000113f" />
+      <IOInstance Name="inSpaceTemp1" UName="Il0x000010b2" UID="l0x00001149" />
+      <IOInstance Name="inSpaceTemp2" UName="Il0x000010b3" UID="l0x0000114a" />
+      <IOInstance Name="inSpaceTemp3" UName="Il0x000010b4" UID="l0x0000114b" />
+      <IOInstance Name="inOutsideAirTemp" UName="Il0x000010b9" UID="l0x0000114c" />
+      <IOInstance Name="inCondOverflow" UName="Il0x000010bd" UID="l0x0000114d" />
+      <IOInstance Name="inOutAirTempLock" UName="Il0x000010d1" UID="l0x0000112f" />
+      <IOInstance Name="inSetpCoolOcc" UName="Il0x000010d2" UID="l0x00001130" />
+      <IOInstance Name="inSetpCoolUnocc" UName="Il0x000010d3" UID="l0x00001131" />
+      <IOInstance Name="inSetpHeatOcc" UName="Il0x000010d4" UID="l0x00001132" />
+      <IOInstance Name="inSetpHeatUnocc" UName="Il0x000010d5" UID="l0x00001133" />
+      <IOInstance Name="inLoadShedTime" UName="Il0x000010db" UID="l0x00001138" />
+      <IOInstance Name="outLoadshedElapsedTime" UName="Ol0x000010dc" UID="l0x00001139" />
+      <IOInstance Name="inSpaceTempMin" UName="Il0x0000115b" UID="l0x0000113a" />
+      <IOInstance Name="inSpaceTempMax" UName="Il0x0000115c" UID="l0x0000113b" />
+      <IOInstance Name="inOccupied" UName="Il0x000011b1" UID="l0x00001128" />
+      <IOInstance Name="inOffsetTemp1" UName="Il0x000011b2" UID="l0x0000113c" />
+      <IOInstance Name="inOffsetTemp2" UName="Il0x000011b3" UID="l0x0000113d" />
+      <IOInstance Name="inOffsetTemp3" UName="Il0x000011b4" UID="l0x0000113e" />
+      <IOInstance Name="inSetpOutTempHeatLock" UName="Il0x000011b6" UID="l0x00001140" />
+      <IOInstance Name="inSetpOutTempCoolLock" UName="Il0x000011b7" UID="l0x00001141" />
+      <IOInstance Name="inLockoutCompressor" UName="Il0x000011b8" UID="l0x00001142" />
+      <IOInstance Name="inCpSafety" UName="Il0x000011b9" UID="l0x00001143" />
+      <IOInstance Name="inLoadShed" UName="Il0x000011ba" UID="l0x00001147" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.5.8" Path="WSHP01.WSHPheatCoolControl.HeatController" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.5.1" Path="WSHP01.WSHPheatCoolControl.CoolController" />
+  </POUInstances>
+</InstanceTable>

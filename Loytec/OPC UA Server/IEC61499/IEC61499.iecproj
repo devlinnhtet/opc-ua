@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectDatabase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="OPC UA Server" Guid="{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}" Version="1.5.0.0" xmlns="http://www.nxtcontrol.com/IEC61499.xsd">
+  <Folders>
+    <Folder Type="CAT" Name=".A_DeviceCAT" />
+    <Folder Type="CAT" Name=".B_PlantCAT" />
+    <Folder Type="CAT" Name=".C_ProgramCAT" />
+    <Folder Type="CAT" Name=".D_FunctionBlockCAT" />
+  </Folders>
+  <Archive>
+    <ExcludeDir>
+      <string>Exports</string>
+      <string>Imports</string>
+      <string>Documentation</string>
+      <string>TestReports</string>
+    </ExcludeDir>
+  </Archive>
+  <References />
+  <CanvasResolution StartCanvasClass="HMI.Main.Canvases.StartCanvas" Width="1280" Height="980" WorkAreaWidth="1280" WorkAreaHeight="900" Template="Default">
+    <Topology Name="Default" />
+  </CanvasResolution>
+  <CanvasResolution StartCanvasClass="" Width="-1" Height="-1" WorkAreaWidth="-1" WorkAreaHeight="-1" Template="">
+    <Topology Name="Default" />
+  </CanvasResolution>
+  <Graphics Name="Graphics" />
+  <WebGraphics Name="WebGraphics" />
+  <Security Level="None">
+    <Info xsi:nil="true" />
+  </Security>
+  <PluginGUIDs />
+  <DeployBoxDeviceDeployments>
+    <NetworkProfiles>
+      <NetworkProfile Name="(Default)">
+        <Devices />
+      </NetworkProfile>
+    </NetworkProfiles>
+  </DeployBoxDeviceDeployments>
+</ProjectDatabase>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstanceTable>
+ <DeviceCAT Type="Main#LINX215" Path="LINX215_INST"/>
+ <SFBInstances/>
+ <POUInstances/>
+</InstanceTable>

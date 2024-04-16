@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lvisConfig xmlns="http://www.loytec.com/lvis_xml_cfg" xmlns:lvis="http://www.loytec.com/lvis_xml_cfg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:schemaLocation="http://www.loytec.com/lvis_xml_cfg lvisCfg.xsd" targetModel="LROC-CAT" targetFirmware="8.0.8" zoomLevel="5" docPath="C:\Users\linkwise-linn\Documents\LStudioProjects\OPC-UA_Server_V1.0.0_2403141259\IEC61499\LINX215\LWebSymbol.lweb" docTitle="Main|LINX215|LWebSymbol|79F70EB4CE188037" timeStamp="2024-03-14T13:00:20+08:00" lastModified="2024-03-14T13:00:20+08:00" toolVersion="8.0.8">
+ <LocaleMgr activeLanguage="0">
+  <language number="0" locale="en_US@calendar=gregorian" xmlName="en-US"/>
+  <resources>
+   <item id="0x00000041">
+    <string>CLEARED</string>
+   </item>
+   <item id="0x00000001">
+    <string>Public</string>
+   </item>
+   <item id="0x00000042">
+    <string>CLR ACKD</string>
+   </item>
+   <item id="0x00000002">
+    <string>Level 1</string>
+   </item>
+   <item id="0x00000043">
+    <string>CLR APND</string>
+   </item>
+   <item id="0x00000003">
+    <string>Level 2</string>
+   </item>
+   <item id="0x00000004">
+    <string>Level 3</string>
+   </item>
+   <item id="0x00000005">
+    <string>Level 4</string>
+   </item>
+   <item id="0x00000006">
+    <string>Level 5</string>
+   </item>
+   <item id="0x00000007">
+    <string>Level 6</string>
+   </item>
+   <item id="0x00000008">
+    <string>Level 7</string>
+   </item>
+   <item id="0x00000009">
+    <string>Level 8</string>
+   </item>
+   <item id="0x0000000a">
+    <string>Level 9</string>
+   </item>
+   <item id="0x0000000b">
+    <string>Level 10</string>
+   </item>
+   <item id="0x0000000c">
+    <string>Level 11</string>
+   </item>
+   <item id="0x0000000d">
+    <string>Level 12</string>
+   </item>
+   <item id="0x0000000e">
+    <string>Level 13</string>
+   </item>
+   <item id="0x0000000f">
+    <string>Level 14</string>
+   </item>
+   <item id="0x00000010">
+    <string>Level 15</string>
+   </item>
+   <item id="0x00000014">
+    <string>Mon</string>
+   </item>
+   <item id="0x00000015">
+    <string>Tue</string>
+   </item>
+   <item id="0x00000016">
+    <string>Wed</string>
+   </item>
+   <item id="0x00000017">
+    <string>Thu</string>
+   </item>
+   <item id="0x00000018">
+    <string>Fri</string>
+   </item>
+   <item id="0x00000019">
+    <string>Sat</string>
+   </item>
+   <item id="0x0000001a">
+    <string>Sun</string>
+   </item>
+   <item id="0x0000001b">
+    <string>January</string>
+   </item>
+   <item id="0x0000001c">
+    <string>February</string>
+   </item>
+   <item id="0x0000001d">
+    <string>March</string>
+   </item>
+   <item id="0x0000001e">
+    <string>April</string>
+   </item>
+   <item id="0x0000001f">
+    <string>May</string>
+   </item>
+   <item id="0x00000020">
+    <string>June</string>
+   </item>
+   <item id="0x00000021">
+    <string>July</string>
+   </item>
+   <item id="0x00000022">
+    <string>August</string>
+   </item>
+   <item id="0x00000023">
+    <string>September</string>
+   </item>
+   <item id="0x00000024">
+    <string>October</string>
+   </item>
+   <item id="0x00000025">
+    <string>November</string>
+   </item>
+   <item id="0x00000026">
+    <string>December</string>
+   </item>
+   <item id="0x00000027">
+    <string>&lt;clear&gt;</string>
+   </item>
+   <item id="0x00000028">
+    <string>&lt;edit&gt;</string>
+   </item>
+   <item id="0x00000029">
+    <string>&lt;value&gt;</string>
+   </item>
+   <item id="0x0000002a">
+    <string>&lt;insert&gt;</string>
+   </item>
+   <item id="0x0000002b">
+    <string>&lt;remove&gt;</string>
+   </item>
+   <item id="0x0000002c">
+    <string>&lt;copy to %s&gt;</string>
+   </item>
+   <item id="0x0000002d">
+    <string>Date</string>
+   </item>
+   <item id="0x0000002e">
+    <string>Range</string>
+   </item>
+   <item id="0x0000002f">
+    <string>Week/Day</string>
+   </item>
+   <item id="0x00000030">
+    <string>odd</string>
+   </item>
+   <item id="0x00000031">
+    <string>even</string>
+   </item>
+   <item id="0x00000032">
+    <string>last</string>
+   </item>
+   <item id="0x00000033">
+    <string>any</string>
+   </item>
+   <item id="0x00000034">
+    <string>week %d</string>
+   </item>
+   <item id="0x00000035">
+    <string>YES</string>
+   </item>
+   <item id="0x00000036">
+    <string>NO</string>
+   </item>
+   <item id="0x00000037">
+    <string>&lt;activate&gt;</string>
+   </item>
+   <item id="0x00000038">
+    <string>&lt;deactivate&gt;</string>
+   </item>
+   <item id="0x00000039">
+    <string>NORM</string>
+   </item>
+   <item id="0x0000003a">
+    <string>OFFNORM</string>
+   </item>
+   <item id="0x0000003b">
+    <string>LOLIM</string>
+   </item>
+   <item id="0x0000003c">
+    <string>HILIM</string>
+   </item>
+   <item id="0x0000003d">
+    <string>FAULT</string>
+   </item>
+   <item id="0x0000003e">
+    <string>BUFFER</string>
+   </item>
+   <item id="0x0000003f">
+    <string>ACTIVE</string>
+   </item>
+   <item id="0x00000040">
+    <string>ACT ACKD</string>
+   </item>
+   <item id="0x00000044">
+    <string>NULL</string>
+   </item>
+   <item id="0x00000045">
+    <string>Withdraw</string>
+   </item>
+   <item id="0x00000046">
+    <string>Disable</string>
+   </item>
+   <item id="0x00000047">
+    <string>Invalid</string>
+   </item>
+   <item id="0x00000048">
+    <string>Default</string>
+   </item>
+   <item id="0x00000049">
+    <string>Event Type</string>
+   </item>
+   <item id="0x0000004a">
+    <string>Once</string>
+   </item>
+   <item id="0x0000004b">
+    <string>Daily</string>
+   </item>
+   <item id="0x0000004c">
+    <string>Weekly</string>
+   </item>
+   <item id="0x0000004d">
+    <string>Monthly</string>
+   </item>
+   <item id="0x0000004e">
+    <string>Yearly</string>
+   </item>
+   <item id="0x0000004f">
+    <string>Calendar</string>
+   </item>
+   <item id="0x00000050">
+    <string>Special</string>
+   </item>
+   <item id="0x00000051">
+    <string>Event Details</string>
+   </item>
+   <item id="0x00000052">
+    <string>Name</string>
+   </item>
+   <item id="0x00000053">
+    <string>Value</string>
+   </item>
+   <item id="0x00000054">
+    <string>Priority</string>
+   </item>
+   <item id="0x00000055">
+    <string>Start</string>
+   </item>
+   <item id="0x00000056">
+    <string>End</string>
+   </item>
+   <item id="0x00000057">
+    <string>Duration</string>
+   </item>
+   <item id="0x00000058">
+    <string>every day</string>
+   </item>
+   <item id="0x00000059">
+    <string>every week</string>
+   </item>
+   <item id="0x0000005a">
+    <string>every month</string>
+   </item>
+   <item id="0x0000005b">
+    <string>every year</string>
+   </item>
+   <item id="0x0000005c">
+    <string>last 7 days</string>
+   </item>
+   <item id="0x0000005d">
+    <string>last day</string>
+   </item>
+   <item id="0x0000005e">
+    <string>even months</string>
+   </item>
+   <item id="0x0000005f">
+    <string>odd months</string>
+   </item>
+   <item id="0x00000060">
+    <string>day</string>
+   </item>
+   <item id="0x00000061">
+    <string>Year</string>
+   </item>
+   <item id="0x00000062">
+    <string>Month</string>
+   </item>
+   <item id="0x00000063">
+    <string>Day</string>
+   </item>
+   <item id="0x00000064">
+    <string>Week</string>
+   </item>
+   <item id="0x00000065">
+    <string>Weekday</string>
+   </item>
+   <item id="0x00000066">
+    <string>OK</string>
+   </item>
+   <item id="0x00000067">
+    <string>Cancel</string>
+   </item>
+   <item id="0x00000068">
+    <string>Delete</string>
+   </item>
+   <item id="0x00000069">
+    <string>ACK</string>
+   </item>
+   <item id="0x0000006a">
+    <string>am</string>
+   </item>
+   <item id="0x0000006b">
+    <string>pm</string>
+   </item>
+   <item id="0x0000006c">
+    <string>Monthly Overview</string>
+   </item>
+   <item id="0x0000006d">
+    <string>Weekly Overview</string>
+   </item>
+   <item id="0x0000006e">
+    <string>Time Table</string>
+   </item>
+   <item id="0x0000006f">
+    <string>Daily Event List</string>
+   </item>
+   <item id="0x00000070">
+    <string>Global Event List</string>
+   </item>
+   <item id="0x00000071">
+    <string>Low</string>
+   </item>
+   <item id="0x00000072">
+    <string>Normal</string>
+   </item>
+   <item id="0x00000073">
+    <string>High</string>
+   </item>
+   <item id="0x00000074">
+    <string>Hour</string>
+   </item>
+   <item id="0x00000075">
+    <string>Minute</string>
+   </item>
+   <item id="0x00000076">
+    <string>Second</string>
+   </item>
+   <item id="0x00000077">
+    <string>Every</string>
+   </item>
+   <item id="0x00000078">
+    <string>days</string>
+   </item>
+   <item id="0x00000079">
+    <string>weeks</string>
+   </item>
+   <item id="0x0000007a">
+    <string>months</string>
+   </item>
+   <item id="0x0000007b">
+    <string>years</string>
+   </item>
+   <item id="0x0000007c">
+    <string>No end date</string>
+   </item>
+   <item id="0x0000007d">
+    <string>End after</string>
+   </item>
+   <item id="0x0000007e">
+    <string>times</string>
+   </item>
+   <item id="0x0000007f">
+    <string>End by</string>
+   </item>
+   <item id="0x00000080">
+    <string>DOY</string>
+   </item>
+   <item id="0x00000081">
+    <string>SetPos</string>
+   </item>
+   <item id="0x00000082">
+    <string>All Day</string>
+   </item>
+  </resources>
+ </LocaleMgr>
+ <FontSet/>
+ <LvPrefs unitSystem="0">
+  <timeZone name="" standardBias="0"/>
+  <pageLinks/>
+  <vncServer port="5900" clients="1" passwd=""/>
+  <defOPCMode mode="delayedResponse" waitTime="30" holdTime="100" pollCycle="1"/>
+  <accLevel level="0"/>
+  <accLevel level="1" code="0"/>
+  <accLevel level="2" code="0"/>
+  <accLevel level="3" code="0"/>
+  <accLevel level="4" code="0"/>
+  <accLevel level="5" code="0"/>
+  <accLevel level="6" code="0"/>
+  <accLevel level="7" code="0"/>
+  <accLevel level="8" code="0"/>
+  <accLevel level="9" code="0"/>
+  <accLevel level="10" code="0"/>
+  <accLevel level="11" code="0"/>
+  <accLevel level="12" code="0"/>
+  <accLevel level="13" code="0"/>
+  <accLevel level="14" code="0"/>
+  <accLevel level="15" code="0"/>
+  <sysColor code="0" argb="0xff7f9fff"/>
+  <sysColor code="1" argb="0xffd4dfff"/>
+  <sysColor code="2" argb="0xff2a3faa"/>
+  <sysColor code="3" argb="0xff2a1faa"/>
+  <sysColor code="4" argb="0xffaabfff"/>
+  <sysColor code="5" argb="0xff000000"/>
+  <sysColor code="6" argb="0xffffffff"/>
+  <sysColor code="7" argb="0x00000000"/>
+  <customColors>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==</customColors>
+  <keyPad btnWidth="8" btnHeight="8"/>
+  <backLight level="60" dimTimeout="120" offTimeout="600"/>
+  <screen xResolution="1024" yResolution="768" colorMode="argb32"/>
+  <editor xGrid="10" yGrid="10" xGridOffset="0" yGridOffset="0"/>
+  <sound lowPitch="2093" highPitch="3136" touchSound="1" inputSound="1"/>
+  <timing autoLogoff="240" autoHome="0" menuPopup="1000" menuTimeout="10" editTimeout="30" frameTimeout="5" longPress="1000"/>
+  <options enableMail="false" mailSSL="false" enableVNC="false" autoTimeZone="false" valueState="true" touchGestures="true" setPinCodes="false" lockSetup="false" hideSetup="false" enableDeploy="true" autosaveLWEB="false" downloadLWEB="false" useLWEB3="true" dynamicPoll="true" wantValueDP="true" useHarfbuzz="true" setUnitSystem="false" portraitMode="false" autoDim="false" enableAll="false" syncSchedCfg="ask" timeSource="NTP" pasteCreatesPoints="no"/>
+  <autoConvert opcHost="localhost" opcPort="80"/>
+ </LvPrefs>
+ <DataPoints regdp="l0x00001002">
+  <port idx="0" extdp="l0x00001005" remdp="l0x00001003"/>
+  <port idx="1" netdp="l0x00001004"/>
+  <lvis:pointCfg xmlns="http://www.loytec.com/point_cfg" version="19" maxUID="4109" notExposedDefault="false">
+   <multistateMapList/>
+   <resources baseVersion="19">
+    <capabilities>
+     <readOnlyStateMaps/>
+    </capabilities>
+    <units name="Acceleration"/>
+    <units name="Angular"/>
+    <units name="Area"/>
+    <units name="Density"/>
+    <units name="Electrical"/>
+    <units name="Energy"/>
+    <units name="Enthalpy"/>
+    <units name="Entropy"/>
+    <units name="Force"/>
+    <units name="Frequency"/>
+    <units name="Length"/>
+    <units name="Light"/>
+    <units name="Logarithmic"/>
+    <units name="Mass"/>
+    <units name="Mass Flow"/>
+    <units name="Other"/>
+    <units name="Percentage"/>
+    <units name="Power"/>
+    <units name="Pressure"/>
+    <units name="Radiation"/>
+    <units name="Temperature"/>
+    <units name="Time"/>
+    <units name="Torque"/>
+    <units name="User"/>
+    <units name="Velocity"/>
+    <units name="Volume"/>
+    <units name="Volumetric Flow"/>
+    <historicFilters/>
+    <adaptors/>
+   </resources>
+   <fileRes>
+    <scriptResources/>
+   </fileRes>
+   <treeElement id="l0x00001001" qualifiedId="0x00001001" name="Datapoint Configuration" flags="0x000800030000008f" itfId="0x0000ff06">
+    <treeElement id="l0x00001003" qualifiedId="0x00001003" name="OPC-LWEB" flags="0x0008000100041009" itfId="0x0000ff06">
+     <point id="l0x00001006" qualifiedId="0x00001006" name="709_alarm" flags="0x0000000040000800" pointType="alarm" direction="value" notExposed="true" printType="VT_BSTR" printUID="1006">
+      <alarmProps>
+       <ackRequired toNormal="false" toOffNormal="true" toFault="true"/>
+      </alarmProps>
+      <opcMapping opcPointRef="gen0x00200000"/>
+     </point>
+     <point id="l0x00001008" qualifiedId="0x00001008" name="709_alarm@ackAll" flags="0x0000000040000800" pointType="binary" direction="value" notExposed="true" printType="VT_BOOL" printUID="1008">
+      <binaryProps/>
+      <opcMapping opcPointRef="gen0x00200001"/>
+     </point>
+     <point id="l0x00001009" qualifiedId="0x00001009" name="709_alarm@totalAcked" flags="0x0000000040000800" pointType="analog" direction="in" notExposed="true" printType="VT_R8" printUID="1009">
+      <analogProps precision="0"/>
+      <opcMapping opcPointRef="gen0x00200002"/>
+     </point>
+     <point id="l0x0000100a" qualifiedId="0x0000100a" name="709_alarm@totalActive" flags="0x0000000040000800" pointType="analog" direction="in" notExposed="true" printType="VT_R8" printUID="100A">
+      <analogProps precision="0"/>
+      <opcMapping opcPointRef="gen0x00200003"/>
+     </point>
+     <point id="l0x0000100b" qualifiedId="0x0000100b" name="709_alarm@totalUnacked" flags="0x0000000040000800" pointType="analog" direction="in" notExposed="true" printType="VT_R8" printUID="100B">
+      <analogProps precision="0"/>
+      <opcMapping opcPointRef="gen0x00200004"/>
+     </point>
+     <point id="l0x0000100c" qualifiedId="0x0000100c" name="AL_Default alarm log" flags="0x0000000040000000" pointType="trend" direction="value" notExposed="true" printType="VT_BSTR" printUID="100C">
+      <trendProps logSize="1000" trendMode="POLL" logInterval="300000" fillLevel="80" nextSlotId="2"/>
+      <opcMapping opcPointRef="gen0x00200005"/>
+     </point>
+    </treeElement>
+    <treeElement id="l0x00001004" qualifiedId="0x00001004" name="CEA709" flags="0x0008000000041019" itfId="0x0000ff01"/>
+    <treeElement id="l0x00001005" qualifiedId="0x00001005" name="BACnet" flags="0x0008000000041029" itfId="0x0000ff02"/>
+    <treeElement id="l0x00001002" qualifiedId="0x00001002" name="Register" flags="0x0008000000001449" itfId="0x0000ff03"/>
+   </treeElement>
+   <opcCfg>
+    <opcDeviceList>
+     <opcDevice id="gen0x00400000" xmldaURI="http://localhost/DA" xmldlURI="http://localhost/DL" devName="OPC-LWEB" verifyItemPath="System Registers" verifyItemName="Serial Number" folderId="l0x00001003">
+      <sourceConfig/>
+      <genDevProps commission="false"/>
+     </opcDevice>
+    </opcDeviceList>
+    <opcClientGroupList/>
+    <opcPointList>
+     <opcPoint id="gen0x00200000" dataType="string" srcUID="0x000010bc" serviceType="default" fixedFld="CEA709 Port.Alarm">
+      <remoteTag opcDeviceRef="gen0x00400000" itemPath="" itemName="alarm"/>
+     </opcPoint>
+     <opcPoint id="gen0x00200001" dataType="boolean" srcUID="0x000010c0" serviceType="default" fixedFld="CEA709 Port.Alarm">
+      <remoteTag opcDeviceRef="gen0x00400000" itemPath="" itemName="alarm@ackAll"/>
+     </opcPoint>
+     <opcPoint id="gen0x00200002" dataType="double" srcUID="0x000010bd" serviceType="default" fixedFld="CEA709 Port.Alarm">
+      <remoteTag opcDeviceRef="gen0x00400000" itemPath="" itemName="alarm@totalAcked"/>
+     </opcPoint>
+     <opcPoint id="gen0x00200003" dataType="double" srcUID="0x000010bf" serviceType="default" fixedFld="CEA709 Port.Alarm">
+      <remoteTag opcDeviceRef="gen0x00400000" itemPath="" itemName="alarm@totalActive"/>
+     </opcPoint>
+     <opcPoint id="gen0x00200004" dataType="double" srcUID="0x000010be" serviceType="default" fixedFld="CEA709 Port.Alarm">
+      <remoteTag opcDeviceRef="gen0x00400000" itemPath="" itemName="alarm@totalUnacked"/>
+     </opcPoint>
+     <opcPoint id="gen0x00200005" dataType="string" srcUID="0x000010c8" serviceType="alarmLog" fixedFld="AlarmLogs">
+      <remoteTag opcDeviceRef="gen0x00400000" itemPath="" itemName="Default alarm log"/>
+     </opcPoint>
+    </opcPointList>
+   </opcCfg>
+   <groupCfg backgroundPollrate="0">
+    <group xsi:type="pollGroup" id="l0x00001000" name="Default Pollgroup" pollCycle="60" pollCycleMS="60000"/>
+   </groupCfg>
+  </lvis:pointCfg>
+  <paramSet xmlns="http://www.loytec.com/xsd/paramSet/1.0/" xmlns:ptp="http://www.loytec.com/xsd/pointParam/1.0/" xmlns:liobp="http://www.loytec.com/xsd/liobParam/1.0/" xmlns:param="http://www.loytec.com/xsd/paramSet/1.0/">
+   <pointCfgParams>
+    <datapointValues/>
+   </pointCfgParams>
+  </paramSet>
+ </DataPoints>
+ <AppObjects>
+  <appCfg version="1">
+   <mathCfg>
+    <mathObjList/>
+    <scriptFolderView>
+     <folderView id="af0x00600000" uid="l0x0000100d" name="" expanded="true"/>
+    </scriptFolderView>
+   </mathCfg>
+  </appCfg>
+  <gatewayHubConfig>
+   <localHubs name="hubFolder"/>
+   <globalHubs name="hubFolder"/>
+  </gatewayHubConfig>
+ </AppObjects>
+ <LvPage name="Symbol" id="a0x19571111" argb32="true">
+  <color back="0xff7f9fff"/>
+  <options hidden="false" locked="false"/>
+ </LvPage>
+ <LvCollect name="Global Objects" id="a0x4380a76b" argb32="true" flags="0x00000002">
+  <color/>
+ </LvCollect>
+ <LvCollect name="Templates" id="a0x63806463" argb32="true" flags="0x00000004">
+  <color/>
+ </LvCollect>
+</lvisConfig>

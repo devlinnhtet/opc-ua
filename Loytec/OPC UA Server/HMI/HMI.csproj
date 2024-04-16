@@ -1,0 +1,147 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{93BAE86A-11CC-4F9A-A209-6B893F44E57A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HMI</RootNamespace>
+    <AssemblyName>HMI</AssemblyName>
+    <NxtVersion>3.0.20.0</NxtVersion>
+    <HMILibraries>HMIBaseSymbols:</HMILibraries>
+    <Theme>Default:Default|DefaultLight</Theme>
+    <ProjectType>HMI</ProjectType>
+    <Platform Condition=" '$(Platform)' == '' ">Windows</Platform>
+    <CanvasSize>1280,900,1280,980,Default,True,140,30</CanvasSize>
+    <CanvasLookAndFeel>Theme</CanvasLookAndFeel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\$(Platform)\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\$(Platform)\Release</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Windows' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Windows' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'Windows' ">
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <FileAlignment>4096</FileAlignment>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommunicationProfile">
+      <HintPath>CommunicationProfile.dll</HintPath>
+    </Reference>
+    <Reference Include="HMIBaseSymbols">
+      <HintPath>HMIBaseSymbols.dll</HintPath>
+    </Reference>
+    <Reference Include="Loytec.BuildingAutomation.HMI">
+      <Version>3.0.0.6</Version>
+      <HintPath>Loytec.BuildingAutomation.HMI.dll</HintPath>
+    </Reference>
+    <Reference Include="NxtControl.ComponentModel">
+      <HintPath>NxtControl.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="NxtControl.GuiFramework">
+      <HintPath>NxtControl.GuiFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG.def.cs" />
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG.event.cs" />
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.cs">
+      <Usage>NoDocumentation</Usage>
+    </Compile>
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.Designer.cs">
+      <DependentUpon>AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER.def.cs" />
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER.event.cs" />
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.cs">
+      <Usage>NoDocumentation</Usage>
+    </Compile>
+    <Compile Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.Designer.cs">
+      <DependentUpon>AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG.def.cs" />
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG.event.cs" />
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.cs" />
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.Designer.cs">
+      <DependentUpon>AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER.def.cs" />
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER.event.cs" />
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.cs" />
+    <Compile Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.Designer.cs">
+      <DependentUpon>AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Colors\ProjectColors.cs" />
+    <Compile Include="Colors\ProjectDrawingObjects.cs" />
+    <Compile Include="StartCanvas.cnv.cs" />
+    <Compile Include="StartCanvas.cnv.Designer.cs">
+      <DependentUpon>StartCanvas.cnv.cs</DependentUpon>
+    </Compile>
+    <None Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG.Design.resx" />
+    <None Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER.Design.resx" />
+    <None Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG.Design.resx" />
+    <None Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER.Design.resx" />
+    <None Include="Colors\Default.color.theme" />
+    <None Include="Colors\Default.do.theme" />
+    <None Include="Colors\DefaultLight.color.theme" />
+    <None Include="Colors\DefaultLight.do.theme" />
+    <None Include="Colors\ProjectColors.xml" />
+    <None Include="Colors\ProjectDrawingObjects.xml" />
+    <None Include="ImageStorage\ImageStorage.xml" />
+    <EmbeddedResource Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.resx">
+      <DependentUpon>AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_CAT_Alarm_ENG\AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.xml">
+      <DependentUpon>AHU_HeatCoolMixer_CAT_Alarm_ENG_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.resx">
+      <DependentUpon>AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_CAT_Alarm_GER\AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.xml">
+      <DependentUpon>AHU_HeatCoolMixer_CAT_Alarm_GER_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.resx">
+      <DependentUpon>AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_DEV_Alarm_ENG\AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.xml">
+      <DependentUpon>AHU_HeatCoolMixer_DEV_Alarm_ENG_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.resx">
+      <DependentUpon>AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AHU_HeatCoolMixer_DEV_Alarm_GER\AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.xml">
+      <DependentUpon>AHU_HeatCoolMixer_DEV_Alarm_GER_sDefault.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarms\AlarmClasses.xml" />
+    <EmbeddedResource Include="Alarms\SystemAlarmClasses.xml" />
+    <EmbeddedResource Include="Configurations\HistoryTrend.xml" />
+    <EmbeddedResource Include="Configurations\Journalling.xml" />
+    <EmbeddedResource Include="Configurations\TagValueEditor.xml" />
+    <EmbeddedResource Include="StartCanvas.cnv.resx">
+      <DependentUpon>StartCanvas.cnv.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(SharpDevelopBinPath)\SharpDevelop.Build.CSharp.targets" />
+</Project>

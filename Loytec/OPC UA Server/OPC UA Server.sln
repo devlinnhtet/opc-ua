@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 2.2.1.3489
+Project("{EAD1E85F-CEF5-4861-AFF8-597F2DDE70FC}") = "IEC61499", "IEC61499\IEC61499.dfbproj", "{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMI", "HMI\HMI.csproj", "{93BAE86A-11CC-4F9A-A209-6B893F44E57A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows = Debug|Windows
+		Release|Windows = Release|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}.Debug|Windows.Build.0 = Debug|Windows
+		{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}.Debug|Windows.ActiveCfg = Debug|Windows
+		{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}.Release|Windows.Build.0 = Release|Windows
+		{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}.Release|Windows.ActiveCfg = Release|Windows
+		{93BAE86A-11CC-4F9A-A209-6B893F44E57A}.Debug|Windows.Build.0 = Debug|Windows
+		{93BAE86A-11CC-4F9A-A209-6B893F44E57A}.Debug|Windows.ActiveCfg = Debug|Windows
+		{93BAE86A-11CC-4F9A-A209-6B893F44E57A}.Release|Windows.Build.0 = Release|Windows
+		{93BAE86A-11CC-4F9A-A209-6B893F44E57A}.Release|Windows.ActiveCfg = Release|Windows
+	EndGlobalSection
+EndGlobal

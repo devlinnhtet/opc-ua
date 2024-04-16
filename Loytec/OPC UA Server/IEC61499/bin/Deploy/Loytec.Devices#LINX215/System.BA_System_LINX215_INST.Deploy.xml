@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deployCfg>
+	<registryCfg creator="">
+		<path path=".">
+			<key name="sys.proto.bacnet.dl.bip.0.port" type="REG_DATA_INT">47808</key>
+			<key name="sys.proto.bacnet.device.0.id" type="REG_DATA_INT">31</key>
+			<key name="sys.proto.bacnet.device.0.name" type="REG_DATA_STRING">LINX215</key>
+			<key name="sys.proto.bacnet.device.0.desc" type="REG_DATA_STRING">Automation Server</key>
+			<key name="sys.proto.enocean.baseID" type="REG_DATA_INT">39250</key>
+		</path>
+	</registryCfg>
+</deployCfg>

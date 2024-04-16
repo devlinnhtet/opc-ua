@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.0" xml:id="article_top" xmlns="http://docbook.org/ns/docbook">
+  <info>
+    <title xml:id="article_top.title">nxtStudio Help System</title>
+    <authorgroup>
+      <author>
+        <email />
+        <personname>
+          <firstname />
+          <surname />
+        </personname>
+        <personblurb><para></para></personblurb>
+        <affiliation>
+          <jobtitle />
+          <org>
+            <orgname />
+            <orgdiv />
+            <address>
+              <street />
+              <city />
+              <country />
+              <postcode />
+              <phone />
+              <fax />
+            </address>
+          </org>
+        </affiliation>
+      </author>
+    </authorgroup>
+    <org>
+      <orgname>LOYTEC electronics GmbH</orgname>
+      <orgdiv />
+      <address>
+        <street>Blumengasse 35</street>
+        <city>Wien</city>
+        <country>Austria</country>
+        <postcode>1170</postcode>
+        <phone>+43 1 4020805 - 0</phone>
+        <fax>+43 1 4020805 - 99</fax>
+      </address>
+    </org>
+    <abstract />
+  </info>
+</article>

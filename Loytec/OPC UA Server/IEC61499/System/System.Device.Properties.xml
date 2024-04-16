@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeviceProperties xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DefaultProfile>
+    <Device Name="BA_System_LINX215_INST">
+      <Property Name="IPAddress" Value="192.168.1.215" Hidden="false" ModifiedTime="03/14/2024 13:01:32" />
+      <ComplexProperty Name="Credentials" Expanded="true">
+        <Property Name="Password" Value="l1nkw1s3" Hidden="false" />
+        <ComplexProperty Name="Accounts" Expanded="true">
+          <ComplexProperty Name="Operator" Expanded="true">
+            <Property Name="Password" Value="12345" Hidden="false" />
+          </ComplexProperty>
+        </ComplexProperty>
+      </ComplexProperty>
+      <GroupProperty Name="DeploySolution" Expanded="true" Enabled="true" />
+      <ComplexProperty Name="System Settings" Expanded="true">
+        <ComplexProperty Name="BACnet" Expanded="true">
+          <Property Name="Id" Value="31" Hidden="false" ModifiedTime="03/14/2024 13:01:35" />
+          <Property Name="Name" Value="LINX215" Hidden="false" ModifiedTime="03/14/2024 13:01:41" />
+          <Property Name="Description" Value="Automation Server" Hidden="false" ModifiedTime="03/14/2024 13:01:55" />
+        </ComplexProperty>
+      </ComplexProperty>
+    </Device>
+  </DefaultProfile>
+</DeviceProperties>

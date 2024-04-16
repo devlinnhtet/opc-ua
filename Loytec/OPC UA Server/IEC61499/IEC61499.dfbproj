@@ -1,0 +1,144 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>IEC61499</AssemblyName>
+    <NxtVersion>3.0.20.0</NxtVersion>
+    <Platform Condition=" '$(Platform)' == '' ">Windows</Platform>
+    <CreateHMI>false</CreateHMI>
+    <HMIProject>HMI</HMIProject>
+    <CATInstancesHaveIds>true</CATInstancesHaveIds>
+    <ProjectFlavour>Loytec</ProjectFlavour>
+    <MinimumStudioVersion>3.2.4</MinimumStudioVersion>
+    <ProjectType>IEC61499</ProjectType>
+    <CheckGenericInstances>False</CheckGenericInstances>
+    <ConvertStringValues>False</ConvertStringValues>
+    <IKProjectFolders>Engineering.Identification Keys|Engineering.Year Shade</IKProjectFolders>
+    <VerboseDeploy>False</VerboseDeploy>
+    <DeployOnlyChanges>False</DeployOnlyChanges>
+    <DeployConnectionTimeout>60</DeployConnectionTimeout>
+    <DeployAnswerTimeout>10</DeployAnswerTimeout>
+    <DeployPreConnectWait>2</DeployPreConnectWait>
+    <ArchiveLinkServiceTimeout>30</ArchiveLinkServiceTimeout>
+    <LinxCfgVersion>8.2.4.0</LinxCfgVersion>
+    <LvisCfgVersion>8.0.8.0</LvisCfgVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Default\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <IntermediateOutputPath>obj\Default\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Default\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <IntermediateOutputPath>obj\Default\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Windows' ">
+    <Version>1.0</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'Windows' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(SharpDevelopBinPath)\NxtControl.Build.61499.Targets" />
+  <ItemGroup>
+    <Reference Include="IEC61131.Standard">
+      <Version>3.0.0.7</Version>
+    </Reference>
+    <Reference Include="Loytec.Base">
+      <Version>3.0.0.4</Version>
+    </Reference>
+    <Reference Include="Loytec.BuildingAutomation">
+      <Version>3.0.0.6</Version>
+    </Reference>
+    <Reference Include="Runtime.Base">
+      <Version>3.0.1.0</Version>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\LoytecDB.xml" />
+    <None Include="Database\ProjectConfiguration.linx0" />
+    <None Include="Engineering\IdentificationKeys\Schema.lweb900idks">
+      <SCHEMA>true</SCHEMA>
+      <IEC61499Type>ENGINEERING</IEC61499Type>
+      <GUID>CA8B7941304B8508</GUID>
+    </None>
+    <None Include="IEC61499.iecproj" />
+    <None Include="LINX215\LINX215.cfg">
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <IEC61499Type>CAT</IEC61499Type>
+    </None>
+    <None Include="LINX215\LINX215.dcfg">
+      <IEC61499Type>CAT_CFG</IEC61499Type>
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <Plugin>CAT.Type.DeviceCAT</Plugin>
+    </None>
+    <None Include="LINX215\LINX215_LWEB.lwebcfg">
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <IEC61499Type>CAT_LWEBCFG</IEC61499Type>
+      <SFBLWEB>true</SFBLWEB>
+      <Plugin>CAT.Type.DeviceCAT</Plugin>
+    </None>
+    <None Include="LINX215\LWebSymbol.lweb">
+      <IEC61499Type>CAT_LWEB</IEC61499Type>
+      <LWEB>true</LWEB>
+      <GUID>79F70EB4CE188037</GUID>
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <Plugin>CAT.Type.DeviceCAT</Plugin>
+    </None>
+    <None Include="LINX215\Project1.lwebprj">
+      <IEC61499Type>CAT_LWEBPRJ</IEC61499Type>
+      <LWEBPRJ>true</LWEBPRJ>
+      <GUID>A56BF03EEC960797</GUID>
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <Plugin>CAT.Type.LWEBCAT61499</Plugin>
+    </None>
+    <None Include="Project.doc.xml" />
+    <None Include="System\System.BA_System_LINX215_INST.dcfg" />
+    <None Include="System\System.BA_System_LINX215_INST.dpal_config.zml" />
+    <None Include="System\System.cfg">
+      <DependentUpon>System.sys</DependentUpon>
+      <IEC61499Type>System</IEC61499Type>
+    </None>
+    <None Include="System\System.Device.Properties.xml">
+      <DependentUpon>System.sys</DependentUpon>
+    </None>
+    <Compile Include="BasicFb1.fbt">
+      <IEC61499Type>Basic</IEC61499Type>
+    </Compile>
+    <Compile Include="LINX215\LINX215.fbt">
+      <IEC61499Type>CAT</IEC61499Type>
+      <Parent>.A_DeviceCAT</Parent>
+    </Compile>
+    <Compile Include="LINX215\LINX215.it">
+      <IEC61499Type>CAT_IT</IEC61499Type>
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <Plugin>CAT.Type.DeviceCAT</Plugin>
+    </Compile>
+    <Compile Include="LINX215\LINX215_LWEB.fbt">
+      <IEC61499Type>CAT_LWEBSFB</IEC61499Type>
+      <SFBLWEB>true</SFBLWEB>
+      <DependentUpon>LINX215.fbt</DependentUpon>
+      <Usage>Private</Usage>
+      <Plugin>CAT.Type.DeviceCAT</Plugin>
+      <InstanceName>lweb</InstanceName>
+    </Compile>
+    <Compile Include="System\System.BA_System_LINX215_INST.it">
+      <DependentUpon>System.sys</DependentUpon>
+      <IncludeInLink>Loytec_it</IncludeInLink>
+    </Compile>
+    <Compile Include="System\System.sys">
+      <IEC61499Type>System</IEC61499Type>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configuration" />
+    <Folder Include="License" />
+    <Folder Include="Log" />
+  </ItemGroup>
+</Project>

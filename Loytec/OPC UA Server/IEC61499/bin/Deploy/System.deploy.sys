@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE System SYSTEM "../LibraryElement.dtd">
+<System Name="System">
+  <Device ID="1ABC92917B2C6388" Name="BA_System_LINX215_INST" Type="LINX215" x="650.5677" y="531.9271" Namespace="Loytec.Devices">
+    <Parameter Name="MGR_ID" Value="&quot;127.0.0.1:61499&quot;" />
+    <Parameter Name="HMI_ID" Value="&quot;127.0.0.1:61498&quot;" />
+    <Parameter Name="WATCH_ID" Value="&quot;127.0.0.1:61497&quot;" />
+    <Resource ID="F4F30E8C109984FB" Name="RES0" Type="EMB_RES" Namespace="Loytec.Base">
+      <FBNetwork>
+        <FB ID="6F2F8C4B2974D6D6" Name="LINX215_INST" Type="LINX215" x="600" y="220" Namespace="Main" />
+      </FBNetwork>
+    </Resource>
+    <FBNetwork />
+  </Device>
+</System>

@@ -1,0 +1,13 @@
+{
+   "instanceMap" : {
+      "1" : {
+         "path" : "lweb",
+         "type" : "Main.LINX215_LWEB"
+      }
+   },
+   "typeMap" : {
+      "Main.LINX215_LWEB" : {
+         "filepath" : ".\\IEC61499\\LINX215\\LINX215_LWEB.lwebcfg"
+      }
+   }
+}

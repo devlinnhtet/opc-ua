@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InstanceTable>
+ <SFBInstances>
+  <SFBInstance Type="Main.LINX215_LWEB" UPath="1" Path="lweb"/>
+ </SFBInstances>
+ <POUInstances/>
+</InstanceTable>

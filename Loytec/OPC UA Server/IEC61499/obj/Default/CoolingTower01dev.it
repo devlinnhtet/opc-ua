@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ConfiguratorData="CoolingTower01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.CTplantSwitch" UPath="1.3" Path="CT01.CTplantSwitch">
+      <IOInstance Name="outSysEnable" UName="Ol0x000011aa" UID="l0x0000112f" />
+      <IOInstance Name="outAC1to8En" UName="Ol0x00001085" UID="l0x00001131" />
+      <IOInstance Name="outAC9to15En" UName="Ol0x00001086" UID="l0x00001132" />
+      <IOInstance Name="outExhaustFan" UName="Ol0x00001087" UID="l0x00001133" />
+      <IOInstance Name="inAC1to8Occupied" UName="Il0x000011a8" UID="l0x0000112d" />
+      <IOInstance Name="inAC9to15Occupied" UName="Il0x000011a9" UID="l0x0000112e" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CTpumpRuntimeCount" UPath="1.4" Path="CT01.CTpumpRuntimeCount">
+      <IOInstance Name="inCtpRtmanValue" UName="Il0x000010ff" UID="l0x00001142" />
+      <IOInstance Name="inSetCtpRtmanValue" UName="Il0x00001100" UID="l0x00001143" />
+      <IOInstance Name="outCtpRuntime" UName="Ol0x00001101" UID="l0x00001144" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CTpump" UPath="1.5" Path="CT01.CTpump">
+      <IOInstance Name="inOaTemp" UName="Il0x00001081" UID="l0x0000113e" />
+      <IOInstance Name="inCtPumpStatus" UName="Il0x00001082" UID="l0x0000113f" />
+      <IOInstance Name="outCtPumpEn" UName="Ol0x00001083" UID="l0x00001140" />
+      <IOInstance Name="inCtEnableOaDiff" UName="Il0x000011ad" UID="l0x00001135" />
+      <IOInstance Name="inCtEnableOaStpt" UName="Il0x000011ae" UID="l0x00001136" />
+      <IOInstance Name="inCtPmpAlmTimeDelay" UName="Il0x000011b1" UID="l0x00001137" />
+      <IOInstance Name="outCwFlowEst" UName="Ol0x000011af" UID="l0x00001138" />
+      <IOInstance Name="outCtpOffAlarm" UName="Ol0x000011b0" UID="l0x00001139" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CTfanControl" UPath="1.6" Path="CT01.CTfanControl">
+      <IOInstance Name="inBldgEntCwTemp" UName="Il0x00001081" UID="l0x0000110b" />
+      <IOInstance Name="inCtFanStatus" UName="Il0x000010eb" UID="l0x0000111a" />
+      <IOInstance Name="outCtFanSpeed" UName="Ol0x00001089" UID="l0x0000110c" />
+      <IOInstance Name="outCtFanEn" UName="Ol0x000010ea" UID="l0x0000111b" />
+      <IOInstance Name="inCtFanEnableCwStpt" UName="Il0x000011b4" UID="l0x0000110f" />
+      <IOInstance Name="inCtFanEnableCwDiff" UName="Il0x000011b5" UID="l0x00001110" />
+      <IOInstance Name="inCtFanAlmTimeDelay" UName="Il0x000011b6" UID="l0x00001111" />
+      <IOInstance Name="inMinimumSpeed" UName="Il0x000011b7" UID="l0x00001112" />
+      <IOInstance Name="inTi" UName="Il0x000011bc" UID="l0x00001113" />
+      <IOInstance Name="inCwTempStpt" UName="Il0x000011b9" UID="l0x0000110e" />
+      <IOInstance Name="inDeadBand" UName="Il0x000011ba" UID="l0x00001114" />
+      <IOInstance Name="inKp" UName="Il0x000011bb" UID="l0x00001115" />
+      <IOInstance Name="outCtFanOffAlarm" UName="Ol0x000011b8" UID="l0x00001116" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CwPumpLeadDet" UPath="1.7.6" Path="CT01.CTcwPumpLead.CwPumpLeadDet" />
+    <POUInstance Type="Loytec.BuildingAutomation.CTcwPumpLead" UPath="1.7" Path="CT01.CTcwPumpLead">
+      <IOInstance Name="outPump1Call" UName="Ol0x0000121e" UID="l0x00001105" />
+      <IOInstance Name="outPump2Call" UName="Ol0x0000121f" UID="l0x00001106" />
+      <IOInstance Name="inRtManValuePmp1" UName="Il0x00001217" UID="l0x000010fe" />
+      <IOInstance Name="inSetRtManValuePmp1" UName="Il0x00001218" UID="l0x000010ff" />
+      <IOInstance Name="inRtManValuePmp2" UName="Il0x0000121a" UID="l0x00001100" />
+      <IOInstance Name="inSetRtManValuePmp2" UName="Il0x0000121b" UID="l0x00001101" />
+      <IOInstance Name="inRtDiffPmpRotat" UName="Il0x0000121d" UID="l0x00001102" />
+      <IOInstance Name="outRuntimeCountPmp1" UName="Ol0x00001219" UID="l0x00001103" />
+      <IOInstance Name="outRuntimeCountPmp2" UName="Ol0x0000121c" UID="l0x00001104" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CTcwPump" UPath="1.8" Path="CT01.CTcwPump1">
+      <IOInstance Name="outCwPmpAlarmStatus" UName="Ol0x0000124b" UID="l0x000010eb" />
+      <IOInstance Name="inCwPumpStatus" UName="Il0x00001131" UID="l0x000010f1" />
+      <IOInstance Name="outCwPump" UName="Ol0x0000112b" UID="l0x000010f2" />
+      <IOInstance Name="inCwPmpOffTimeDelay" UName="Il0x00001249" UID="l0x000010e9" />
+      <IOInstance Name="inCwPmpAlmTimeDelay" UName="Il0x0000124a" UID="l0x000010ea" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.CTcwPump" UPath="1.9" Path="CT01.CTcwPump2">
+      <IOInstance Name="outCwPmpAlarmStatus" UName="Ol0x0000124b" UID="l0x000010f6" />
+      <IOInstance Name="inCwPumpStatus" UName="Il0x00001131" UID="l0x000010fb" />
+      <IOInstance Name="outCwPump" UName="Ol0x0000112b" UID="l0x000010fc" />
+      <IOInstance Name="inCwPmpOffTimeDelay" UName="Il0x00001249" UID="l0x000010f4" />
+      <IOInstance Name="inCwPmpAlmTimeDelay" UName="Il0x0000124a" UID="l0x000010f5" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.4.1" Path="CT01.CTpumpRuntimeCount.RuntimeCount" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.6.3" Path="CT01.CTfanControl.Pi1Controller" />
+    <POUInstance Type="Loytec.BuildingAutomation.CwPump" UPath="1.8.5" Path="CT01.CTcwPump1.CwPump" />
+    <POUInstance Type="Loytec.BuildingAutomation.CwPump" UPath="1.9.5" Path="CT01.CTcwPump2.CwPump" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.7.6.10" Path="CT01.CTcwPumpLead.CwPumpLeadDet.Pmp1Runtime" />
+    <POUInstance Type="Loytec.BuildingAutomation.RuntimeCount" UPath="1.7.6.11" Path="CT01.CTcwPumpLead.CwPumpLeadDet.Pmp2Runtime" />
+  </POUInstances>
+</InstanceTable>

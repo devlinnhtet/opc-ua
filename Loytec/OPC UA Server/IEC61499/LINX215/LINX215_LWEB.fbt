@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE FBType SYSTEM "../LibraryElement.dtd">
+<FBType GUID="4857708D9077E03B" Name="LINX215_LWEB" Comment="Service Interface Function Block Type" Namespace="Main">
+  <Attribute Name="Configuration.FBType.DPAL.SFBLWEB" />
+  <Attribute Name="Runtime.FBType.ImplementingType" Value="Loytec.DPAL#DYNGEN_DPALSFB" />
+  <Attribute Name="Configuration.FB.IDCounter" Value="0" />
+  <Identification Standard="61499-2" />
+  <VersionInfo Organization="LOYTEC electronics GmbH " Version="0.0" Author="linkwise-linn" Date="3/14/2024" Remarks="template" />
+  <CompilerInfo>
+    <Compiler Language="Cpp" Vendor="LOYTEC electronics GmbH" Product="builtin " Version="1.0" />
+  </CompilerInfo>
+  <InterfaceList>
+    <EventInputs>
+      <Event Name="INIT" DisplayName="INIT">
+        <With Var="QI" />
+      </Event>
+    </EventInputs>
+    <EventOutputs>
+      <Event Name="INITO" DisplayName="INITO">
+        <With Var="QO" />
+      </Event>
+    </EventOutputs>
+    <InputVars>
+      <VarDeclaration Name="QI" Type="BOOL" DisplayName="QI" />
+    </InputVars>
+    <OutputVars>
+      <VarDeclaration Name="QO" Type="BOOL" DisplayName="QO" />
+    </OutputVars>
+  </InterfaceList>
+  <Service RightInterface="RESOURCE" LeftInterface="APPLICATION">
+    <ServiceSequence Name="" />
+  </Service>
+</FBType>

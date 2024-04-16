@@ -1,0 +1,6 @@
+
+PID:18744 ************************* Logging started at 03/26/2024 09:14:55 *************************
+18744 - 26/3/2024 09:14:55.842 Token #0 created. CreatedAt = 01:14:55.842 . Lifetime = 3600000
+18744 - 26/3/2024 09:14:55.846 SECURE CHANNEL CREATED [TcpClientChannel UA-TCP 1.03.342.0] [ID=89] Connected To: opc.tcp://192.168.1.215:4840/ [None/None/Binary]
+18744 - 26/3/2024 09:14:55.846 Token #1 activated. CreatedAt = 01:14:55.842 . Lifetime = 3600000
+18744 - 26/3/2024 09:14:55.878 TCPCLIENTCHANNEL SOCKET CLOSED: 0000079C, ChannelId=89

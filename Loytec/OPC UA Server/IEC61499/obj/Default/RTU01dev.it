@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ConfiguratorData="RTU01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.RTUbypassDamperControl" UPath="1.6" Path="RTU01.RTUbypassDamperControl">
+      <IOInstance Name="inDuctPressure" UName="Il0x00001147" UID="l0x000010ed" />
+      <IOInstance Name="outBypassDamper" UName="Ol0x00001150" UID="l0x000010ee" />
+      <IOInstance Name="inStartValue" UName="Il0x0000119d" UID="l0x000010d7" />
+      <IOInstance Name="inBypassPressSetpt" UName="Il0x0000119e" UID="l0x000010d8" />
+      <IOInstance Name="inRampTime" UName="Il0x0000119f" UID="l0x000010e5" />
+      <IOInstance Name="inDamperControlMode" UName="Il0x000011a0" UID="l0x000010e6" />
+      <IOInstance Name="inDeadBand" UName="Il0x000011a1" UID="l0x000010e7" />
+      <IOInstance Name="inDamperManualValue" UName="Il0x000011a2" UID="l0x000010e8" />
+      <IOInstance Name="inDeadbandHyst" UName="Il0x000011a3" UID="l0x000010e9" />
+      <IOInstance Name="inStartTime" UName="Il0x000011a4" UID="l0x000010ea" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RTUfanControl" UPath="1.7" Path="RTU01.RTUfanControl">
+      <IOInstance Name="inFanStatus" UName="Il0x000011db" UID="l0x00001119" />
+      <IOInstance Name="outFanSs" UName="Ol0x00001194" UID="l0x0000111a" />
+      <IOInstance Name="inOccFanMode" UName="Il0x00001287" UID="l0x0000110b" />
+      <IOInstance Name="inFanMinOnTime" UName="Il0x00001288" UID="l0x0000110c" />
+      <IOInstance Name="inFanMinOffTime" UName="Il0x00001289" UID="l0x0000110d" />
+      <IOInstance Name="inFanRunOnTime" UName="Il0x0000128a" UID="l0x0000110e" />
+      <IOInstance Name="inAlarmTimeDelay" UName="Il0x0000128b" UID="l0x0000110f" />
+      <IOInstance Name="outFanOffAlarm" UName="Ol0x0000128c" UID="l0x00001110" />
+      <IOInstance Name="outFanOnAlarm" UName="Ol0x0000128d" UID="l0x00001114" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RTUplantSwitch" UPath="1.8" Path="RTU01.RTUplantSwitch">
+      <IOInstance Name="inOccupiedStatus" UName="Il0x000011e8" UID="l0x00001131" />
+      <IOInstance Name="inTargetState" UName="Il0x00001243" UID="l0x00001132" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.NightCycle" UPath="1.9.7" Path="RTU01.RTUnightCycle.NightCycle" />
+    <POUInstance Type="Loytec.BuildingAutomation.RTUnightCycle" UPath="1.9" Path="RTU01.RTUnightCycle">
+      <IOInstance Name="outNightCycle" UName="Ol0x000011f8" UID="l0x0000111f" />
+      <IOInstance Name="inUnoccRaCheckInterval" UName="Il0x000011f5" UID="l0x0000111c" />
+      <IOInstance Name="inUnoccRaCheckRunTime" UName="Il0x000011f6" UID="l0x0000111d" />
+      <IOInstance Name="inUnoccCycleHys" UName="Il0x000011f7" UID="l0x0000111e" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RTUreturnAirControl" UPath="1.10" Path="RTU01.RTUreturnAirControl">
+      <IOInstance Name="outCoolPI" UName="Ol0x00001206" UID="l0x00001139" />
+      <IOInstance Name="outHeatPI" UName="Ol0x0000120c" UID="l0x0000113a" />
+      <IOInstance Name="inReturnAirTemp" UName="Il0x0000113f" UID="l0x00001137" />
+      <IOInstance Name="inReturnAirRh" UName="Il0x000011a8" UID="l0x00001147" />
+      <IOInstance Name="inKpCool" UName="Il0x00001207" UID="l0x0000113b" />
+      <IOInstance Name="inTiCool" UName="Il0x00001208" UID="l0x0000113c" />
+      <IOInstance Name="inDeadBandCool" UName="Il0x00001209" UID="l0x0000113d" />
+      <IOInstance Name="inRaOccCoolSetpt" UName="Il0x0000120a" UID="l0x0000113e" />
+      <IOInstance Name="inRaUnoccCoolSetpt" UName="Il0x0000120b" UID="l0x0000113f" />
+      <IOInstance Name="inKpHeat" UName="Il0x0000120d" UID="l0x00001140" />
+      <IOInstance Name="inTiHeat" UName="Il0x0000120e" UID="l0x00001141" />
+      <IOInstance Name="inDeadBandHeat" UName="Il0x0000120f" UID="l0x00001142" />
+      <IOInstance Name="inRaOccHeatSetpt" UName="Il0x00001210" UID="l0x00001143" />
+      <IOInstance Name="inRaUnoccHeatSetpt" UName="Il0x00001211" UID="l0x00001144" />
+      <IOInstance Name="outCurrentRaCoolSetpt" UName="Ol0x00001242" UID="l0x00001145" />
+      <IOInstance Name="outCurrentRaHeatSetpt" UName="Ol0x00001243" UID="l0x00001146" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.RTUsupplyAirControl" UPath="1.11" Path="RTU01.RTUsupplyAirControl">
+      <IOInstance Name="outCoolPI" UName="Ol0x000011e7" UID="l0x00001150" />
+      <IOInstance Name="outHeatPI" UName="Ol0x000011e8" UID="l0x00001151" />
+      <IOInstance Name="inDischargeAirTemp" UName="Il0x0000113f" UID="l0x00001154" />
+      <IOInstance Name="inKp" UName="Il0x000011e0" UID="l0x00001149" />
+      <IOInstance Name="inTi" UName="Il0x000011e1" UID="l0x0000114a" />
+      <IOInstance Name="inDeadBand" UName="Il0x000011e2" UID="l0x0000114b" />
+      <IOInstance Name="inLowDaResetSp" UName="Il0x000011e3" UID="l0x0000114c" />
+      <IOInstance Name="inHighDaResetSp" UName="Il0x000011e4" UID="l0x0000114d" />
+      <IOInstance Name="inHighRaResetSp" UName="Il0x000011e5" UID="l0x0000114e" />
+      <IOInstance Name="inLowRaResetSp" UName="Il0x000011e6" UID="l0x0000114f" />
+      <IOInstance Name="outCurrentSaSetpt" UName="Ol0x00001217" UID="l0x00001152" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Cool2Staging" UPath="1.12.1" Path="RTU01.RTUcool2StgHeat2Stg.Cool2Staging" />
+    <POUInstance Type="Loytec.BuildingAutomation.Heat2Staging" UPath="1.12.2" Path="RTU01.RTUcool2StgHeat2Stg.Heat2Staging" />
+    <POUInstance Type="Loytec.BuildingAutomation.RTUcool2StgHeat2Stg" UPath="1.12" Path="RTU01.RTUcool2StgHeat2Stg">
+      <IOInstance Name="outCoolStage1" UName="Ol0x00001097" UID="l0x00001100" />
+      <IOInstance Name="outHeatStage1" UName="Ol0x00001099" UID="l0x00001102" />
+      <IOInstance Name="outCoolStage2" UName="Ol0x00001098" UID="l0x00001101" />
+      <IOInstance Name="outHeatStage2" UName="Ol0x0000109a" UID="l0x00001103" />
+      <IOInstance Name="in1stStageCallSetpt" UName="Il0x0000117c" UID="l0x000010f0" />
+      <IOInstance Name="in2ndStageCallSetpt" UName="Il0x0000117d" UID="l0x000010f1" />
+      <IOInstance Name="inCallDifferential" UName="Il0x0000117e" UID="l0x000010f2" />
+      <IOInstance Name="inCoolMinOnTime" UName="Il0x0000117f" UID="l0x000010f3" />
+      <IOInstance Name="inCoolMinOffTime" UName="Il0x00001180" UID="l0x000010f4" />
+      <IOInstance Name="inHeatMinOnTime" UName="Il0x00001181" UID="l0x000010f5" />
+      <IOInstance Name="inHeatMinOffTime" UName="Il0x00001182" UID="l0x000010f6" />
+      <IOInstance Name="in2ndStageHighLimitSetpt" UName="Il0x00001183" UID="l0x000010f7" />
+      <IOInstance Name="in2ndStageLowLimitSetpt" UName="Il0x00001185" UID="l0x000010f8" />
+      <IOInstance Name="in1stStageLowLimitSetpt" UName="Il0x00001184" UID="l0x000010f9" />
+      <IOInstance Name="in1stStageHighLimitSetpt" UName="Il0x00001186" UID="l0x000010fa" />
+      <IOInstance Name="inLimitSetptDiff" UName="Il0x00001187" UID="l0x000010fb" />
+      <IOInstance Name="inInterstageMinTime" UName="Il0x00001188" UID="l0x000010fc" />
+      <IOInstance Name="inDelayBetweenModes" UName="Il0x00001189" UID="l0x000010fd" />
+      <IOInstance Name="inControlMethod" UName="Il0x0000118b" UID="l0x000010fe" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.PressureContr" UPath="1.6.3" Path="RTU01.RTUbypassDamperControl.PressureContr" />
+    <POUInstance Type="Loytec.BuildingAutomation.PlantSwitch3" UPath="1.8.13" Path="RTU01.RTUplantSwitch.PlantSwitch3" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.11.1" Path="RTU01.RTUsupplyAirControl.Pi1Controller" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.10.1" Path="RTU01.RTUreturnAirControl.CoolController" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.10.2" Path="RTU01.RTUreturnAirControl.HeatController" />
+  </POUInstances>
+</InstanceTable>

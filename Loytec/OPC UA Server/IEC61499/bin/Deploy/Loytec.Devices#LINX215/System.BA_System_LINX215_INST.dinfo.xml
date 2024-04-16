@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeployInformation ProjectName="OPC UA Server" ProjectGuid="{52D754D4-5C4B-4F41-BF20-7296AE9F54D6}" System="System" DeviceName="BA_System_LINX215_INST">
+  <DeviceProperties>
+    <Property Name="IPAddress" Value="192.168.1.215" Hidden="false" ModifiedTime="03/14/2024 13:01:32" />
+    <Property Name="PublicIPAddress" Value="" Hidden="false" />
+    <ComplexProperty Name="Ports">
+      <Property Name="HMI" Value="61498" Hidden="false" />
+      <Property Name="Watch" Value="61497" Hidden="false" />
+      <Property Name="SSH" Value="22" Hidden="false" />
+      <Property Name="HTTP" Value="80" Hidden="false" />
+      <Property Name="HTTPS" Value="443" Hidden="false" />
+      <Property Name="PublicWebPort" Value="443" Hidden="false" />
+      <Property Name="LocalWebProtocol" Value="HTTP" Hidden="false" />
+      <Property Name="PublicWebProtocol" Value="HTTPS" Hidden="false" />
+    </ComplexProperty>
+    <ComplexProperty Name="Credentials">
+      <Property Name="User" Value="admin" Hidden="false" />
+      <Property Name="Password" Value="l1nkw1s3" Hidden="true" />
+      <ComplexProperty Name="Accounts">
+        <ComplexProperty Name="Operator">
+          <Property Name="User" Value="operator" Hidden="false" />
+          <Property Name="Password" Value="12345" Hidden="true" />
+        </ComplexProperty>
+      </ComplexProperty>
+    </ComplexProperty>
+    <Property Name="Login" Value="Yes" Hidden="false" />
+    <Property Name="HmiDeviceType" Value="LWEB-800" Hidden="false" />
+    <Property Name="DeployedGlobalLWebProjects" Value="(None)" Hidden="false" />
+    <GroupProperty Name="DeploySolution" Enabled="true">
+      <Property Name="ProjectDirectory" Value="/var/lib/rt61499/deploy/archive/" Hidden="false" />
+    </GroupProperty>
+    <ComplexProperty Name="Compile">
+      <Property Name="LWebOpcServer" Value="device" Hidden="false" />
+    </ComplexProperty>
+    <ComplexProperty Name="Datapoints">
+      <ComplexProperty Name="Inherit from Device CAT">
+        <Property Name="Schedules and Presets" Value="no" Hidden="false" />
+      </ComplexProperty>
+    </ComplexProperty>
+    <ComplexProperty Name="Engineering">
+      <ComplexProperty Name="Year Shade Progression">
+        <Property Name="DeployedYspFiles" Value="(None)" Hidden="false" />
+      </ComplexProperty>
+    </ComplexProperty>
+    <ComplexProperty Name="DeployProfile">
+      <Property Name="Method" Value="loytechttp" Hidden="false" />
+      <Property Name="DeploySystemSettings" Value="true" Hidden="false" />
+      <ComplexProperty Name="Directories">
+        <Property Name="RuntimeDirectory" Value="/var/lib/rt61499" Hidden="false" />
+        <Property Name="AuxDirectory" Value="/var/lib/lgtw" Hidden="false" />
+        <Property Name="LWebDirectory" Value="/var/lib/rt61499/deploy/lweb" Hidden="false" />
+        <Property Name="LVisDirectory" Value="/var/lib/rt61499/deploy/lvis" Hidden="false" />
+        <Property Name="DeployXmlDirectory" Value="/var/lib/rt61499/deploy" Hidden="false" />
+        <Property Name="HashDirectory" Value="/var/lib/rt61499/deploy" Hidden="false" />
+      </ComplexProperty>
+      <ComplexProperty Name="Commands">
+        <Property Name="DeployStartCommand" Value="rt61499_ctl deploystart" Hidden="false" />
+        <Property Name="DeployEndCommand" Value="rt61499_ctl deployend" Hidden="false" />
+        <Property Name="ClearCommand" Value="rt61499_ctl clear" Hidden="false" />
+      </ComplexProperty>
+    </ComplexProperty>
+    <GroupProperty Name="SSH Tunneling" Enabled="false">
+      <Property Name="DeployPort" Value="55000" Hidden="false" />
+      <Property Name="HMIPort" Value="55001" Hidden="false" />
+      <Property Name="WatchPort" Value="55002" Hidden="false" />
+    </GroupProperty>
+    <ComplexProperty Name="System Settings">
+      <ComplexProperty Name="BACnet">
+        <Property Name="IP Port" Value="47808" Hidden="false" UserData="name=sys.proto.bacnet.dl.bip.0.port|type=REG_DATA_INT" />
+        <Property Name="Id" Value="31" Hidden="false" ModifiedTime="03/14/2024 13:01:35" UserData="name=sys.proto.bacnet.device.0.id|type=REG_DATA_INT" ColumnName="BACnet ID" />
+        <Property Name="Name" Value="LINX215" Hidden="false" ModifiedTime="03/14/2024 13:01:41" UserData="name=sys.proto.bacnet.device.0.name|type=REG_DATA_STRING" ColumnName="BACnet Name" />
+        <Property Name="Description" Value="Automation Server" Hidden="false" ModifiedTime="03/14/2024 13:01:55" UserData="name=sys.proto.bacnet.device.0.desc|type=REG_DATA_STRING" ColumnName="BACnet Description" />
+      </ComplexProperty>
+      <ComplexProperty Name="Enocean">
+        <Property Name="Base ID" Value="39250" Hidden="false" UserData="name=sys.proto.enocean.baseID|type=REG_DATA_INT" />
+      </ComplexProperty>
+    </ComplexProperty>
+  </DeviceProperties>
+  <UsedDll>IEC61499.exe</UsedDll>
+  <FileName>C:\Users\linkwise-linn\Documents\LStudioProjects\OPC UA Server\IEC61499\System\System.sys</FileName>
+  <DeployHashesFile>/var/lib/rt61499/deploy/deploy.hashes</DeployHashesFile>
+  <BuildTime>2024-04-15 03:01:22Z</BuildTime>
+  <StudioVersion>IEC 61499 IDE, Gaia 3.0.x-dev g3350 86cc4f4f8f Sun Nov 27 04:06:46 2022</StudioVersion>
+  <StudioInfo>V1;3598E036301BDEBD52B21BE90D069594068729E0160BCFB452D64AB757539CEA5DD54BB55459E2B10CAA1BE8015FE28B3BB13ECC2B4F9DF65DCA42BE280BCD9B00890AE40A1B939420BD2EC02759E2B10CA117E40D0E93AB1A940AEA1616EEB4009D0EE0074CCDB702DF2AF70B08CBBB1BAA1BE8015FE1882CC42FC44431CBAA198108BE3410C1B20A870EC2110BCAE514D148C153579A9C5BC94FC6502083EC29D04BA826249CE842D348BC5223EBE129D14EC1521F95;</StudioInfo>
+  <Actions>
+    <Action Method="loytechttp" Context="deploy" Priority="700" Operation="copy" FileType="zippedbootproject">
+      <LocalFile>System.BA_System_LINX215_INST.zip</LocalFile>
+    </Action>
+    <Action Method="loytechttp" Context="deploy" Priority="700" Operation="copy" FileType="other">
+      <LocalFile>System.BA_System_LINX215_INST.Deploy.xml</LocalFile>
+      <RemoteFile>/var/lib/rt61499/deploy/deploy.xml</RemoteFile>
+    </Action>
+    <Action Method="loytechttp" Context="deploy" Priority="1100" Operation="copy" FileType="solutionarchive">
+      <LocalFile>lstudiosolution.sln.zip</LocalFile>
+      <RemoteFile>/var/lib/rt61499/deploy/archive//lstudiosolution.sln.zip</RemoteFile>
+    </Action>
+    <Action Method="loytechttp" Context="deploy" Priority="1100" Operation="copy" FileType="lweblvisconfig">
+      <LocalFile>..\Loytec.Devices#LINX215\System.BA_System_LINX215_INST.Project1.lweb3</LocalFile>
+      <RemoteFile>/var/lib/rt61499/deploy/lweb/System.BA_System_LINX215_INST.Project1.lweb3</RemoteFile>
+    </Action>
+    <Action Method="loytechttp" Context="deploy" Priority="1100" Operation="copy" FileType="dpalconfig">
+      <LocalFile>System.BA_System_LINX215_INST.dpal_config.zml</LocalFile>
+      <RemoteFile>/var/lib/lgtw/dpal_config.zml</RemoteFile>
+    </Action>
+  </Actions>
+  <RequestCollectionFileName>System.BA_System_LINX215_INST.drq.xml</RequestCollectionFileName>
+  <DeviceFileName>System.BA_System_LINX215_INST.sysdev.xml</DeviceFileName>
+  <DependenciesFileName>System.BA_System_LINX215_INST.fbdep.txt</DependenciesFileName>
+</DeployInformation>

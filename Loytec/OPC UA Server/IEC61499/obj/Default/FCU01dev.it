@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ConfiguratorData="FCU01dev.it">
+  <DeviceCAT xsi:nil="true" />
+  <SFBInstances UName="100" />
+  <POUInstances>
+    <POUInstance Type="Loytec.BuildingAutomation.FCUsupplyFanControl" UPath="1.4" Path="FCU01.FCUsupplyFanControl">
+      <IOInstance Name="inFanStatus" UName="Il0x00001081" UID="l0x00001148" />
+      <IOInstance Name="outFan" UName="Ol0x0000107e" UID="l0x00001149" />
+      <IOInstance Name="inStatusAlarmDelay" UName="Il0x00001193" UID="l0x0000113e" />
+      <IOInstance Name="outFanOnAlarm" UName="Ol0x00001195" UID="l0x0000113f" />
+      <IOInstance Name="outtFanOffAlarm" UName="Ol0x00001196" UID="l0x00001143" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.FCUplantSwitch" UPath="1.5" Path="FCU01.FCUplantSwitch">
+      <IOInstance Name="outActCoolSetpt" UName="Ol0x00001384" UID="l0x00001137" />
+      <IOInstance Name="outActHeatSetpt" UName="Ol0x00001385" UID="l0x00001138" />
+      <IOInstance Name="inSetpointAdjust" UName="Il0x00001366" UID="l0x0000113a" />
+      <IOInstance Name="inSpaceTemp" UName="Il0x00001364" UID="l0x0000113b" />
+      <IOInstance Name="inSupplyAirTemp" UName="Il0x00001365" UID="l0x0000113c" />
+      <IOInstance Name="inSetptDeadband" UName="Il0x00001273" UID="l0x0000112a" />
+      <IOInstance Name="inRmTempAlmDelay" UName="Il0x00001278" UID="l0x0000112b" />
+      <IOInstance Name="inOccupied" UName="Il0x00001272" UID="l0x00001129" />
+      <IOInstance Name="outRmTempHighAlarm" UName="Ol0x000012c0" UID="l0x0000112c" />
+      <IOInstance Name="outRmTempLowAlarm" UName="Ol0x000012c1" UID="l0x00001130" />
+      <IOInstance Name="inFanSystemSelect" UName="Il0x00001320" UID="l0x00001134" />
+      <IOInstance Name="inRmTempHiAlmSetpt" UName="Il0x00001381" UID="l0x00001135" />
+      <IOInstance Name="inRmTempLoAlmSetpt" UName="Il0x00001382" UID="l0x00001136" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.FCUfilter" UPath="1.6" Path="FCU01.FCUfilter">
+      <IOInstance Name="inFilterPd" UName="Il0x00001148" UID="l0x0000110c" />
+      <IOInstance Name="inFilterDirtySetpt" UName="Il0x000010ed" UID="l0x00001105" />
+      <IOInstance Name="inFilterDirtyDelay" UName="Il0x000010ee" UID="l0x00001106" />
+      <IOInstance Name="outDirtyFilter" UName="Ol0x0000111e" UID="l0x00001107" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.FCUheatControl" UPath="1.7" Path="FCU01.FCUheatControl">
+      <IOInstance Name="outHwValve" UName="Ol0x00001081" UID="l0x00001117" />
+      <IOInstance Name="inDeadBand" UName="Il0x00001161" UID="l0x0000110e" />
+      <IOInstance Name="inKp" UName="Il0x00001162" UID="l0x0000110f" />
+      <IOInstance Name="inOffsetSpaceTempFanCall" UName="Il0x00001167" UID="l0x00001110" />
+      <IOInstance Name="inTi" UName="Il0x00001163" UID="l0x00001111" />
+      <IOInstance Name="inMinHwValveFanCall" UName="Il0x00001164" UID="l0x00001112" />
+      <IOInstance Name="inHysHwValveFanCall" UName="Il0x00001165" UID="l0x00001113" />
+      <IOInstance Name="inHysSpaceTempFanCall" UName="Il0x00001166" UID="l0x00001114" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.FCUcoolControl" UPath="1.8" Path="FCU01.FCUcoolControl">
+      <IOInstance Name="outMaDampers" UName="Ol0x000010f0" UID="l0x000010f1" />
+      <IOInstance Name="inDeadBand" UName="Il0x000011e7" UID="l0x000010f4" />
+      <IOInstance Name="inKp" UName="Il0x000011e8" UID="l0x000010f5" />
+      <IOInstance Name="inTi" UName="Il0x000011e9" UID="l0x000010f6" />
+      <IOInstance Name="inLoLimDeadBand" UName="Il0x000011ea" UID="l0x000010f7" />
+      <IOInstance Name="inLoLimitKp" UName="Il0x000011eb" UID="l0x000010f8" />
+      <IOInstance Name="inLoLimTi" UName="Il0x000011ec" UID="l0x000010f9" />
+      <IOInstance Name="inSaLowLimSetpoint" UName="Il0x000011ed" UID="l0x000010fa" />
+      <IOInstance Name="inMinOaDaPos" UName="Il0x000011ee" UID="l0x000010fb" />
+      <IOInstance Name="inMinCtrlSignFanCall" UName="Il0x000011ef" UID="l0x000010fc" />
+      <IOInstance Name="inHysCtrlSignFanCall" UName="Il0x000011f0" UID="l0x000010fd" />
+    </POUInstance>
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.7.1" Path="FCU01.FCUheatControl.HwvControl" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.8.1" Path="FCU01.FCUcoolControl.EconControl" />
+    <POUInstance Type="Loytec.BuildingAutomation.Pi1Controller" UPath="1.8.3" Path="FCU01.FCUcoolControl.LowLimitControl" />
+  </POUInstances>
+</InstanceTable>
